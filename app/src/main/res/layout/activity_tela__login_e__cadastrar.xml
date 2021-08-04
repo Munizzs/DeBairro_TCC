@@ -89,7 +89,7 @@
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:text="DeBairro"
-        app:layout_constraintBottom_toBottomOf="@id/BTN_Cad"
+        app:layout_constraintBottom_toBottomOf="@id/BTN_Cadastro_1"
         android:layout_marginBottom="180dp"
         android:textSize="45dp"
         android:gravity="center"
