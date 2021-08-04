@@ -9,16 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DeBairro_TCC">
-        <activity android:name=".Tela_de_Cadastro2"></activity>
+        <activity android:name=".Tela_de_Cadastro2"/>
         <activity android:name=".Tela_de_Login" />
-        <activity android:name=".Tela_de_Loading1" />
-        <activity android:name=".Tela_Login_e_Cadastrar" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".Tela_de_Loading1" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".Tela_Login_e_Cadastrar" />
+        <activity android:name=".MainActivity">
+
         </activity>
     </application>
 
