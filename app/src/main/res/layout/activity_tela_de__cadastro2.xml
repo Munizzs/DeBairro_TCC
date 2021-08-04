@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Tela_de_Cadastro2">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="60dp"
+        android:background="@drawable/carrinho_supermarket_roxo" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:paddingLeft="25dp"
+        android:text="Nome"
+        android:textColor="#C6A7E4"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/EDT_Nome"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Insira seu Nome."
+        android:inputType="textEmailAddress" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:paddingLeft="25dp"
+        android:text="Telefone"
+        android:textColor="#C6A7E4"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/EDT_Telefone"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Insira seu numero de telefone."
+        android:inputType="phone" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:paddingLeft="25dp"
+        android:text="Data de Nascimento"
+        android:textColor="#C6A7E4"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/EDT_Data_de_nascimento"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Insira sua data de nascimento."
+        android:inputType="date" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:paddingLeft="25dp"
+        android:text="Sexo"
+        android:textColor="#C6A7E4"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+
+    <Spinner
+        android:id="@+id/SPN_Sexo"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"/>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Proximo_2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:background="@drawable/btn_fundo_roxo"
+        android:text="Proximo"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+
+</LinearLayout>

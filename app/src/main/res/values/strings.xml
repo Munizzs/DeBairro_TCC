@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">DeBairro_TCC</string>
+
+    <string-array name="Sexo">
+        <item>Masculino</item>
+        <item>Feminino</item>
+        <item>Intersexo</item>
+    </string-array>
 </resources>
