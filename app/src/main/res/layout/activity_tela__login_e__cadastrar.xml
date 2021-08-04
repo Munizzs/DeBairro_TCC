@@ -23,10 +23,10 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="145dp"
         tools:layout_editor_absoluteY="53dp"
-        />
 
+        />
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/BTN_Cad"
+        android:id="@+id/BTN_Cadastro_1"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         app:layout_constraintBottom_toBottomOf="@id/ou"
@@ -35,13 +35,13 @@
         android:layout_marginEnd="35dp"
         android:background="@drawable/btn_tcc_cad"
         android:text="Cadastro"
-        android:textSize="24dp"
+        android:textSize="20dp"
         android:textColor="@color/white"
         android:textStyle="bold"
         />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/Log"
+        android:id="@+id/Login_1"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         app:layout_constraintBottom_toBottomOf="@id/ou"
@@ -50,7 +50,7 @@
         android:layout_marginEnd="35dp"
         android:background="@drawable/btn_tcc"
         android:text="Login"
-        android:textSize="24dp"
+        android:textSize="20dp"
         android:textColor="#C6A7E4"
         android:textStyle="bold"
         />

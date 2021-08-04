@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.debairro_tcc">
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -8,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DeBairro_TCC">
+        <activity android:name=".Tela_de_Login"></activity>
         <activity android:name=".Tela_de_Loading1" />
         <activity android:name=".Tela_Login_e_Cadastrar" />
         <activity android:name=".MainActivity">

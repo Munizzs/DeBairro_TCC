@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Tela_de_Login">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/carrinho_supermarket_roxo"
+        android:layout_gravity="center"
+        android:layout_margin="60dp"/>
+    
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Email"
+        android:textColor="#C6A7E4"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:paddingLeft="25dp"/>
+
+
+    <EditText
+        android:id="@+id/EDT_Email"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Insira seu email."
+        android:inputType="textEmailAddress"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Senha"
+        android:textColor="#C6A7E4"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:paddingLeft="25dp" />
+
+    <EditText
+        android:id="@+id/EDT_Senha"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Insira sua senha."
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/BTN_Esqueceu_Senha"
+        style="?attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:background="?attr/selectableItemBackground"
+        android:text="Esqueceu sua senha?"
+        android:layout_marginLeft="200dp"
+        android:textColor="#C6A7E4"/>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="140dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Login_2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:background="@drawable/btn_fundo_roxo"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"/>
+
+
+
+
+</LinearLayout>
