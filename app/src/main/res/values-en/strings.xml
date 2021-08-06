@@ -1,2 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">DeBairro</string>
+    <string name="Nome"> Enter your Name.</string>
+    <string name="Telefone">Enter your phone number.</string>
+    <string name="Data_de_Nacimento">Enter your date of birth.</string>
+    <string name="Email">Enter your email.</string>
+    <string name="Senha">Enter your password.</string>
+    <string name="Confirmsenha">Confirm your password.</string>
+
+    <string-array name="Sexo">
+        <item>Male</item>
+        <item>female</item>
+        <item>intersex</item>
+    </string-array>
+</resources>

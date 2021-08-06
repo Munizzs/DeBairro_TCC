@@ -51,7 +51,7 @@
         app:layout_constraintBottom_toBottomOf="@id/ou" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/Login_1"
+        android:id="@+id/BTN_Login_1"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginStart="35dp"
@@ -59,7 +59,7 @@
         android:layout_marginBottom="90dp"
         android:background="@drawable/btn_tcc"
         android:text="Login"
-        android:textColor="#C6A7E4"
+        android:textColor="@color/Cor_principal"
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@id/ou" />

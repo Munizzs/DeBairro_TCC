@@ -1,9 +1,17 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">DeBairro</string>
+    <string name="Nome" tools:ignore="MissingTranslation"> Insira seu Nome.</string>
+    <string name="Telefone">Insira seu numero de telefone.</string>
+    <string name="Data_de_Nacimento">Insira sua data de nacimento.</string>
+    <string name="Email">Insira seu email.</string>
+    <string name="Senha">Insira sua senha.</string>
+    <string name="Confirmsenha">Confirme sua senha.</string>
 
     <string-array name="Sexo">
         <item>Masculino</item>
         <item>Feminino</item>
         <item>Intersexo</item>
     </string-array>
+
+
 </resources>

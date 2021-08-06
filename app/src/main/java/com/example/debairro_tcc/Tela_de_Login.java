@@ -10,5 +10,6 @@ public class Tela_de_Login extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_de__login);
+        getSupportActionBar().hide();
     }
 }

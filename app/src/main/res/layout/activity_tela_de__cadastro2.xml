@@ -29,8 +29,8 @@
         android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:hint="Insira seu Nome."
-        android:inputType="textEmailAddress" />
+        android:hint="@string/Nome"
+        android:inputType="textPersonName" />
 
     <Space
         android:layout_width="match_parent"
@@ -50,7 +50,7 @@
         android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:hint="Insira seu numero de telefone."
+        android:hint="@string/Telefone"
         android:inputType="phone" />
 
     <Space
@@ -71,7 +71,7 @@
         android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:hint="Insira sua data de nascimento."
+        android:hint="@string/Data_de_Nacimento"
         android:inputType="date" />
 
     <Space

@@ -33,7 +33,7 @@
         android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:hint="Insira seu email."
+        android:hint="@string/Email"
         android:inputType="textEmailAddress" />
 
     <Space
@@ -54,7 +54,7 @@
         android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:hint="Insira sua senha."
+        android:hint="@string/Senha"
         android:inputType="textPassword" />
 
     <Button

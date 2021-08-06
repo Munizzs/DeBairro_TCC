@@ -29,7 +29,7 @@
         android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:hint="Insira seu email."
+        android:hint="@string/Email"
         android:inputType="textEmailAddress" />
     <Space
         android:layout_width="match_parent"
@@ -47,7 +47,7 @@
         android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:hint="Insira sua senha."
+        android:hint="@string/Senha"
         android:inputType="textPassword" />
     <Space
         android:layout_width="match_parent"
@@ -66,7 +66,7 @@
         android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:hint="Confirme sua senha."
+        android:hint="@string/Confirmsenha"
         android:inputType="textPassword" />
 
     <Space
