@@ -4,26 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Tela_de_Loading1"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".Tela_de_Loading1">
 
 
     <androidx.appcompat.widget.AppCompatImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:id="@+id/appCompatImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
         android:background="@drawable/corprincipal_roxc"
-
-        />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatImageView
-    android:layout_width="170dp"
-    android:layout_height="170dp"
-    android:background="@drawable/carrinho_supermarket"
-    app:layout_editor_absoluteX="119dp"
-    app:layout_editor_absoluteY="250dp"
+        android:id="@+id/appCompatImageView2"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/carrinho_supermarket"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_editor_absoluteX="119dp"
+        app:layout_editor_absoluteY="250dp"
         tools:ignore="MissingConstraints" />
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

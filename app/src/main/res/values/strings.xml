@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DeBairro_TCC</string>
+    <string name="app_name">DeBairro</string>
 
     <string-array name="Sexo">
         <item>Masculino</item>

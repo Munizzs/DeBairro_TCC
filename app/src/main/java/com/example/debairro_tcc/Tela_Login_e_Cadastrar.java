@@ -10,5 +10,6 @@ public class Tela_Login_e_Cadastrar extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela__login_e__cadastrar);
+        getSupportActionBar().hide();
     }
 }

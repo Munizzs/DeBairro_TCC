@@ -12,13 +12,15 @@ public class Tela_de_Loading1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_de_loading1);
+        getSupportActionBar().hide();
 
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i = new Intent(Tela_de_Loading1.this, Tela_de_Login.class);
+                Intent i = new Intent(Tela_de_Loading1.this, Tela_Login_e_Cadastrar.class);
                 startActivity(i);
+                finish();
             }
-        },300);
+        },1000);
     }
 }
