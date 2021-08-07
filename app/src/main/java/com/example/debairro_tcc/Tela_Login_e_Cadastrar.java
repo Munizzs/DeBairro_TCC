@@ -10,6 +10,8 @@ public class Tela_Login_e_Cadastrar extends AppCompatActivity {
     private Button Botão_Cadastro1;
     private Button Botão_Logar1;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +24,7 @@ public class Tela_Login_e_Cadastrar extends AppCompatActivity {
 
 
     }
+
 
 
 }

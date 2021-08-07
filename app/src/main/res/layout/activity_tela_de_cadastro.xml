@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".tela_de_cadastro">
+    tools:context=".tela_de_cadastro"
+    android:layout_margin="21dp">
 
     <ImageView
         android:id="@+id/ivCarinhoRoxo"
