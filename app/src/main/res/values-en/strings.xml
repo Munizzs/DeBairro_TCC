@@ -1,19 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DeBairro</string>
-    <string name="Nome"> Enter your Name.</string>
-    <string name="Telefone">Enter your phone number.</string>
-    <string name="Data_de_Nacimento">Enter your date of birth.</string>
-    <string name="Email">Enter your email.</string>
-    <string name="Senha">Enter your password.</string>
+    <string name="InserirNome"> Enter your Name.</string>
+    <string name="InserirTelefone">Enter your phone number.</string>
+    <string name="InserirData_de_Nacimento">Enter your date of birth.</string>
+    <string name="InserirEmail">Enter your email.</string>
+    <string name="InserirSenha">Enter your password.</string>
     <string name="Confirmsenha">Confirm your password.</string>
     <string name="Cadastro">sign up</string>
     <string name="Login">sign on</string>
     <string name="OuSeConecteCom">Or connect with</string>
-
+    <string name="Nome">Name</string>
+    <string name="Telefone">Telephone</string>
+    <string name="DataDeNascimento">Birth date</string>
+    <string name="Sexo">sexuality</string>
+    <string name="Proximo">Next</string>
+    <string name="Email">Email</string>
+    <string name="Senha">Password</string>
+    <string name="EsqueceuSuaSenha">Forgot your password?</string>
+    <string name="ConfirmeSuaSenha">confirm password</string>
     <string-array name="Sexo">
         <item>Male</item>
         <item>female</item>
         <item>intersex</item>
     </string-array>
+
+
 </resources>

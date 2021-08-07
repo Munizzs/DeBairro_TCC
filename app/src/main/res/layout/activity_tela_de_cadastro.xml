@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="25dp"
         android:paddingLeft="25dp"
-        android:text="Email"
+        android:text="@string/Email"
         android:textColor="@color/Cor_principal"
         android:textSize="23dp"
         android:textStyle="bold"
@@ -33,7 +33,7 @@
         android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:hint="@string/Email"
+        android:hint="@string/InserirEmail"
         android:inputType="textEmailAddress"
         android:fontFamily="@font/segoe_ui"/>
 
@@ -46,7 +46,7 @@
         android:layout_width="match_parent"
         android:layout_height="25dp"
         android:paddingLeft="25dp"
-        android:text="Senha"
+        android:text="@string/Senha"
         android:textColor="@color/Cor_principal"
         android:textSize="23dp"
         android:textStyle="bold"
@@ -57,7 +57,7 @@
         android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:hint="@string/Senha"
+        android:hint="@string/InserirSenha"
         android:inputType="textPassword"
         android:fontFamily="@font/segoe_ui"/>
 
@@ -70,7 +70,7 @@
         android:layout_width="match_parent"
         android:layout_height="25dp"
         android:paddingLeft="25dp"
-        android:text="Confirme sua senha"
+        android:text="@string/ConfirmeSuaSenha"
         android:textColor="@color/Cor_principal"
         android:textSize="23dp"
         android:textStyle="bold"
@@ -97,7 +97,7 @@
         android:layout_marginStart="35dp"
         android:layout_marginEnd="35dp"
         android:background="@drawable/btn_fundo_roxo"
-        android:text="Próximo"
+        android:text="@string/Proximo"
         android:textColor="@color/white"
         android:textSize="20dp"
         android:fontFamily="@font/segoe_ui_bold"/>
