@@ -6,6 +6,9 @@
     <string name="Email">Insira seu email.</string>
     <string name="Senha">Insira sua senha.</string>
     <string name="Confirmsenha">Confirme sua senha.</string>
+    <string name="Cadastro">Cadastro</string>
+    <string name="Login">Logar</string>
+    <string name="OuSeConecteCom">Ou se conecte com</string>
 
     <string-array name="Sexo">
         <item>Masculino</item>

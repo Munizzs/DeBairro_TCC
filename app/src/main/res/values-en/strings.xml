@@ -7,6 +7,9 @@
     <string name="Email">Enter your email.</string>
     <string name="Senha">Enter your password.</string>
     <string name="Confirmsenha">Confirm your password.</string>
+    <string name="Cadastro">sign up</string>
+    <string name="Login">sign on</string>
+    <string name="OuSeConecteCom">Or connect with</string>
 
     <string-array name="Sexo">
         <item>Male</item>

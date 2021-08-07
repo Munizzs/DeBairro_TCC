@@ -6,14 +6,17 @@
         <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.11041666666666666" />
         <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/drawable/btn_facebook.xml" value="0.2171875" />
         <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/drawable/btn_google.xml" value="0.2171875" />
+        <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/drawable/btn_tcc_cad.xml" value="0.2171875" />
+        <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/drawable/corprincipal_roxc.xml" value="0.2171875" />
         <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/drawable/debairro_logo.xml" value="0.1109375" />
         <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/drawable/ic_launcher_background.xml" value="0.11041666666666666" />
         <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/activity_tela__login_e__cadastrar.xml" value="0.19021739130434784" />
-        <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/activity_tela_de__cadastro2.xml" value="0.33" />
+        <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/activity_tela__login_e__cadastrar.xml" value="0.22" />
+        <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/activity_tela_de__cadastro2.xml" value="0.25" />
         <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/activity_tela_de__login.xml" value="0.25" />
         <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/activity_tela_de_cadastro.xml" value="0.22" />
         <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/activity_tela_de_loading1.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/activity_tela_de_venda3.xml" value="0.20104166666666667" />
         <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1109375" />
         <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1109375" />
       </map>
