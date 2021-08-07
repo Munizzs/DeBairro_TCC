@@ -9,7 +9,7 @@
     <string name="Confirmsenha">Confirmar la contraseña.</string>
     <string name="Cadastro">Registrarse</string>
     <string name="Login">Iniciar sesión en</string>
-    <string name="OuSeConecteCom">O conéctate con</string>
+    <string name="OuSeConecteCom">O conéctate con </string>
 
     <string-array name="Sexo">
         <item>Masculino</item>
