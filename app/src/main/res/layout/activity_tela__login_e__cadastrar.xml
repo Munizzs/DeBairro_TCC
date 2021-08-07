@@ -4,13 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Tela_Login_e_Cadastrar">
+    tools:context=".Tela_Login_e_Cadastrar"
+    >
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/appCompatImageView3"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/mercado" />
+        android:background="@drawable/mercado"
+        />
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/appCompatImageView4"
@@ -20,7 +22,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/appCompatImageView5"
@@ -28,15 +31,16 @@
         android:layout_height="100sp"
         android:layout_marginTop="53dp"
         android:layout_marginBottom="13dp"
+
         android:background="@drawable/carrinho_supermarket"
-        app:layout_constraintBottom_toTopOf="@+id/tvDebairro"
+        app:layout_constraintBottom_toTopOf="@+id/appCompatTextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_Cadastro1"
+        android:id="@+id/BTN_Cadastro_1"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginStart="35dp"
@@ -47,10 +51,11 @@
         android:textColor="@color/white"
         android:textSize="20dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@id/tvOu" />
+        app:layout_constraintBottom_toBottomOf="@id/ou"
+        android:fontFamily="@font/segoe_ui_bold"/>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_Login1"
+        android:id="@+id/BTN_Login_1"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginStart="35dp"
@@ -61,10 +66,11 @@
         android:textColor="@color/Cor_principal"
         android:textSize="20dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@id/tvOu" />
+        app:layout_constraintBottom_toBottomOf="@id/ou"
+        android:fontFamily="@font/segoe_ui_bold"/>
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/tvOu"
+        android:id="@+id/ou"
         android:layout_width="wrap_content"
         android:layout_height="20dp"
         android:layout_marginEnd="5dp"
@@ -77,7 +83,8 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/view2"
-        app:layout_constraintStart_toEndOf="@+id/view" />
+        app:layout_constraintStart_toEndOf="@+id/view"
+        android:fontFamily="@font/segoe_ui_bold"/>
 
     <View
         android:id="@+id/view"
@@ -88,9 +95,9 @@
         android:layout_marginEnd="2dp"
         android:layout_marginRight="2dp"
         android:layout_marginBottom="6dp"
-        android:background="#fff"
-        app:layout_constraintBottom_toBottomOf="@id/tvOu"
-        app:layout_constraintEnd_toStartOf="@+id/tvOu"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/ou"
+        app:layout_constraintEnd_toStartOf="@+id/ou"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
 
@@ -101,14 +108,14 @@
         android:layout_marginEnd="14dp"
         android:layout_marginRight="14dp"
         android:layout_marginBottom="6dp"
-        android:background="#fff"
-        app:layout_constraintBottom_toBottomOf="@id/tvOu"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/ou"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/tvOu"
+        app:layout_constraintStart_toEndOf="@+id/ou"
         tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/tvDebairro"
+        android:id="@+id/appCompatTextView"
         android:layout_width="0dp"
         android:layout_height="55dp"
         android:layout_marginBottom="104dp"
@@ -117,13 +124,14 @@
         android:textColor="@color/white"
         android:textSize="45dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@id/btn_Cadastro1"
+        app:layout_constraintBottom_toBottomOf="@id/BTN_Cadastro_1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:fontFamily="@font/segoe_ui_bold"/>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_Facebook"
+        android:id="@+id/appCompatButton"
         android:layout_width="0dp"
         android:layout_height="55dp"
         android:layout_marginStart="19dp"
@@ -137,12 +145,13 @@
         android:textSize="15dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btn_Google"
+        app:layout_constraintEnd_toStartOf="@+id/appCompatButton2"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        android:fontFamily="@font/segoe_ui_bold"/>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_Google"
+        android:id="@+id/appCompatButton2"
         android:layout_width="0dp"
         android:layout_height="55dp"
         android:layout_marginEnd="26dp"
@@ -155,7 +164,8 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btn_Facebook"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintStart_toEndOf="@+id/appCompatButton"
+        tools:ignore="MissingConstraints"
+        android:fontFamily="@font/segoe_ui_bold"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

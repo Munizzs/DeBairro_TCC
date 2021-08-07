@@ -16,7 +16,7 @@ public class Tela_de_Cadastro2 extends AppCompatActivity {
         setContentView(R.layout.activity_tela_de__cadastro2);
         getSupportActionBar().hide();
 
-        sexo = (Spinner) findViewById(R.id.SPN_Sexo);
+        sexo = (Spinner) findViewById(R.id.spn_Sexo);
 
         ArrayAdapter adapter = ArrayAdapter.createFromResource(this, R.array.Sexo, android.R.layout.simple_spinner_item);
         sexo.setAdapter(adapter);

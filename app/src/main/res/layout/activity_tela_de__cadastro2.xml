@@ -24,7 +24,8 @@
         android:text="Nome"
         android:textColor="@color/Cor_principal"
         android:textSize="23dp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:fontFamily="@font/segoe_ui_bold"/>
 
     <EditText
         android:id="@+id/et_Nome"
@@ -32,7 +33,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:hint="@string/Nome"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:fontFamily="@font/segoe_ui"/>
 
     <Space
         android:layout_width="match_parent"
@@ -46,7 +48,8 @@
         android:text="Telefone"
         android:textColor="@color/Cor_principal"
         android:textSize="23dp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:fontFamily="@font/segoe_ui_bold"/>
 
     <EditText
         android:id="@+id/et_Telefone"
@@ -54,7 +57,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:hint="@string/Telefone"
-        android:inputType="phone" />
+        android:inputType="phone"
+        android:fontFamily="@font/segoe_ui"/>
 
     <Space
         android:layout_width="match_parent"
@@ -66,9 +70,10 @@
         android:layout_height="25dp"
         android:paddingLeft="25dp"
         android:text="Data de Nascimento"
-        android:textColor="#C6A7E4"
+        android:textColor="@color/Cor_principal"
         android:textSize="23dp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:fontFamily="@font/segoe_ui_bold"/>
 
     <EditText
         android:id="@+id/et_DataDeNascimento"
@@ -76,7 +81,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:hint="@string/Data_de_Nacimento"
-        android:inputType="date" />
+        android:inputType="date"
+        android:fontFamily="@font/segoe_ui"/>
 
     <Space
         android:layout_width="match_parent"
@@ -88,9 +94,10 @@
         android:layout_height="25dp"
         android:paddingLeft="25dp"
         android:text="Sexo"
-        android:textColor="#C6A7E4"
+        android:textColor="@color/Cor_principal"
         android:textSize="23dp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:fontFamily="@font/segoe_ui_bold"/>
 
 
     <Spinner
@@ -112,7 +119,8 @@
         android:background="@drawable/btn_fundo_roxo"
         android:text="Proximo"
         android:textColor="@color/white"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        android:fontFamily="@font/segoe_ui_bold"/>
 
 
 </LinearLayout>
