@@ -13,6 +13,7 @@ public class Tela_de_Cadastro2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTheme(R.style.Theme_DeBairro_TCC);
         setContentView(R.layout.activity_tela_de__cadastro2);
         getSupportActionBar().hide();
 

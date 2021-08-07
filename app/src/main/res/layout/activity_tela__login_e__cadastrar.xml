@@ -40,7 +40,7 @@
         tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_Cadastro1"
+        android:id="@+id/btn_cadastro1"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginStart="35dp"
@@ -55,7 +55,7 @@
         android:fontFamily="@font/segoe_ui_bold"/>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_Login1"
+        android:id="@+id/btn_login1"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginStart="35dp"
@@ -100,14 +100,14 @@
         android:textColor="@color/white"
         android:textSize="45dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@id/btn_Cadastro1"
+        app:layout_constraintBottom_toBottomOf="@id/btn_cadastro1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         android:fontFamily="@font/segoe_ui_bold"/>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_Facebook"
+        android:id="@+id/btn_facebook"
         android:layout_width="0dp"
         android:layout_height="55dp"
         android:layout_marginStart="19dp"
@@ -121,13 +121,13 @@
         android:textSize="15dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btn_Google"
+        app:layout_constraintEnd_toStartOf="@+id/btn_google"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
         android:fontFamily="@font/segoe_ui_bold"/>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_Google"
+        android:id="@+id/btn_google"
         android:layout_width="0dp"
         android:layout_height="55dp"
         android:layout_marginEnd="26dp"
@@ -140,7 +140,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btn_Facebook"
+        app:layout_constraintStart_toEndOf="@+id/btn_facebook"
         tools:ignore="MissingConstraints"
         android:fontFamily="@font/segoe_ui_bold"/>
 

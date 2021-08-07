@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/mar_c/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/drawable/logo_bg.xml" value="0.2203125" />
+        <entry key="..\:/Users/mar_c/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/activity_tela_de_loading1.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.11041666666666666" />
         <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/drawable/btn_facebook.xml" value="0.2171875" />
         <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/drawable/btn_google.xml" value="0.2171875" />
