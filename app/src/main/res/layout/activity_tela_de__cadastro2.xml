@@ -8,6 +8,7 @@
     tools:context=".Tela_de_Cadastro2">
 
     <ImageView
+        android:id="@+id/ivCarinhoRoxo"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_gravity="center"
@@ -16,16 +17,17 @@
 
 
     <TextView
+        android:id="@+id/tvNome"
         android:layout_width="match_parent"
         android:layout_height="25dp"
         android:paddingLeft="25dp"
         android:text="Nome"
-        android:textColor="#C6A7E4"
+        android:textColor="@color/Cor_principal"
         android:textSize="23dp"
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/EDT_Nome"
+        android:id="@+id/et_Nome"
         android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -37,16 +39,17 @@
         android:layout_height="15dp" />
 
     <TextView
+        android:id="@+id/tvTelefone"
         android:layout_width="match_parent"
         android:layout_height="25dp"
         android:paddingLeft="25dp"
         android:text="Telefone"
-        android:textColor="#C6A7E4"
+        android:textColor="@color/Cor_principal"
         android:textSize="23dp"
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/EDT_Telefone"
+        android:id="@+id/et_Telefone"
         android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -58,6 +61,7 @@
         android:layout_height="15dp" />
 
     <TextView
+        android:id="@+id/tvDataDeNascimento"
         android:layout_width="match_parent"
         android:layout_height="25dp"
         android:paddingLeft="25dp"
@@ -67,7 +71,7 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/EDT_Data_de_nascimento"
+        android:id="@+id/et_DataDeNascimento"
         android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -79,6 +83,7 @@
         android:layout_height="15dp" />
 
     <TextView
+        android:id="@+id/tvSexo"
         android:layout_width="match_parent"
         android:layout_height="25dp"
         android:paddingLeft="25dp"
@@ -89,7 +94,7 @@
 
 
     <Spinner
-        android:id="@+id/SPN_Sexo"
+        android:id="@+id/spn_Sexo"
         android:layout_width="match_parent"
         android:layout_height="25dp"/>
 
@@ -99,7 +104,7 @@
         android:layout_height="100dp" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/Proximo_2"
+        android:id="@+id/btn_Proximo2"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginStart="35dp"

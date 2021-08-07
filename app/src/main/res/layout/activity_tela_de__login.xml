@@ -8,6 +8,7 @@
     tools:context=".Tela_de_Login">
 
     <ImageView
+        android:id="@+id/ivCarinhoRoxo"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_gravity="center"
@@ -19,6 +20,7 @@
         android:layout_height="45dp" />
 
     <TextView
+        android:id="@+id/tvEmail"
         android:layout_width="match_parent"
         android:layout_height="25dp"
         android:paddingLeft="25dp"
@@ -29,7 +31,7 @@
 
 
     <EditText
-        android:id="@+id/EDT_Email"
+        android:id="@+id/et_Email"
         android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -41,16 +43,17 @@
         android:layout_height="20dp" />
 
     <TextView
+        android:id="@+id/tvSenha"
         android:layout_width="match_parent"
         android:layout_height="25dp"
         android:paddingLeft="25dp"
         android:text="Senha"
-        android:textColor="#C6A7E4"
+        android:textColor="@color/Cor_principal"
         android:textSize="23dp"
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/EDT_Senha"
+        android:id="@+id/et_Senha"
         android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -58,14 +61,14 @@
         android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/BTN_Esqueceu_Senha"
+        android:id="@+id/btn_EsqueceuSenha"
         style="?attr/borderlessButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="56dp"
         android:layout_marginLeft="200dp"
         android:background="?attr/selectableItemBackground"
         android:text="Esqueceu sua senha?"
-        android:textColor="#C6A7E4" />
+        android:textColor="@color/Cor_principal" />
 
 
     <Space
@@ -73,7 +76,7 @@
         android:layout_height="140dp" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/Login_2"
+        android:id="@+id/btn_Login2"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginStart="35dp"

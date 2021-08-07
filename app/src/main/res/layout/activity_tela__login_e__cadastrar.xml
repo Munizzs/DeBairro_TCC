@@ -28,16 +28,15 @@
         android:layout_height="100sp"
         android:layout_marginTop="53dp"
         android:layout_marginBottom="13dp"
-
         android:background="@drawable/carrinho_supermarket"
-        app:layout_constraintBottom_toTopOf="@+id/appCompatTextView"
+        app:layout_constraintBottom_toTopOf="@+id/tvDebairro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/BTN_Cadastro_1"
+        android:id="@+id/btn_Cadastro1"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginStart="35dp"
@@ -48,10 +47,10 @@
         android:textColor="@color/white"
         android:textSize="20dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@id/ou" />
+        app:layout_constraintBottom_toBottomOf="@id/tvOu" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/BTN_Login_1"
+        android:id="@+id/btn_Login1"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginStart="35dp"
@@ -62,10 +61,10 @@
         android:textColor="@color/Cor_principal"
         android:textSize="20dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@id/ou" />
+        app:layout_constraintBottom_toBottomOf="@id/tvOu" />
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/ou"
+        android:id="@+id/tvOu"
         android:layout_width="wrap_content"
         android:layout_height="20dp"
         android:layout_marginEnd="5dp"
@@ -90,8 +89,8 @@
         android:layout_marginRight="2dp"
         android:layout_marginBottom="6dp"
         android:background="#fff"
-        app:layout_constraintBottom_toBottomOf="@id/ou"
-        app:layout_constraintEnd_toStartOf="@+id/ou"
+        app:layout_constraintBottom_toBottomOf="@id/tvOu"
+        app:layout_constraintEnd_toStartOf="@+id/tvOu"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
 
@@ -103,13 +102,13 @@
         android:layout_marginRight="14dp"
         android:layout_marginBottom="6dp"
         android:background="#fff"
-        app:layout_constraintBottom_toBottomOf="@id/ou"
+        app:layout_constraintBottom_toBottomOf="@id/tvOu"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/ou"
+        app:layout_constraintStart_toEndOf="@+id/tvOu"
         tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/appCompatTextView"
+        android:id="@+id/tvDebairro"
         android:layout_width="0dp"
         android:layout_height="55dp"
         android:layout_marginBottom="104dp"
@@ -118,13 +117,13 @@
         android:textColor="@color/white"
         android:textSize="45dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@id/BTN_Cadastro_1"
+        app:layout_constraintBottom_toBottomOf="@id/btn_Cadastro1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/appCompatButton"
+        android:id="@+id/btn_Facebook"
         android:layout_width="0dp"
         android:layout_height="55dp"
         android:layout_marginStart="19dp"
@@ -138,12 +137,12 @@
         android:textSize="15dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/appCompatButton2"
+        app:layout_constraintEnd_toStartOf="@+id/btn_Google"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/appCompatButton2"
+        android:id="@+id/btn_Google"
         android:layout_width="0dp"
         android:layout_height="55dp"
         android:layout_marginEnd="26dp"
@@ -156,7 +155,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/appCompatButton"
+        app:layout_constraintStart_toEndOf="@+id/btn_Facebook"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

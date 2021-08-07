@@ -16,8 +16,7 @@ public class Tela_Login_e_Cadastrar extends AppCompatActivity {
         setContentView(R.layout.activity_tela__login_e__cadastrar);
         getSupportActionBar().hide();
 
-        Botão_Cadastro1 = findViewById(R.id.BTN_Cadastro_1);
-        Botão_Logar1 = findViewById(R.id.BTN_Login_1);
+
 
 
 
