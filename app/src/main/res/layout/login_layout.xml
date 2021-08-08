@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_margin="20sp"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/ivCarinhoRoxo"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_gravity="center"
+            android:layout_margin="60sp"
+            android:layout_marginBottom="20sp"
+            android:background="@drawable/carrinho_supermarket_roxo" />
+
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:paddingLeft="25sp"
+            android:text="@string/Email"
+            android:textColor="@color/Cor_principal"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/et_Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:fontFamily="@font/segoe_ui"
+            android:hint="@string/InserirEmail"
+            android:inputType="textEmailAddress" />
+
+
+        <TextView
+            android:id="@+id/tvSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:paddingLeft="25sp"
+            android:text="@string/Senha"
+            android:textColor="@color/Cor_principal"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_Senha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15sp"
+            android:fontFamily="@font/segoe_ui"
+            android:hint="@string/InserirSenha"
+            android:inputType="textPassword"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/btn_EsqueceuSenha"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoe_ui"
+                android:gravity="center"
+                android:text="@string/EsqueceuSuaSenha"
+                android:textAllCaps="false"
+                android:textColor="@color/Cor_principal"
+                android:textSize="17sp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_Login2"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:text="@string/Login"
+            android:textSize="20sp"
+            app:backgroundTint="@color/Cor_principal"
+            app:cornerRadius="40sp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

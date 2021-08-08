@@ -9,10 +9,10 @@
         android:roundIcon="@mipmap/ic_logo_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Splash">
-        <activity android:name=".Tela_de_Cadastro2"/>
-        <activity android:name=".Tela_de_Login" />
-        <activity android:name=".tela_de_cadastro"/>
-        <activity android:name=".Tela_Login_e_Cadastrar" >
+        <activity android:name=".Cadastro2Activity"/>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".CadastroActivity"/>
+        <activity android:name=".InicialActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

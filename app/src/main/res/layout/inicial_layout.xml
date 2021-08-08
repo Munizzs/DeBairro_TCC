@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Tela_Login_e_Cadastrar"
+    tools:context=".InicialActivity"
     >
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/appCompatImageView3"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/mercado"
+        android:background="@drawable/mercado_fundo"
         />
 
     <androidx.appcompat.widget.AppCompatImageView

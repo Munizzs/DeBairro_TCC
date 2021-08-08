@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Tela_Login_e_Cadastrar extends AppCompatActivity {
+public class InicialActivity extends AppCompatActivity {
     ViewHolder mViewHolder = new ViewHolder();
 
 
@@ -15,7 +15,7 @@ public class Tela_Login_e_Cadastrar extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setTheme(R.style.Theme_DeBairro_TCC);
-        setContentView(R.layout.activity_tela__login_e__cadastrar);
+        setContentView(R.layout.inicial_layout);
         getSupportActionBar().hide();
         mViewHolder.btnCadastro1 = findViewById(R.id.btn_cadastro1);
         mViewHolder.btnFacebook = findViewById(R.id.btn_facebook);
@@ -25,7 +25,7 @@ public class Tela_Login_e_Cadastrar extends AppCompatActivity {
         mViewHolder.btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Tela_Login_e_Cadastrar.this, Tela_de_Login.class);
+                Intent i = new Intent(InicialActivity.this, LoginActivity.class);
                 startActivity(i);
             }
         });
@@ -33,7 +33,7 @@ public class Tela_Login_e_Cadastrar extends AppCompatActivity {
         mViewHolder.btnCadastro1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Tela_Login_e_Cadastrar.this, tela_de_cadastro.class);
+                Intent i = new Intent(InicialActivity.this, CadastroActivity.class);
                 startActivity(i);
             }
         });
