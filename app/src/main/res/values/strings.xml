@@ -18,6 +18,10 @@
     <string name="Senha">Senha</string>
     <string name="EsqueceuSuaSenha">Esqueceu sua senha?</string>
     <string name="ConfirmeSuaSenha">Confirmar senha</string>
+    <string name="Ja_estamos_quase_finalizando">Já estamos quase finalizando...</string>
+    <string name="Código">Insira o código enviado pelo administrador</string>
+    <string name="Insira_o_código">Insira o código</string>
+    <string name="Nao_possui_codigo">Não possui o código</string>
     <string-array name="Sexo">
         <item>Masculino</item>
         <item>Feminino</item>

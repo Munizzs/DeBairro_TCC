@@ -19,6 +19,10 @@
     <string name="Senha">Password</string>
     <string name="EsqueceuSuaSenha">Forgot your password?</string>
     <string name="ConfirmeSuaSenha">confirm password</string>
+    <string name="Ja_estamos_quase_finalizando">We are almost finished...</string>
+    <string name="Código">Enter the code sent by the administrator</string>
+    <string name="Insira_o_código">enter code</string>
+    <string name="Nao_possui_codigo">Does not have the code</string>
     <string-array name="Sexo">
         <item>Male</item>
         <item>female</item>
