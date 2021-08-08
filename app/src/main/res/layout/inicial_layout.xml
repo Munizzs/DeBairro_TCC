@@ -86,18 +86,45 @@
         android:layout_alignParentBottom="true"
         android:orientation="vertical">
 
-        <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/tvOu"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="20sp"
-            android:fontFamily="@font/segoe_ui_bold"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
             android:gravity="center"
-            android:text="@string/OuSeConecteCom"
-            android:textColor="@color/white"
-            android:textSize="18sp"
-            android:textStyle="bold"
             android:layout_marginBottom="40sp"
-            />
+
+            >
+
+            <View
+                android:layout_weight="1"
+                android:layout_width="0sp"
+                android:layout_height="2sp"
+                android:layout_marginLeft="10sp"
+                android:background="@color/white"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_weight="1.5"
+                android:id="@+id/tvOu"
+                android:layout_width="0sp"
+                android:layout_height="20sp"
+                android:fontFamily="@font/segoe_ui_bold"
+                android:gravity="center"
+                android:text="@string/OuSeConecteCom"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                />
+            <View
+                android:layout_weight="1"
+                android:layout_width="0sp"
+                android:layout_height="2sp"
+                android:layout_marginRight="10sp"
+                android:background="@color/white"/>
+
+        </LinearLayout>
+
+
 
 
         <LinearLayout
