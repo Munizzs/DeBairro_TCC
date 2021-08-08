@@ -1,147 +1,149 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".InicialActivity"
-    >
+    tools:context=".InicialActivity">
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/appCompatImageView3"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/mercado_fundo"
-        />
+        android:background="@drawable/mercado_fundo" />
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/appCompatImageView4"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:background="@drawable/mercado_roxo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/appCompatImageView5"
-        android:layout_width="100sp"
-        android:layout_height="100sp"
-        android:layout_marginTop="53dp"
-        android:layout_marginBottom="13dp"
-        android:background="@drawable/carrinho_supermarket"
-        app:layout_constraintBottom_toTopOf="@+id/tvDebairro"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_cadastro1"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginStart="35dp"
-        android:layout_marginEnd="35dp"
-        android:layout_marginBottom="175dp"
-        android:background="@drawable/btn_tcc_cad"
-        android:text="@string/Cadastro"
-        android:textColor="@color/white"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@id/tvOu" />
-        android:fontFamily="@font/segoe_ui_bold"/>
+        android:layout_height="match_parent"
+        android:background="@drawable/mercado_roxo" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_login1"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginStart="35dp"
-        android:layout_marginEnd="35dp"
-        android:layout_marginBottom="90dp"
-        android:background="@drawable/btn_tcc"
-        android:text="@string/Login"
-        android:textColor="@color/Cor_principal"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@id/tvOu" />
-        android:fontFamily="@font/segoe_ui_bold"/>
-
-
-
-
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/tvOu"
-        android:layout_width="match_parent"
-        android:layout_height="20dp"
-        android:layout_marginBottom="136dp"
-        android:fontFamily="@font/segoe_ui_bold"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
         android:gravity="center"
-        android:text="@string/OuSeConecteCom"
-        android:textColor="@color/white"
-        android:textSize="18dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="126dp"
-         />
+        >
 
 
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/appCompatImageView5"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_marginTop="70sp"
+            android:background="@drawable/carrinho_supermarket" />
 
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/tvDebairro"
-        android:layout_width="0dp"
-        android:layout_height="55dp"
-        android:layout_marginBottom="104dp"
-        android:gravity="center"
-        android:text="DeBairro"
-        android:textColor="@color/white"
-        android:textSize="45dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@id/btn_cadastro1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        android:fontFamily="@font/segoe_ui_bold"/>
+        <TextView
+            android:id="@+id/tvDebairro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:gravity="center"
+            android:text="DeBairro"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_facebook"
-        android:layout_width="0dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="19dp"
-        android:layout_marginLeft="19dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="39dp"
-        android:background="@drawable/btn_facebook"
-        android:text="Facebook"
-        android:textColor="@color/white"
-        android:textSize="15dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btn_google"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        android:fontFamily="@font/segoe_ui_bold"/>
+        <Button
+            android:layout_marginTop="30sp"
+            android:layout_marginRight="30sp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginBottom="20sp"
+            android:id="@+id/btn_cadastro1"
+            android:layout_width="match_parent"
+            android:layout_height="75sp"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:text="@string/Cadastro"
+            android:textColor="@color/white"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/Cor_principal"
+            app:cornerRadius="40sp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="2.5sp" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_google"
-        android:layout_width="0dp"
-        android:layout_height="55dp"
-        android:layout_marginEnd="26dp"
-        android:layout_marginRight="26dp"
-        android:layout_marginBottom="39dp"
-        android:background="@drawable/btn_google"
-        android:text="Google"
-        android:textColor="@color/white"
-        android:textSize="15dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btn_facebook"
-        tools:ignore="MissingConstraints"
-        android:fontFamily="@font/segoe_ui_bold"/>
+        <Button
+            android:layout_marginRight="30sp"
+            android:layout_marginLeft="30sp"
+            android:id="@+id/btn_login1"
+            android:layout_width="match_parent"
+            android:layout_height="75sp"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:text="@string/Login"
+            android:textColor="@color/Cor_principal"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/white"
+            app:cornerRadius="40sp" />
+    </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvOu"
+            android:layout_width="match_parent"
+            android:layout_height="20sp"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:gravity="center"
+            android:text="@string/OuSeConecteCom"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="40sp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginBottom="25sp"
+            >
+
+            <Button
+                android:layout_marginLeft="20sp"
+                android:layout_marginRight="8sp"
+                android:id="@+id/btn_facebook"
+                android:layout_width="0sp"
+                android:layout_weight="1"
+                android:layout_height="60sp"
+                android:fontFamily="@font/segoe_ui_bold"
+                android:text="Facebook"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:backgroundTint="@color/Facebook"
+                app:cornerRadius="40sp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="1.5sp" />
+
+            <Button
+                android:layout_marginLeft="8sp"
+                android:layout_marginRight="20sp"
+                android:id="@+id/btn_google"
+                android:layout_width="0sp"
+                android:layout_weight="1"
+                android:layout_height="60sp"
+                android:fontFamily="@font/segoe_ui_bold"
+                android:text="Google"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:backgroundTint="@color/Google"
+                app:cornerRadius="40sp"
+                app:strokeColor="@color/white"
+                app:strokeWidth="1.5sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

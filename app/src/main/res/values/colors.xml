@@ -10,5 +10,7 @@
     <color name="Cor_principal">#C6A7E4</color>
     <color name="Cor_dos_icones">#615B5B</color>
     <color name="Facebook">#3B5998</color>
+    <color name="Google">#C20000</color>
+    <color name="clique">#8A8383</color>
 
 </resources>

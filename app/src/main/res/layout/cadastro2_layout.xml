@@ -1,123 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".Cadastro2Activity"
-    android:layout_margin="21dp">
+    android:layout_margin="21sp">
 
-    <ImageView
-        android:id="@+id/ivCarinhoRoxo"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_gravity="center"
-        android:layout_margin="60dp"
-        android:background="@drawable/carrinho_supermarket_roxo" />
-
-
-    <TextView
-        android:id="@+id/tvNome"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="25dp"
-        android:paddingLeft="25dp"
-        android:text="@string/Nome"
-        android:textColor="@color/Cor_principal"
-        android:textSize="23dp"
-        android:textStyle="bold"
-        android:fontFamily="@font/segoe_ui_bold"/>
-
-    <EditText
-        android:id="@+id/et_Nome"
-        android:layout_width="370dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:hint="@string/InserirNome"
-        android:inputType="textPersonName"
-        android:fontFamily="@font/segoe_ui"/>
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
 
-    <Space
+
+        <ImageView
+            android:id="@+id/ivCarinhoRoxo"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_gravity="center"
+            android:layout_margin="60sp"
+            android:layout_marginBottom="20sp"
+            android:background="@drawable/carrinho_supermarket_roxo" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15sp"
+            android:hint="@string/Nome"
+            app:boxStrokeColor="@color/Cor_principal"
+            app:hintTextColor="#51247C">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15sp"
+            android:hint="@string/Telefone"
+            app:boxStrokeColor="@color/Cor_principal"
+            app:hintTextColor="#51247C">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15sp"
+            android:hint="@string/DataDeNascimento"
+            app:boxStrokeColor="@color/Cor_principal"
+            app:hintTextColor="#51247C">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Spinner
+            android:id="@+id/spn_Sexo"
+            android:layout_width="match_parent"
+            android:layout_height="25sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="15dp" />
-
-    <TextView
-        android:id="@+id/tvTelefone"
-        android:layout_width="match_parent"
-        android:layout_height="25dp"
-        android:paddingLeft="25dp"
-        android:text="@string/Telefone"
-        android:textColor="@color/Cor_principal"
-        android:textSize="23dp"
-        android:textStyle="bold"
-        android:fontFamily="@font/segoe_ui_bold"/>
-
-    <EditText
-        android:id="@+id/et_Telefone"
-        android:layout_width="370dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:hint="@string/InserirTelefone"
-        android:inputType="phone"
-        android:fontFamily="@font/segoe_ui"/>
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:gravity="center"
+        android:orientation="horizontal">
 
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="15dp" />
-
-    <TextView
-        android:id="@+id/tvDataDeNascimento"
-        android:layout_width="match_parent"
-        android:layout_height="25dp"
-        android:paddingLeft="25dp"
-        android:text="@string/DataDeNascimento"
-        android:textColor="@color/Cor_principal"
-        android:textSize="23dp"
-        android:textStyle="bold"
-        android:fontFamily="@font/segoe_ui_bold"/>
-
-    <EditText
-        android:id="@+id/et_DataDeNascimento"
-        android:layout_width="370dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:hint="@string/InserirData_de_Nacimento"
-        android:inputType="date"
-        android:fontFamily="@font/segoe_ui"/>
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="15dp" />
-
-    <TextView
-        android:id="@+id/tvSexo"
-        android:layout_width="match_parent"
-        android:layout_height="25dp"
-        android:paddingLeft="25dp"
-        android:text="@string/Sexo"
-        android:textColor="@color/Cor_principal"
-        android:textSize="23dp"
-        android:textStyle="bold"
-        android:fontFamily="@font/segoe_ui_bold"/>
+        <Button
+            android:id="@+id/btn_Login2"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:text="@string/Login"
+            android:textSize="20sp"
+            app:backgroundTint="@color/Cor_principal"
+            app:cornerRadius="40sp" />
 
 
-    <Spinner
-        android:id="@+id/spn_Sexo"
-        android:layout_width="match_parent"
-        android:layout_height="25dp"/>
+
+    </LinearLayout>
 
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_Proximo2"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginStart="35dp"
-        android:layout_marginEnd="35dp"
-        android:background="@drawable/btn_fundo_roxo"
-        android:text="@string/Proximo"
-        android:textColor="@color/white"
-        android:textSize="20dp"
-        android:fontFamily="@font/segoe_ui_bold"/>
 
 
-</LinearLayout>
+
+
+
+</RelativeLayout>
