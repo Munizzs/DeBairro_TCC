@@ -18,11 +18,24 @@
     <string name="Senha">Senha</string>
     <string name="EsqueceuSuaSenha">Esqueceu sua senha?</string>
     <string name="ConfirmeSuaSenha">Confirmar senha</string>
+    <string name="NomeEstabelecimento">Nome do estabelecimento</string>
+    <string name="TipoEstabelecimento">Tipo de estabelecimento</string>
+    <string name="CNPJ">CNPJ</string>
+
+
     <string-array name="Sexo">
         <item>Masculino</item>
         <item>Feminino</item>
         <item>Outro</item>
     </string-array>
+
+    <sting-array name="TipoDeEstabelecimento">
+        <item>Bar</item>
+        <item>Mercado</item>
+        <item>Papelaria</item>
+        <item>Bazar</item>
+        <item>Horti-fruti</item>
+        </sting-array>>
 
 
 </resources>
