@@ -21,6 +21,10 @@
     <string name="ConfirmeSuaSenha">confirmar seña</string>
     <string name="qual_vai_ser_o_tipo_da_sua_conta">Cuál será su tipo de cuenta?</string>
     <string name="j_estamos_quase_terminando">Ya casi terminanos...</string>
+    <string name="Ja_estamos_quase_finalizando">Ya casi terminamos ...</string>
+    <string name="Código">Ingrese el código enviado por el administrador</string>
+    <string name="Insira_o_código">introduzca el código</string>
+    <string name="Nao_possui_codigo">No tiene el código</string>
     <string-array name="Sexo">
         <item>Masculino</item>
         <item>femenino</item>
