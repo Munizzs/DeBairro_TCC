@@ -40,7 +40,10 @@
             android:textColor="@color/Cor_principal"
             android:textSize="18sp" />
 
-
+        <Spinner
+            android:id="@+id/spn_tipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/til_tipo"
@@ -53,7 +56,6 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/act_tipo"
                 android:hint="Tipo da conta"
-                android:inputType="none"
                 />
 
         </com.google.android.material.textfield.TextInputLayout>
