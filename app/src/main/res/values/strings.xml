@@ -39,13 +39,13 @@
         <item>Funcionário</item>
     </string-array>
 
-    <sting-array name="TipoDeEstabelecimento">
+    <string-array name="TipoDeEstabelecimento">
         <item>Bar</item>
         <item>Mercado</item>
         <item>Papelaria</item>
         <item>Bazar</item>
         <item>Horti-fruti</item>
-        </sting-array>>
+        </string-array>>
 
 
 </resources>

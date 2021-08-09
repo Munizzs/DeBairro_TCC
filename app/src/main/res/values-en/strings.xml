@@ -25,6 +25,10 @@
     <string name="Código">Enter the code sent by the administrator</string>
     <string name="Insira_o_código">enter code</string>
     <string name="Nao_possui_codigo">Does not have the code</string>
+    <string name="NomeEstabelecimento">Nome do estabelecimento</string>
+    <string name="TipoEstabelecimento">Tipo de estabelecimento</string>
+    <string name="CNPJ">CNPJ</string>
+
     <string-array name="Sexo">
         <item>Male</item>
         <item>female</item>
@@ -34,6 +38,13 @@
         <item>Administrator</item>
         <item>Employeee</item>
     </string-array>
+    <string-array name="TipoDeEstabelecimento">
+        <item>Bar</item>
+        <item>Mercado</item>
+        <item>Papelaria</item>
+        <item>Bazar</item>
+        <item>Horti-fruti</item>
+    </string-array>>
 
 
 </resources>
