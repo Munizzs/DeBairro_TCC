@@ -65,16 +65,12 @@
             app:hintTextColor="#51247C">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_ddn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="date" />
 
         </com.google.android.material.textfield.TextInputLayout>
-
-        <Spinner
-            android:id="@+id/spn_Sexo"
-            android:layout_width="match_parent"
-            android:layout_height="25sp" />
 
 
     </LinearLayout>
@@ -93,7 +89,7 @@
             android:layout_width="match_parent"
             android:layout_height="70sp"
             android:fontFamily="@font/segoe_ui_bold"
-            android:text="@string/Login"
+            android:text="@string/Proximo"
             android:textSize="20sp"
             app:backgroundTint="@color/Cor_principal"
             app:cornerRadius="40sp" />

@@ -21,11 +21,9 @@ public class Cadastro2Activity extends AppCompatActivity {
         setContentView(R.layout.cadastro2_layout);
         getSupportActionBar().hide();
 
-        mViewHolder.spnSexo = (Spinner) findViewById(R.id.spn_Sexo);
+
         mViewHolder.btnLogin2 = findViewById(R.id.btn_Login2);
 
-        ArrayAdapter adapter = ArrayAdapter.createFromResource(this, R.array.Sexo, android.R.layout.simple_spinner_item);
-        mViewHolder.spnSexo.setAdapter(adapter);
 
         mViewHolder.btnLogin2.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,6 +37,6 @@ public class Cadastro2Activity extends AppCompatActivity {
 
     public static class ViewHolder {
         Button btnLogin2;
-        Spinner spnSexo;
+
     }
 }

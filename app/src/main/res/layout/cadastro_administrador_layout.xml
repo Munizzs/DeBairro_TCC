@@ -4,15 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CadastroAdministrador"
-    android:layout_margin="20sp">
+    android:layout_margin="20sp"
+    tools:context=".CadastroAdministrador">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:orientation="vertical"
-       >
+        android:orientation="vertical">
 
 
         <ImageView
@@ -29,83 +28,73 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:fontFamily="@font/segoe_ui_bold"
-            android:text="Já estamos quase finalizando"
+            android:text="@string/Ja_estamos_quase_finalizando"
             android:textColor="@color/Cor_principal"
             android:textSize="22sp" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="25sp"/>
 
 
 
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/til_TipoDeEstabelecimento"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="20sp"
+            app:boxStrokeColor="@color/Cor_principal"
+            app:hintTextColor="#51247C"
+            android:hint="@string/TipoEstabelecimento"
             >
 
-                <AutoCompleteTextView
+            <AutoCompleteTextView
                 android:id="@+id/act_TipoDeEstabelecimento"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@null"
-                android:hint="@string/TipoEstabelecimento"
-                    android:fontFamily="@font/segoe_ui"
-                    android:layout_marginTop="20sp"
-                    android:layout_marginBottom="20sp"
-                    android:padding="15sp"
-                    android:textSize="16.7sp"
+                android:inputType="none"
 
-                    />
+                />
 
         </com.google.android.material.textfield.TextInputLayout>
 
 
-
         <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="@string/NomeEstabelecimento"
+            android:layout_marginBottom="20sp"
             android:fontFamily="@font/segoe_ui"
+            android:hint="@string/NomeEstabelecimento"
             app:boxStrokeColor="@color/Cor_principal"
             app:hintTextColor="#51247C"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_marginBottom="20sp"
 
             >
 
             <com.google.android.material.textfield.TextInputEditText
-                android:inputType="textEmailAddress"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-            />
-            </com.google.android.material.textfield.TextInputLayout>
-
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
 
 
         <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="@string/CNPJ"
+            android:layout_marginBottom="20sp"
             android:fontFamily="@font/segoe_ui"
+            android:hint="@string/CNPJ"
             app:boxBackgroundColor="@color/white"
             app:boxStrokeColor="@color/Cor_principal"
-            app:hintTextColor="#51247C"
-            android:layout_marginBottom="20sp"
             app:helperText="*Opcional"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:hintTextColor="#51247C"
 
             >
 
             <com.google.android.material.textfield.TextInputEditText
-                android:inputType="number"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                />
+                android:inputType="number" />
 
         </com.google.android.material.textfield.TextInputLayout>
 

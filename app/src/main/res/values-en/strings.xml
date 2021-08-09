@@ -20,14 +20,14 @@
     <string name="EsqueceuSuaSenha">Forgot your password?</string>
     <string name="ConfirmeSuaSenha">confirm password</string>
     <string name="qual_vai_ser_o_tipo_da_sua_conta">What will your type account be?</string>
-    <string name="j_estamos_quase_terminando">We are almost finished...</string>
     <string name="Ja_estamos_quase_finalizando">We are almost finished...</string>
     <string name="Código">Enter the code sent by the administrator</string>
     <string name="Insira_o_código">enter code</string>
     <string name="Nao_possui_codigo">Does not have the code</string>
-    <string name="NomeEstabelecimento">Nome do estabelecimento</string>
-    <string name="TipoEstabelecimento">Tipo de estabelecimento</string>
+    <string name="NomeEstabelecimento">Establishment name</string>
+    <string name="TipoEstabelecimento">Establishment type</string>
     <string name="CNPJ">CNPJ</string>
+    <string name="tipo_da_conta">Account type</string>
 
     <string-array name="Sexo">
         <item>Male</item>
@@ -39,11 +39,12 @@
         <item>Employeee</item>
     </string-array>
     <string-array name="TipoDeEstabelecimento">
-        <item>Bar</item>
-        <item>Mercado</item>
-        <item>Papelaria</item>
-        <item>Bazar</item>
-        <item>Horti-fruti</item>
+        <item>Pub</item>
+        <item>Marketplace</item>
+        <item>Stationary Store</item>
+        <item>Bazaar</item>
+        <item>Horticultural</item>
+        <item>Other</item>
     </string-array>>
 
 

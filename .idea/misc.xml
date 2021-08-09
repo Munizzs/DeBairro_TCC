@@ -3,18 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/mar_c/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/drawable/background_spinner.xml" value="0.2203125" />
         <entry key="..\:/Users/mar_c/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/drawable/btn_facebook.xml" value="0.2203125" />
         <entry key="..\:/Users/mar_c/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/drawable/btn_fundo_roxo.xml" value="0.2203125" />
         <entry key="..\:/Users/mar_c/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/drawable/btn_google.xml" value="0.2203125" />
         <entry key="..\:/Users/mar_c/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/drawable/button_bg.xml" value="0.11354166666666667" />
         <entry key="..\:/Users/mar_c/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/drawable/logo_bg.xml" value="0.2203125" />
+        <entry key="..\:/Users/mar_c/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/activity_cadastro_administrador_layout.xml" value="0.33" />
         <entry key="..\:/Users/mar_c/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/activity_tela__login_e__cadastrar.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/mar_c/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/activity_tela_de__cadastro2.xml" value="0.22" />
         <entry key="..\:/Users/mar_c/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/activity_tela_de_loading1.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/mar_c/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/activity_tela_de_venda3.xml" value="0.15" />
-        <entry key="..\:/Users/mar_c/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro2_layout.xml" value="0.18" />
+        <entry key="..\:/Users/mar_c/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro2_layout.xml" value="0.22" />
+        <entry key="..\:/Users/mar_c/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro_administrador_layout.xml" value="0.22" />
+        <entry key="..\:/Users/mar_c/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro_funcionario_layout.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/mar_c/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro_layout.xml" value="0.22" />
-        <entry key="..\:/Users/mar_c/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro_tipo_conta_layout.xml" value="0.25" />
+        <entry key="..\:/Users/mar_c/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro_tipo_conta_layout.xml" value="0.22" />
+        <entry key="..\:/Users/mar_c/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/dropdowm_item.xml" value="0.25" />
+        <entry key="..\:/Users/mar_c/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/dropdown_item.xml" value="0.33" />
         <entry key="..\:/Users/mar_c/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/inicial_layout.xml" value="0.2" />
         <entry key="..\:/Users/mar_c/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/login_layout.xml" value="0.25" />
         <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.11041666666666666" />
@@ -36,7 +42,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

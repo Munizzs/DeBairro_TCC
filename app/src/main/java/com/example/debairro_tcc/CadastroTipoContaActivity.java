@@ -2,9 +2,12 @@ package com.example.debairro_tcc;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
+import android.widget.Button;
 import android.widget.Spinner;
 
 import com.google.android.material.textfield.TextInputLayout;
@@ -46,6 +49,7 @@ public class CadastroTipoContaActivity extends AppCompatActivity {
     public static class ViewHolder{
         TextInputLayout tilTipo;
         AutoCompleteTextView actTipo;
+        Button btnProximo;
 
 
     }

@@ -27,35 +27,35 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="40sp"
             android:fontFamily="@font/segoe_ui_bold"
-            android:text="@string/j_estamos_quase_terminando"
+            android:text="@string/Ja_estamos_quase_finalizando"
             android:textColor="@color/Cor_principal"
             android:textSize="22sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10sp"
+            android:layout_marginBottom="15sp"
             android:fontFamily="@font/segoe_ui"
             android:text="@string/qual_vai_ser_o_tipo_da_sua_conta"
             android:textColor="@color/Cor_principal"
             android:textSize="18sp" />
 
-        <Spinner
-            android:id="@+id/spn_tipo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/til_tipo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            app:boxStrokeColor="@color/Cor_principal"
+            app:hintTextColor="#51247C"
+            android:hint="@string/tipo_da_conta"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
             >
             <AutoCompleteTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/act_tipo"
-                android:hint="Tipo da conta"
+                android:inputType="none"
                 />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -73,7 +73,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btn_loginTipo"
+            android:id="@+id/btn_CadastroTipoProximo"
             android:layout_width="match_parent"
             android:layout_height="70sp"
             android:fontFamily="@font/segoe_ui_bold"

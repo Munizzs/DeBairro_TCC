@@ -1,13 +1,13 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">DeBairro</string>
     <string name="InserirNome" tools:ignore="MissingTranslation"> Insira seu Nome</string>
-    <string name="InserirTelefone" translatable="false">Insira seu numero de telefone</string>
+    <string name="InserirTelefone">Insira seu numero de telefone</string>
     <string name="InserirData_de_Nacimento">Insira sua data de nacimento</string>
     <string name="InserirEmail">Insira seu email</string>
-    <string name="InserirSenha" translatable="false">Insira sua senha</string>
+    <string name="InserirSenha">Insira sua senha</string>
     <string name="Confirmsenha">Confirme sua senha</string>
     <string name="Cadastro">Cadastro</string>
-    <string name="Login">Logar</string>
+    <string name="Login">Login</string>
     <string name="OuSeConecteCom">ou se conecte com</string>
     <string name="Nome">Nome</string>
     <string name="Telefone">Telefone</string>
@@ -19,7 +19,6 @@
     <string name="EsqueceuSuaSenha">Esqueceu sua senha?</string>
     <string name="ConfirmeSuaSenha">Confirmar senha</string>
     <string name="qual_vai_ser_o_tipo_da_sua_conta">Qual vai ser o tipo da sua conta?</string>
-    <string name="j_estamos_quase_terminando">Já estamos quase terminando...</string>
     <string name="Ja_estamos_quase_finalizando">Já estamos quase finalizando...</string>
     <string name="Código">Insira o código enviado pelo administrador</string>
     <string name="Insira_o_código">Insira o código</string>
@@ -27,6 +26,7 @@
     <string name="NomeEstabelecimento">Nome do estabelecimento</string>
     <string name="TipoEstabelecimento">Tipo de estabelecimento</string>
     <string name="CNPJ">CNPJ</string>
+    <string name="tipo_da_conta">Tipo da conta</string>
 
 
     <string-array name="Sexo">
@@ -44,7 +44,8 @@
         <item>Mercado</item>
         <item>Papelaria</item>
         <item>Bazar</item>
-        <item>Horti-fruti</item>
+        <item>Hortifruti</item>
+        <item>Outro</item>
         </string-array>>
 
 
