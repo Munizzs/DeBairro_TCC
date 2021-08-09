@@ -18,6 +18,12 @@
     <string name="Senha">Senha</string>
     <string name="EsqueceuSuaSenha">Esqueceu sua senha?</string>
     <string name="ConfirmeSuaSenha">Confirmar senha</string>
+    <string name="qual_vai_ser_o_tipo_da_sua_conta">Qual vai ser o tipo da sua conta?</string>
+    <string name="j_estamos_quase_terminando">Já estamos quase terminando...</string>
+    <string name="Ja_estamos_quase_finalizando">Já estamos quase finalizando...</string>
+    <string name="Código">Insira o código enviado pelo administrador</string>
+    <string name="Insira_o_código">Insira o código</string>
+    <string name="Nao_possui_codigo">Não possui o código</string>
     <string name="NomeEstabelecimento">Nome do estabelecimento</string>
     <string name="TipoEstabelecimento">Tipo de estabelecimento</string>
     <string name="CNPJ">CNPJ</string>
@@ -27,6 +33,10 @@
         <item>Masculino</item>
         <item>Feminino</item>
         <item>Outro</item>
+    </string-array>
+    <string-array name="Tipo">
+        <item>Administrador</item>
+        <item>Funcionário</item>
     </string-array>
 
     <sting-array name="TipoDeEstabelecimento">
