@@ -9,10 +9,13 @@
         android:roundIcon="@mipmap/ic_logo_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Splash">
-        <activity android:name=".Cadastro2Activity"/>
+        <activity
+            android:name=".CadastroTipoContaActivity"
+            android:exported="true" />
+        <activity android:name=".Cadastro2Activity" />
         <activity android:name=".LoginActivity" />
-        <activity android:name=".CadastroActivity"/>
-        <activity android:name=".InicialActivity" >
+        <activity android:name=".CadastroActivity" />
+        <activity android:name=".InicialActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

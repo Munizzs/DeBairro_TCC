@@ -19,10 +19,16 @@
     <string name="Senha">Clave</string>
     <string name="EsqueceuSuaSenha">Olvidaste tu contraseña?</string>
     <string name="ConfirmeSuaSenha">confirmar seña</string>
+    <string name="qual_vai_ser_o_tipo_da_sua_conta">Cuál será su tipo de cuenta?</string>
+    <string name="j_estamos_quase_terminando">Ya casi terminanos...</string>
     <string-array name="Sexo">
         <item>Masculino</item>
         <item>femenino</item>
         <item>otro</item>
+    </string-array>
+    <string-array name="Tipo">
+        <item>Administrador</item>
+        <item>Empleado</item>
     </string-array>
 
 
