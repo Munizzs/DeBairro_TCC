@@ -17,8 +17,7 @@ import java.util.ArrayList;
 public class CadastroTipoContaActivity extends AppCompatActivity {
     ViewHolder mViewHolder = new ViewHolder();
     ArrayAdapter<String> arrayAdapter;
-    String[] tipo;
-
+    String tipo[];
 
     @Override
     protected void onResume() {
@@ -35,10 +34,21 @@ public class CadastroTipoContaActivity extends AppCompatActivity {
         setContentView(R.layout.cadastro_tipo_conta_layout);
         getSupportActionBar().hide();
 
-
-
         mViewHolder.tilTipo = (TextInputLayout) findViewById(R.id.til_tipo);
         mViewHolder.actTipo = (AutoCompleteTextView) findViewById(R.id.act_tipo);
+        mViewHolder.btnProximo = findViewById(R.id.btn_CadastroTipoProximo);
+
+        mViewHolder.btnProximo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(CadastroTipoContaActivity.this, CadastroAdministrador.class);
+                startActivity(i);
+            }
+        });
+
+
+
+
 
 
 
