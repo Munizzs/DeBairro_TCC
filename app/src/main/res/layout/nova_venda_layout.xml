@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NovaVendaLayoutActivity"
+    android:layout_margin="20sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="520sp"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Produto"
+            android:textSize="22sp"
+            android:fontFamily="@font/segoe_ui"
+            android:textColor="@color/Cor_principal"
+            android:layout_marginTop="20sp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edt_NomeOuCodigoVenda"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/NomeOuCodigoVenda">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Cliente"
+        android:textSize="22sp"
+        android:fontFamily="@font/segoe_ui"
+        android:textColor="@color/Cor_principal"
+        android:layout_marginTop="25sp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edt_inserirCliente"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Insira_O_Cliente"
+            app:helperTextEnabled="true"
+            app:helperText="@string/Opcional">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Forma_de_pagamento"
+            android:textSize="22sp"
+            android:fontFamily="@font/segoe_ui"
+            android:textColor="@color/Cor_principal"
+            android:layout_marginTop="25sp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_FormaDePagamento"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            app:boxStrokeColor="@color/Cor_principal"
+            app:hintTextColor="#51247C"
+            android:hint="@string/Escolher_Forma_de_pagamento"
+            >
+
+            <AutoCompleteTextView
+                android:id="@+id/act_FormaDePagamento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Data"
+            android:textSize="22sp"
+            android:fontFamily="@font/segoe_ui"
+            android:textColor="@color/Cor_principal"
+            android:layout_marginTop="15sp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_data"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            app:boxStrokeColor="@color/Cor_principal"
+            app:hintTextColor="#51247C"
+            android:hint="@string/InserirData"
+            >
+
+            <AutoCompleteTextView
+                android:id="@+id/act_Data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
