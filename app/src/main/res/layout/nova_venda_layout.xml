@@ -9,7 +9,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="520sp"
+        android:layout_height="490sp"
         android:orientation="vertical"
         android:layout_alignParentTop="true">
 
@@ -19,8 +19,8 @@
             android:text="@string/Produto"
             android:textSize="22sp"
             android:fontFamily="@font/segoe_ui"
-            android:textColor="@color/Cor_principal"
-            android:layout_marginTop="20sp"/>
+            android:textColor="@color/Cor_principal"/>
+
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/edt_NomeOuCodigoVenda"
@@ -114,6 +114,7 @@
                 />
 
         </com.google.android.material.textfield.TextInputLayout>
+
 
 
 

@@ -10,10 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Splash">
         <activity
+            android:name=".AdicionarProdutoLayoutActivity"
+            android:exported="true" />
+        <activity
             android:name=".NovaVendaLayoutActivity"
             android:exported="true" />
         <activity android:name=".Cadastro2Activity" />
-        <activity android:name=".CadastroTipoContaActivity"
+        <activity
+            android:name=".CadastroTipoContaActivity"
             android:exported="true" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".CadastroActivity" />
@@ -25,8 +29,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".CadastroAdministrador" />
-        <activity android:name=".CadastroFuncionarioActivity"/>
-
+        <activity android:name=".CadastroFuncionarioActivity" />
     </application>
 
 </manifest>

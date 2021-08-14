@@ -55,7 +55,7 @@
         <item>Papelaria</item>
         <item>Bazar</item>
         <item>Horti-fruti</item>
-        </string-array>
+    </string-array>
 
     <string-array name="FormaDePagamento">
         <item>Dinheiro</item>
