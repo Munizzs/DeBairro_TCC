@@ -14,13 +14,7 @@
             android:exported="true" />
         <activity
             android:name=".NovaVendaLayoutActivity"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true" />
         <activity android:name=".Cadastro2Activity" />
         <activity
             android:name=".CadastroTipoContaActivity"
@@ -28,7 +22,11 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".CadastroActivity" />
         <activity android:name=".InicialActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name=".CadastroAdministrador" />
         <activity android:name=".CadastroFuncionarioActivity" />

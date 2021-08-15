@@ -11,8 +11,10 @@ import com.google.android.material.textfield.TextInputLayout;
 import java.util.ArrayList;
 
 public class NovaVendaLayoutActivity extends AppCompatActivity {
-    TextInputLayout tilFormaPagamento;
-    AutoCompleteTextView actFormaPagamento;
+
+    ArrayList<String> FormaDePagamento;
+    ArrayAdapter<String> FormaPagamento;
+    CadastroAdministrador.ViewHolder mViewHolder = new CadastroAdministrador.ViewHolder();
     String formaPagamento[];
     ArrayAdapter<String> arrayAdapter;
 
@@ -21,7 +23,6 @@ public class NovaVendaLayoutActivity extends AppCompatActivity {
         super.onResume();
         formaPagamento = getResources().getStringArray(R.array.FormaDePagamento);
         arrayAdapter = new ArrayAdapter<>(getApplicationContext(), R.layout.dropdown_item, formaPagamento);
-        actFormaPagamento.setAdapter(arrayAdapter);
 
     }
 
@@ -30,9 +31,6 @@ public class NovaVendaLayoutActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.nova_venda_layout);
-        tilFormaPagamento = findViewById(R.id.til_FormaDePagamento);
-        actFormaPagamento = findViewById(R.id.act_FormaDePagamento);
-
 
 
     }
