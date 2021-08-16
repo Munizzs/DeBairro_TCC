@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Splash">
         <activity
+            android:name=".AdicionarCliente2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".AdicionarClienteActivity"
+            android:exported="true" />
+        <activity
             android:name=".AdicionarProdutoLayoutActivity"
             android:exported="true" />
         <activity

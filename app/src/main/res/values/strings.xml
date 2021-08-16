@@ -1,10 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">DeBairro</string>
     <string name="InserirNome" tools:ignore="MissingTranslation"> Insira seu Nome</string>
-    <string name="InserirTelefone" translatable="false">Insira seu numero de telefone</string>
+    <string name="InserirTelefone">Insira seu numero de telefone</string>
     <string name="InserirData_de_Nacimento">Insira sua data de nacimento</string>
     <string name="InserirEmail">Insira seu email</string>
-    <string name="InserirSenha" translatable="false">Insira sua senha</string>
+    <string name="InserirSenha">Insira sua senha</string>
     <string name="Confirmsenha">Confirme sua senha</string>
     <string name="Cadastro">Cadastro</string>
     <string name="Login">Logar</string>
@@ -36,7 +36,23 @@
     <string name="Escolher_Forma_de_pagamento">Escolha a forma de pagamento</string>
     <string name="Data">Data</string>
     <string name="InserirData">Insira a data</string>
-    <string name="tipo_da_conta">TIpo da conta</string>
+    <string name="tipo_da_conta">Tipo da conta</string>
+    <string name="Insira_o_nome_do_cliente">Insira o nome do cliente</string>
+    <string name="Limite">Limite</string>
+    <string name="Insira_o_limite_de_compras_em_débito">Insira o limite de compras em débito</string>
+    <string name="Insira_o_telefone_do_cliente">Insira o telefone do cliente</string>
+    <string name="Insira_o_email_do_cliente">Insira o email do cliente</string>
+    <string name="AdicionarMaisInformacoes">Adicionar mais informações</string>
+    <string name="Finalizar">Finalizar</string>
+    <string name="CPF">CPF</string>
+    <string name="Insira_o_CPF_do_cliente">Insira o CPF do cliente</string>
+    <string name="CEP">CEP</string>
+    <string name="Insira_o_CEP_do_cliente">Insira o CEP do cliente</string>
+    <string name="Rua">Rua</string>
+    <string name="Insira_a_rua_do_cliente">Insira a rua do cliente</string>
+    <string name="Complemento">Complemento</string>
+    <string name="Insira_um_complemento">Insira um complemento</string>
+    <string name="ex_25_01_2009">ex: 25/01/2009</string>
 
 
     <string-array name="Sexo">

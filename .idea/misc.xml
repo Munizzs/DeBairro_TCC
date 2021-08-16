@@ -31,10 +31,18 @@
         <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/nova_venda_layout.xml" value="0.25" />
         <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1109375" />
         <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1109375" />
+        <entry key="..\:/Users/paulo/StudioProjects/DeBairro_TCC/app/src/main/res/layout/adicionar_cliente2_layout.xml" value="0.209375" />
+        <entry key="..\:/Users/paulo/StudioProjects/DeBairro_TCC/app/src/main/res/layout/adicionar_cliente_layout.xml" value="0.22" />
+        <entry key="..\:/Users/paulo/StudioProjects/DeBairro_TCC/app/src/main/res/layout/adicionar_produto_layout.xml" value="0.209375" />
+        <entry key="..\:/Users/paulo/StudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro2_layout.xml" value="0.209375" />
+        <entry key="..\:/Users/paulo/StudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro_administrador_layout.xml" value="0.21" />
+        <entry key="..\:/Users/paulo/StudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro_funcionario_layout.xml" value="0.209375" />
+        <entry key="..\:/Users/paulo/StudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro_layout.xml" value="0.25" />
+        <entry key="..\:/Users/paulo/StudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro_tipo_conta_layout.xml" value="0.209375" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

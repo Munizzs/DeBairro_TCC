@@ -25,19 +25,34 @@
     <string name="Código">Enter the code sent by the administrator</string>
     <string name="Insira_o_código">enter code</string>
     <string name="Nao_possui_codigo">Does not have the code</string>
-    <string name="NomeEstabelecimento">Nome do estabelecimento</string>
-    <string name="TipoEstabelecimento">Tipo de estabelecimento</string>
+    <string name="NomeEstabelecimento">Name of the establishment</string>
+    <string name="TipoEstabelecimento">Type of establishment</string>
     <string name="CNPJ">CNPJ</string>
-    <string name="Opcional">*Opcional</string>
-    <string name="Insira_O_Cliente">Insira o cliente</string>
-    <string name="Cliente">Cliente</string>
-    <string name="NomeOuCodigoVenda">Insira o nome ou codigo da venda</string>
-    <string name="Produto">Produto</string>
-    <string name="Forma_de_pagamento">Forma de pagamento</string>
-    <string name="Escolher_Forma_de_pagamento">Escolha a forma de pagamento</string>
-    <string name="Data">Data</string>
-    <string name="InserirData">Insira a data</string>
-    <string name="tipo_da_conta">TIpo da conta</string>
+    <string name="Opcional">*Optional</string>
+    <string name="Cliente">Client</string>
+    <string name="NomeOuCodigoVenda">Enter the name or sales code</string>
+    <string name="Produto">Product</string>
+    <string name="Forma_de_pagamento">Form of payment</string>
+    <string name="Escolher_Forma_de_pagamento">Choose the form of payment</string>
+    <string name="Data">Date</string>
+    <string name="InserirData">Enter the date</string>
+    <string name="tipo_da_conta">Account type</string>
+    <string name="Insira_o_nome_do_cliente">Enter customer name</string>
+    <string name="Limite">Limit</string>
+    <string name="Insira_o_limite_de_compras_em_débito">Enter the debit purchase limit</string>
+    <string name="Insira_o_telefone_do_cliente">Enter customer phone number</string>
+    <string name="Insira_o_email_do_cliente">Enter customer email</string>
+    <string name="AdicionarMaisInformacoes">Add more information</string>
+    <string name="Finalizar">Finish</string>
+    <string name="CPF">CPF</string>
+    <string name="Insira_o_CPF_do_cliente">Enter the CPF of the customer</string>
+    <string name="CEP">CEP</string>
+    <string name="Insira_o_CEP_do_cliente">Enter the customer\'s zip code</string>
+    <string name="Rua">Road</string>
+    <string name="Insira_a_rua_do_cliente">Enter the customer\'s street</string>
+    <string name="Complemento">Complement</string>
+    <string name="Insira_um_complemento">Insert an add-on</string>
+    <string name="ex_25_01_2009">ex: 01/25/2009</string>
 
     <string-array name="Sexo">
         <item>Male</item>
@@ -65,6 +80,7 @@
         <item>Cartão de Débito</item>
         <item>Boleto Bancário</item>
     </string-array>
+    <string name="Insira_O_Cliente">Enter the customer</string>
 
 
 </resources>
