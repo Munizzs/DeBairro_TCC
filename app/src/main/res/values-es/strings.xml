@@ -54,6 +54,16 @@
     <string name="Complemento">Complemento</string>
     <string name="Insira_um_complemento">Insertar un complemento</string>
     <string name="ex_25_01_2009">ex: 25/01/2009</string>
+    <string name="Peso">Peso</string>
+    <string name="Insira_o_peso_do_produto">Insira o peso do produto</string>
+    <string name="CódigoDeBarras">Código de Barras</string>
+    <string name="Insira_o_código_de_barras_do_produto">Insira o código de barras do produto</string>
+    <string name="DataDeFabricação">Data de fabricação</string>
+    <string name="Insira_a_data_de_fabricação_do_produto">Insira a data de frabricação do produto</string>
+    <string name="DataDeValidade">Data de validade</string>
+    <string name="Insira_a_data_de_validade_do_produto">Insira a data de validade do produto</string>
+    <string name="Lote">Lote</string>
+    <string name="Insira_o_lote_do_produto">Insira o lote do produto</string>
 
     <string-array name="Sexo">
         <item>Masculino</item>

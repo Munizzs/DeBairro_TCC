@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20sp"
+    tools:context=".AdicionarProduto2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Peso"
+            android:textSize="22sp"
+            android:textColor="@color/Cor_principal"
+            android:fontFamily="@font/segoe_ui"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edt_InsiraPesoProduto"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Insira_o_peso_do_produto">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/CódigoDeBarras"
+            android:textSize="22sp"
+            android:textColor="@color/Cor_principal"
+            android:fontFamily="@font/segoe_ui"
+            android:layout_marginTop="15sp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edt_InsiraCodigoBarrasProduto"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Insira_o_código_de_barras_do_produto">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/DataDeFabricação"
+            android:textSize="22sp"
+            android:textColor="@color/Cor_principal"
+            android:fontFamily="@font/segoe_ui"
+            android:layout_marginTop="15sp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_InsiraDataFabricaçãoProduto"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Insira_a_data_de_fabricação_do_produto"
+            app:boxStrokeColor="@color/Cor_principal"
+            app:hintTextColor="#51247C">
+
+            <AutoCompleteTextView
+                android:id="@+id/act_InsiraDataFabricaçãoProduto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/DataDeValidade"
+            android:textSize="22sp"
+            android:textColor="@color/Cor_principal"
+            android:fontFamily="@font/segoe_ui"
+            android:layout_marginTop="15sp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_InsiraDataValidadeProduto"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Insira_a_data_de_validade_do_produto"
+            app:boxStrokeColor="@color/Cor_principal"
+            app:hintTextColor="#51247C">
+
+            <AutoCompleteTextView
+                android:id="@+id/act_InsiraDataValidadeProduto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/Lote"
+            android:textSize="22sp"
+            android:textColor="@color/Cor_principal"
+            android:fontFamily="@font/segoe_ui"
+            android:layout_marginTop="15sp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edt_InsiraLoteProduto"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Insira_o_lote_do_produto">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_Finalizar"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:text="@string/Finalizar"
+            android:textSize="20sp"
+            app:backgroundTint="@color/Cor_principal"
+            app:cornerRadius="40sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
