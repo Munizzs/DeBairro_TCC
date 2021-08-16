@@ -38,6 +38,17 @@
     <string name="Data">Data</string>
     <string name="InserirData">Insira a data</string>
     <string name="tipo_da_conta">TIpo da conta</string>
+    <string name="Inserir_nome_do_produto">Insira o nome do produto</string>
+    <string name="Marca">Marca</string>
+    <string name="Inserir_marca_do_produto">Insira a marca do produto</string>
+    <string name="Quantidade">Quantidade</string>
+    <string name="Inserir_quantidade_produto">Insira a quantidade a ser adicionada</string>
+    <string name="Preço_da_compra">Preço da compra</string>
+    <string name="Insira_Preco_Produto">Insira o preço de compra do produto</string>
+    <string name="Preço_da_venda">Preço da venda</string>
+    <string name="Insira_preco_venda">Insira o preço de venda do produto</string>
+    <string name="AdicionarMaisInformacoes">Adicionar mais informações</string>
+    <string name="Inserir_imagem">Inserir Imagem</string>
 
     <string-array name="Sexo">
         <item>Masculino</item>
@@ -66,6 +77,12 @@
         <item>Boleto Bancário</item>
     </string-array>
 
-
+    <string-array name="QuantidadeDeProduto">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
 
 </resources>
