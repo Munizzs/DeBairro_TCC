@@ -128,7 +128,7 @@
         android:text="@string/Finalizar"
         android:textSize="20sp"
         app:backgroundTint="@color/Cor_principal"
-        app:cornerRadius="40sp" />
+        app:cornerRadius="40sp"  />
 
   </LinearLayout>
   </RelativeLayout>
