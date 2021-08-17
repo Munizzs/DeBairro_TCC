@@ -25,30 +25,57 @@
     <string name="Código">Ingrese el código enviado por el administrador</string>
     <string name="Insira_o_código">introduzca el código</string>
     <string name="Nao_possui_codigo">No tiene el código</string>
-    <string name="NomeEstabelecimento">Nome do estabelecimento</string>
-    <string name="TipoEstabelecimento">Tipo de estabelecimento</string>
+    <string name="NomeEstabelecimento">Nombre del establecimiento</string>
+    <string name="TipoEstabelecimento">Tipo de establecimiento</string>
     <string name="CNPJ">CNPJ</string>
     <string name="Opcional">*Opcional</string>
-    <string name="Insira_O_Cliente">Insira o cliente</string>
+    <string name="Insira_O_Cliente">Ingrese el cliente</string>
     <string name="Cliente">Cliente</string>
-    <string name="NomeOuCodigoVenda">Insira o nome ou codigo da venda</string>
-    <string name="Produto">Produto</string>
-    <string name="Forma_de_pagamento">Forma de pagamento</string>
-    <string name="Escolher_Forma_de_pagamento">Escolha a forma de pagamento</string>
-    <string name="Data">Data</string>
-    <string name="InserirData">Insira a data</string>
-    <string name="tipo_da_conta">TIpo da conta</string>
-    <string name="Inserir_nome_do_produto">Insira o nome do produto</string>
-    <string name="Marca">Marca</string>
-    <string name="Inserir_marca_do_produto">Insira a marca do produto</string>
-    <string name="Quantidade">Quantidade</string>
-    <string name="Inserir_quantidade_produto">Insira a quantidade a ser adicionada</string>
-    <string name="Preço_da_compra">Preço da compra</string>
-    <string name="Insira_Preco_Produto">Insira o preço de compra do produto</string>
-    <string name="Preço_da_venda">Preço da venda</string>
-    <string name="Insira_preco_venda">Insira o preço de venda do produto</string>
-    <string name="AdicionarMaisInformacoes">Adicionar mais informações</string>
-    <string name="Inserir_imagem">Inserir Imagem</string>
+    <string name="NomeOuCodigoVenda">Ingrese el nombre o el código de venta</string>
+    <string name="Produto">Producto</string>
+    <string name="Forma_de_pagamento">Forma de pago</string>
+    <string name="Escolher_Forma_de_pagamento">Elige la forma de pago</string>
+    <string name="Data">Fecha</string>
+    <string name="InserirData">Ingrese la fecha</string>
+    <string name="tipo_da_conta">Tipo de cuenta</string>
+    <string name="Insira_o_nome_do_cliente">Ingrese el nombre del cliente</string>
+    <string name="Limite">Límite</string>
+    <string name="Insira_o_limite_de_compras_em_débito">Ingrese el límite de compra de débito</string>
+    <string name="Insira_o_telefone_do_cliente">Ingrese el número de teléfono del cliente</string>
+    <string name="Insira_o_email_do_cliente">Ingrese el correo electrónico del cliente</string>
+    <string name="AdicionarMaisInformacoes">Agregar más información</string>
+    <string name="Finalizar">Terminar</string>
+    <string name="CPF">CPF</string>
+    <string name="Insira_o_CPF_do_cliente">Ingrese el CPF del cliente</string>
+    <string name="CEP">CEP</string>
+    <string name="Insira_o_CEP_do_cliente">Ingrese el código postal del cliente</string>
+    <string name="Rua">La carretera</string>
+    <string name="Insira_a_rua_do_cliente">Ingrese la calle del cliente</string>
+    <string name="Complemento">Complemento</string>
+    <string name="Insira_um_complemento">Insertar un complemento</string>
+    <string name="ex_25_01_2009">ex: 25/01/2009</string>
+    <string name="Peso">Peso</string>
+    <string name="Insira_o_peso_do_produto">Ingrese el peso del producto</string>
+    <string name="CódigoDeBarras">Código de barras</string>
+    <string name="Insira_o_código_de_barras_do_produto">Introduzca el código de barras del producto</string>
+    <string name="DataDeFabricação">Fecha de fabricación</string>
+    <string name="Insira_a_data_de_fabricação_do_produto">Introduzca la fecha de fabricación del producto</string>
+    <string name="DataDeValidade">Fecha de caducidad</string>
+    <string name="Insira_a_data_de_validade_do_produto">Introduzca la fecha de caducidad del producto</string>
+    <string name="Lote">Lote</string>
+    <string name="Insira_o_lote_do_produto">Introduzca el lote de productos</string>
+    <string name="tipo_de_fatura">Tipo</string>
+    <string name="tipo_fatura">Selecione o tipo de fatura</string>
+    <string name="descrição">Descripción</string>
+    <string name="Inserir_descricão">Insertar descripción</string>
+    <string name="Data_cobrança">fecha de facturación</string>
+    <string name="Hoje">Hoy</string>
+    <string name="Data_vencimento">Fecha de vencimiento</string>
+    <string name="Forma_pagamento">Forma de pago</string>
+    <string name="parcelas">cuotas</string>
+
+
+
 
     <string-array name="Sexo">
         <item>Masculino</item>
@@ -77,12 +104,6 @@
         <item>Boleto Bancário</item>
     </string-array>
 
-    <string-array name="QuantidadeDeProduto">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-    </string-array>
+
 
 </resources>

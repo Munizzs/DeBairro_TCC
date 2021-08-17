@@ -1,10 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">DeBairro</string>
     <string name="InserirNome" tools:ignore="MissingTranslation"> Insira seu Nome</string>
-    <string name="InserirTelefone" translatable="false">Insira seu numero de telefone</string>
+    <string name="InserirTelefone">Insira seu numero de telefone</string>
     <string name="InserirData_de_Nacimento">Insira sua data de nacimento</string>
     <string name="InserirEmail">Insira seu email</string>
-    <string name="InserirSenha" translatable="false">Insira sua senha</string>
+    <string name="InserirSenha">Insira sua senha</string>
     <string name="Confirmsenha">Confirme sua senha</string>
     <string name="Cadastro">Cadastro</string>
     <string name="Login">Logar</string>
@@ -36,18 +36,46 @@
     <string name="Escolher_Forma_de_pagamento">Escolha a forma de pagamento</string>
     <string name="Data">Data</string>
     <string name="InserirData">Insira a data</string>
-    <string name="tipo_da_conta">TIpo da conta</string>
-    <string name="Inserir_nome_do_produto">Insira o nome do produto</string>
-    <string name="Marca">Marca</string>
-    <string name="Inserir_marca_do_produto">Insira a marca do produto</string>
-    <string name="Quantidade">Quantidade</string>
-    <string name="Inserir_quantidade_produto">Insira a quantidade a ser adicionada</string>
-    <string name="Preço_da_compra">Preço da compra</string>
-    <string name="Insira_Preco_Produto">Insira o preço de compra do produto</string>
-    <string name="Preço_da_venda">Preço da venda</string>
-    <string name="Insira_preco_venda">Insira o preço de venda do produto</string>
+    <string name="tipo_da_conta">Tipo da conta</string>
+    <string name="Insira_o_nome_do_cliente">Insira o nome do cliente</string>
+    <string name="Limite">Limite</string>
+    <string name="Insira_o_limite_de_compras_em_débito">Insira o limite de compras em débito</string>
+    <string name="Insira_o_telefone_do_cliente">Insira o telefone do cliente</string>
+    <string name="Insira_o_email_do_cliente">Insira o email do cliente</string>
     <string name="AdicionarMaisInformacoes">Adicionar mais informações</string>
-    <string name="Inserir_imagem">Inserir Imagem</string>
+    <string name="Finalizar">Finalizar</string>
+    <string name="CPF">CPF</string>
+    <string name="Insira_o_CPF_do_cliente">Insira o CPF do cliente</string>
+    <string name="CEP">CEP</string>
+    <string name="Insira_o_CEP_do_cliente">Insira o CEP do cliente</string>
+    <string name="Rua">Rua</string>
+    <string name="Insira_a_rua_do_cliente">Insira a rua do cliente</string>
+    <string name="Complemento">Complemento</string>
+    <string name="Insira_um_complemento">Insira um complemento</string>
+    <string name="ex_25_01_2009">ex: 25/01/2009</string>
+    <string name="Peso">Peso</string>
+    <string name="Insira_o_peso_do_produto">Insira o peso do produto</string>
+    <string name="CódigoDeBarras">Código de Barras</string>
+    <string name="Insira_o_código_de_barras_do_produto">Insira o código de barras do produto</string>
+    <string name="DataDeFabricação">Data de fabricação</string>
+    <string name="Insira_a_data_de_fabricação_do_produto">Insira a data de frabricação do produto</string>
+    <string name="DataDeValidade">Data de validade</string>
+    <string name="Insira_a_data_de_validade_do_produto">Insira a data de validade do produto</string>
+    <string name="Lote">Lote</string>
+    <string name="Insira_o_lote_do_produto">Insira o lote do produto</string>
+    <string name="tipo_de_fatura">Tipo</string>
+    <string name="tipo_fatura">Selecione o tipo de fatura</string>
+    <string name="descrição">Descrição</string>
+    <string name="Inserir_descricão">Insira descrição</string>
+    <string name="Data_cobrança">Data cobrança</string>
+    <string name="Hoje">Hoje</string>
+    <string name="Data_vencimento">Data de vencimento</string>
+    <string name="Forma_pagamento">Forma de pagamento</string>
+    <string name="parcelas">Parcelas</string>
+    <string name="numero_parcelas" translatable="false">1x</string>
+
+
+
 
 
     <string-array name="Sexo">
@@ -74,14 +102,6 @@
         <item>Cartão de Crédito</item>
         <item>Cartão de Débito</item>
         <item>Boleto Bancário</item>
-    </string-array>
-
-    <string-array name="QuantidadeDeProduto">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
     </string-array>
 
 </resources>
