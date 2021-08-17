@@ -75,8 +75,6 @@
     <string name="numero_parcelas" translatable="false">1x</string>
 
 
-
-
     <string-array name="Sexo">
         <item>Masculino</item>
         <item>Feminino</item>

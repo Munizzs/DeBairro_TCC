@@ -4,12 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class AdicionarCliente2Activity extends AppCompatActivity {
+public class AdicionarEntradaSaida extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.adicionar_cliente2_layout);
-
+        setContentView(R.layout.adicionar_entrada_saida);
+        setTheme(R.style.Theme_DeBairro_TCC);
     }
 }
