@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item android:id="@+id/nav_vendas"
+        android:title="Vendas"
+        android:icon="@drawable/icone_vendas"
+        />
+    <item android:id="@+id/nav_estoque"
+        android:title="Estoque"
+        android:icon="@drawable/icone_estoque"
+        />
+    <item android:id="@+id/nav_clientes"
+        android:title="Clientes"
+        android:icon="@drawable/icone_clientes"
+        />
+    <item android:id="@+id/nav_financas"
+        android:title="Finanças"
+        android:icon="@drawable/icone_financas"
+        />
+    <item android:id="@+id/nav_notificacoes"
+        android:title="Notificações"
+        android:icon="@drawable/icone_notificacao"
+        />
 
 
 </menu>

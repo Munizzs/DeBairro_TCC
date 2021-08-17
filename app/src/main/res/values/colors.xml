@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_500">#FFC6A7E4</color>
     <color name="purple_700">#6C4591</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
@@ -12,5 +12,6 @@
     <color name="Facebook">#3B5998</color>
     <color name="Google">#C20000</color>
     <color name="clique">#8A8383</color>
+    <color name="icones_actionbar">#615B5B</color>
 
 </resources>
