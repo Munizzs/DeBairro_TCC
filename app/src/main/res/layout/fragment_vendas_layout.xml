@@ -1,14 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".VendasFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Vendas" />
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="15sp"
+        android:fontFamily="@font/segoe_ui_bold"
+        android:text="Vendas"
+        android:textColor="@color/black"
+        android:textSize="45sp" />
 
-</FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:drawableLeft="@drawable/icone_mais"
+            android:text="Nova venda"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:textSize="25sp"
+            android:height="50sp"
+            android:width="34sp"
+            />
+
+        <Button
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:layout_marginTop="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:drawableLeft="@drawable/icone_historico"
+            android:text="Histórico"
+            android:textSize="25sp"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
