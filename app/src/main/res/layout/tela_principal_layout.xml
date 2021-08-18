@@ -4,14 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TelaPrincipalActivity">
+    tools:context=".TelaPrincipalActivity"
+    android:id="@+id/body_container"
+    >
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bn_telaPrincipal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         app:menu="@menu/main_menu"
-        android:background="@color/Cor_principal"
+        android:background="@drawable/action_bar"
+        app:itemIconSize="30sp"
+        app:labelVisibilityMode="unlabeled"
+        app:itemIconTint="@drawable/item_selector"
         />
 
 </RelativeLayout>

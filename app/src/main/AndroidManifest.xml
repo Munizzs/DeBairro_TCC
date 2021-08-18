@@ -14,7 +14,14 @@
             android:exported="true" />
         <activity
             android:name=".TelaPrincipalActivity"
-            android:exported="true" />
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
         <activity
             android:name=".AdicionarProduto2Activity"
             android:exported="true" />
@@ -37,11 +44,7 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".CadastroActivity" />
         <activity android:name=".InicialActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".CadastroAdministrador" />
         <activity android:name=".CadastroFuncionarioActivity" />

@@ -73,8 +73,15 @@
     <string name="Data_vencimento">Fecha de vencimiento</string>
     <string name="Forma_pagamento">Forma de pago</string>
     <string name="parcelas">cuotas</string>
-
-
+    <string name="Inserir_imagem">Inserir imagem</string>
+    <string name="Inserir_nome_do_produto">Nome</string>
+    <string name="Marca">Marca</string>
+    <string name="Inserir_marca_do_produto">Marca</string>
+    <string name="Inserir_quantidade_produto">Quantidade</string>
+    <string name="Preço_da_compra">Preço de compra</string>
+    <string name="Insira_Preco_Produto">Preço de compra</string>
+    <string name="Preço_da_venda">Preço de venda</string>
+    <string name="Insira_preco_venda">Preço de venda</string>
 
 
     <string-array name="Sexo">
@@ -111,7 +118,7 @@
         <item>4</item>
         <item>5</item>
     </string-array>
-
+    <string name="Quantidade">Quantidade</string>
 
 
 </resources>

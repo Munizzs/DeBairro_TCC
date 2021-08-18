@@ -108,6 +108,18 @@
         <item>4</item>
         <item>5</item>
     </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="Inserir_imagem">Inserir imagem</string>
+    <string name="Inserir_nome_do_produto">Nome</string>
+    <string name="Marca">Marca</string>
+    <string name="Inserir_marca_do_produto">Marca</string>
+    <string name="Quantidade">Quantidade</string>
+    <string name="Inserir_quantidade_produto">Quantidade</string>
+    <string name="Preço_da_compra">Preço de compra</string>
+    <string name="Insira_Preco_Produto">Preço de compra</string>
+    <string name="Preço_da_venda">Preço de venda</string>
+    <string name="Insira_preco_venda">Preço de venda</string>
 
 
 </resources>

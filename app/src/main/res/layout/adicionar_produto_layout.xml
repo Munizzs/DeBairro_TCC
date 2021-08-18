@@ -12,37 +12,34 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.google.android.material.appbar.AppBarLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
 
-            <androidx.appcompat.widget.Toolbar
-                android:layout_width="match_parent"
-                android:layout_height="?attr/actionBarSize"/>
-
-        </com.google.android.material.appbar.AppBarLayout>
 
         <LinearLayout
-            android:layout_margin="20sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
+            android:layout_marginStart="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginEnd="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="20sp"
             android:orientation="vertical">
 
             <TextView
-                android:layout_marginTop="220sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="220sp"
                 android:fontFamily="@font/segoe_ui_bold"
                 android:text="@string/Inserir_imagem"
                 android:textColor="@color/Cor_principal"
-                android:layout_gravity="center"
                 android:textSize="22sp" />
 
             <TextView
-                android:layout_marginTop="45sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="45sp"
                 android:fontFamily="@font/segoe_ui"
                 android:text="@string/Nome"
                 android:textColor="@color/Cor_principal"
@@ -161,19 +158,18 @@
                 android:textSize="13sp" />
 
 
-
             <Button
                 android:id="@+id/btn_proximo"
-                android:layout_marginTop="30sp"
                 android:layout_width="match_parent"
                 android:layout_height="70sp"
+                android:layout_marginTop="30sp"
                 android:fontFamily="@font/segoe_ui_bold"
                 android:text="@string/Cadastro"
                 android:textSize="20sp"
                 app:backgroundTint="@color/Cor_principal"
                 app:cornerRadius="40sp" />
 
-            </LinearLayout>
+        </LinearLayout>
 
     </RelativeLayout>
 

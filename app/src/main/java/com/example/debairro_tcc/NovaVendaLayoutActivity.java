@@ -18,6 +18,7 @@ public class NovaVendaLayoutActivity extends AppCompatActivity {
     String formaPagamento[];
     ArrayAdapter<String> arrayAdapter;
 
+
     @Override
     protected void onResume() {
         super.onResume();
@@ -30,6 +31,7 @@ public class NovaVendaLayoutActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTheme(R.style.Theme_DeBairro_TCC);
         setContentView(R.layout.nova_venda_layout);
 
 
