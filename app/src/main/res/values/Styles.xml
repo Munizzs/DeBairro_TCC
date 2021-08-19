@@ -4,5 +4,12 @@
         <item name="colorPrimary">@color/Cor_principal</item>
         <item name="colorPrimaryDark">@color/white</item>
         <item name="colorAccent">@color/black</item>
+
+    </style>
+
+    <style name="SegoeUiBold">
+        <item name="android:fontFamily">@font/segoe_ui_bold</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:gravity">center_vertical</item>
     </style>
 </resources>

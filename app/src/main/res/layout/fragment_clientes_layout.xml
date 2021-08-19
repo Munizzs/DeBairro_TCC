@@ -4,12 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ClientesFragment">
+    tools:context=".ClientesFragment"
+
+    >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/Cor_principal"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        >
+
+
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar_clientes"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:logo="@drawable/icone_logo_carrinho_de_compras"
+            app:titleTextAppearance="@style/SegoeUiBold"
+            />
+    </com.google.android.material.appbar.AppBarLayout>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_below="@+id/app_bar_layout"
         android:layout_marginStart="15sp"
         android:layout_marginLeft="15sp"
         android:layout_marginTop="15sp"
