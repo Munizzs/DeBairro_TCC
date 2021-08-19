@@ -119,6 +119,18 @@
         <item>5</item>
     </string-array>
     <string name="Quantidade">Quantidade</string>
+    <string name="clientes">Clientes</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="visualizar">Visualizar</string>
+    <string name="estoque">Estoque</string>
+
+    <string name="financas">Finanças</string>
+
+    <string name="despesas">Despesas</string>
+    <string name="notifica_es">Notificações</string>
+    <string name="vendas">Vendas</string>
+    <string name="nova_venda">Nova venda</string>
+    <string name="historico">Histórico</string>
 
 
 </resources>

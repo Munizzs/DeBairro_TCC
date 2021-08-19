@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,42 +10,50 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_margin="15sp"
+        android:layout_marginStart="15sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginEnd="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginBottom="15sp"
         android:fontFamily="@font/segoe_ui_bold"
-        android:text="Vendas"
+        android:text="@string/vendas"
         android:textColor="@color/black"
-        android:textSize="45sp" />
+        android:textSize="40sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:layout_centerInParent="true"
         android:gravity="center"
-        >
+        android:orientation="vertical">
 
         <Button
+            android:id="@+id/btn_novaVenda"
             android:layout_width="match_parent"
             android:layout_height="70sp"
-            android:drawableLeft="@drawable/icone_mais"
-            android:text="Nova venda"
-            android:layout_marginLeft="30sp"
-            android:layout_marginRight="30sp"
-            android:textSize="25sp"
-            android:height="50sp"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp"
             android:width="34sp"
-            />
+            android:height="50sp"
+            android:text="@string/nova_venda"
+            android:textSize="25sp"
+            app:cornerRadius="25sp"
+            app:icon="@drawable/icone_mais"
+            app:iconSize="35sp" />
 
         <Button
-            android:layout_marginLeft="30sp"
-            android:layout_marginRight="30sp"
-            android:layout_marginTop="20sp"
+            android:id="@+id/btn_historicoVendas"
             android:layout_width="match_parent"
             android:layout_height="70sp"
-            android:drawableLeft="@drawable/icone_historico"
-            android:text="Histórico"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="40sp"
+            android:layout_marginRight="40sp"
+            android:text="@string/historico"
             android:textSize="25sp"
-            />
+            app:cornerRadius="25sp"
+            app:icon="@drawable/icone_historico"
+            app:iconSize="35sp" />
 
     </LinearLayout>
 
