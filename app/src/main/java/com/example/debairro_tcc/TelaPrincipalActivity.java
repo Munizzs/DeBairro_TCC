@@ -2,9 +2,11 @@ package com.example.debairro_tcc;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -12,6 +14,7 @@ import com.google.android.material.navigation.NavigationBarView;
 
 public class TelaPrincipalActivity extends AppCompatActivity {
     BottomNavigationView bnTelaPrincipal;
+    private Toolbar tbTelaPrincipal;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +24,12 @@ public class TelaPrincipalActivity extends AppCompatActivity {
         bnTelaPrincipal = findViewById(R.id.bn_telaPrincipal);
         getSupportFragmentManager().beginTransaction().replace(R.id.body_container, new VendasFragment()).commit();
         bnTelaPrincipal.setSelectedItemId(R.id.nav_vendas);
+
+        tbTelaPrincipal = findViewById(R.id.tb_telaPrincipal);
+        setSupportActionBar(tbTelaPrincipal);
+
+
+
 
 
         //setando a ação de clique nos ícones da action bar
@@ -54,5 +63,14 @@ public class TelaPrincipalActivity extends AppCompatActivity {
                 return true;
             }
         });
+    }
+
+    //setando Toolbar
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        super.onCreateOptionsMenu(menu);
+        getMenuInflater().inflate(R.menu.menu_top, menu);
+        return true;
     }
 }

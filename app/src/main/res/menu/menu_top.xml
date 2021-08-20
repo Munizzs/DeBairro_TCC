@@ -2,5 +2,11 @@
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="Configurações" />
+    <item
+        android:id="@+id/icone_carrinho"
+        android:title="Icone Carrinho"
+        android:orderInCategory="10"
+        app:showAsAction="always"
+        android:icon="@drawable/carrinho_supermarket"
+        />
 </menu>

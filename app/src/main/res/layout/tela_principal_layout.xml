@@ -8,16 +8,40 @@
     android:id="@+id/body_container"
     >
 
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:backgroundTint="@color/Cor_principal"
+        android:layout_alignParentTop="true"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tb_telaPrincipal"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:paddingStart="50sp"
+            android:paddingLeft="50sp"
+            app:title="DeBairro" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bn_telaPrincipal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        app:menu="@menu/main_menu"
         android:background="@drawable/action_bar"
         app:itemIconSize="30sp"
-        app:labelVisibilityMode="unlabeled"
         app:itemIconTint="@drawable/item_selector"
-        />
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/main_menu" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="7sp"
+        android:background="@drawable/carrinho_supermarket" />
 
 </RelativeLayout>
