@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Splash">
         <activity
+            android:name=".Maquinhinha_layout"
+            android:exported="true" />
+        <activity
             android:name=".configuracao_inicial"
             android:exported="true" />
         <activity
@@ -45,7 +48,7 @@
             android:exported="true" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".CadastroActivity" />
-        <activity android:name=".InicialActivity"></activity>
+        <activity android:name=".InicialActivity" />
         <activity android:name=".CadastroAdministrador" />
         <activity android:name=".CadastroFuncionarioActivity" />
     </application>
