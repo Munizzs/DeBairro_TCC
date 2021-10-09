@@ -4,6 +4,7 @@
     <string name="InserirTelefone">Insira seu numero de telefone</string>
     <string name="InserirData_de_Nacimento">Insira sua data de nacimento</string>
     <string name="InserirEmail">Insira seu email</string>
+    <string name="Insira_a_empresa_da_maquina" translatable="false">Insira a empresa da máquina</string>
     <string name="InserirSenha">Insira sua senha</string>
     <string name="Confirmsenha">Confirme sua senha</string>
     <string name="Cadastro">Cadastro</string>
@@ -130,6 +131,10 @@
     <string name="vendas">Vendas</string>
     <string name="nova_venda">Nova venda</string>
     <string name="historico">Histórico</string>
+    <string name="taxa_da_maquina_credito" translatable="false">Insira a taxa da máquina</string>
+    <string name="taxa_da_maquina_debito" translatable="false">Insira a taxa da maquininha</string>
+    <string name="aluguel_da_maquina" translatable="false">Insira o aluguel da maquininha (se houver)</string>
+    <string name="Finalizar_maquininha">Finalizar</string>
 
 
 </resources>

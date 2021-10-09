@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Splash">
         <activity
+            android:name=".Adicionar_maquininha"
+            android:exported="true" />
+        <activity
             android:name=".Maquinhinha_layout"
             android:exported="true" />
         <activity
