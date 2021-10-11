@@ -18,7 +18,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/segoe_ui_bold"
-            android:text="Configuração"
+            android:text="@string/Configuracao"
             android:textColor="@color/black"
             android:textSize="40sp" />
 
@@ -34,7 +34,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:fontFamily="@font/segoe_ui"
-            android:text="Maquininhas de cartão"
+            android:text="@string/Maquininhas_de_cartao"
             android:textAllCaps="false"
             android:textColor="@color/black"
             android:textSize="19dp" />
@@ -51,10 +51,10 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:fontFamily="@font/segoe_ui"
-            android:text="Conta"
+            android:text="@string/Conta"
             android:textAllCaps="false"
             android:textColor="@color/black"
-            android:textSize="19dp" />
+            android:textSize="19sp" />
 
 
         <ImageView
@@ -68,10 +68,10 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:fontFamily="@font/segoe_ui"
-            android:text="Funcionarios"
+            android:text="@string/Funcionarios"
             android:textAllCaps="false"
             android:textColor="@color/black"
-            android:textSize="19dp" />
+            android:textSize="19sp" />
 
         <ImageView
             android:layout_width="match_parent"
@@ -84,10 +84,10 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:fontFamily="@font/segoe_ui"
-            android:text="Adicionar Funcionários"
+            android:text="@string/Adicionar_Funcionarios"
             android:textAllCaps="false"
             android:textColor="@color/black"
-            android:textSize="19dp" />
+            android:textSize="19sp" />
 
         <ImageView
             android:layout_width="match_parent"
@@ -100,10 +100,10 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:fontFamily="@font/segoe_ui"
-            android:text="Idioma"
+            android:text="@string/Idioma"
             android:textAllCaps="false"
             android:textColor="@color/black"
-            android:textSize="19dp" />
+            android:textSize="19sp" />
 
 
         <ImageView
@@ -118,10 +118,10 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:fontFamily="@font/segoe_ui"
-            android:text="Moeda"
+            android:text="@string/Moeda"
             android:textAllCaps="false"
             android:textColor="@color/black"
-            android:textSize="19dp" />
+            android:textSize="19sp" />
 
 
         <ImageView
@@ -135,10 +135,10 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:fontFamily="@font/segoe_ui"
-            android:text="Avalie nosso aplicativo"
+            android:text="@string/Avalie_nosso_aplicativo"
             android:textAllCaps="false"
             android:textColor="@color/black"
-            android:textSize="19dp" />
+            android:textSize="19sp" />
 
         <ImageView
             android:layout_width="match_parent"
@@ -151,10 +151,10 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:fontFamily="@font/segoe_ui"
-            android:text="Suporte"
+            android:text="@string/Suporte"
             android:textAllCaps="false"
             android:textColor="@color/black"
-            android:textSize="19dp" />
+            android:textSize="19sp" />
 
 
         <ImageView
@@ -168,10 +168,10 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:fontFamily="@font/segoe_ui"
-            android:text="Créditos"
+            android:text="@string/Creditos"
             android:textAllCaps="false"
             android:textColor="@color/black"
-            android:textSize="19dp" />
+            android:textSize="19sp" />
 
 
         <ImageView
@@ -185,10 +185,10 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:fontFamily="@font/segoe_ui"
-            android:text="Sobre o aplicativo"
+            android:text="@string/Sobre_o_aplicativo"
             android:textAllCaps="false"
             android:textColor="@color/black"
-            android:textSize="19dp" />
+            android:textSize="19sp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -196,9 +196,9 @@
             android:layout_marginLeft="150dp"
             android:layout_marginTop="20dp"
             android:fontFamily="@font/segoe_ui"
-            android:text="DeBairro®"
+            android:text="@string/DeBairro"
             android:textColor="@color/black"
-            android:textSize="19dp" />
+            android:textSize="19sp" />
 
     </LinearLayout>
 

@@ -10,8 +10,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nenhuma máquina de cartão cadastrada"
-        android:textSize="24dp"
+        android:text="@string/Nenhuma_máquina_de_cartão_cadastrada"
+        android:textSize="24sp"
         android:textColor="@color/Cor_dos_icones"
         android:fontFamily="@font/segoe_ui_bold"
         android:layout_margin="60dp"
@@ -27,9 +27,10 @@
         android:layout_marginTop="310dp"
         android:fontFamily="@font/segoe_ui"
         android:gravity="center"
-        android:text="Adicionar máquininha de cartão"
+        android:text="@string/Adicionar_máquininha_de_cartão"
         android:textAllCaps="false"
         android:textColor="@color/Cor_principal"
-        android:textSize="22dp" />
+        android:textSize="22sp"
+        android:layout_marginStart="20dp" />
 
 </RelativeLayout >
