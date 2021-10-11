@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdicionarFuncionario2Activity"
+    android:layout_margin="20sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="false"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="40sp"
+            android:layout_marginRight="30sp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_Adicionar"
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:fontFamily="@font/segoe_ui_bold"
+                android:text="@string/adicionar_funcionario_dois"
+                android:textSize="30sp"
+                app:backgroundTint="@color/Cor_principal"
+                app:cornerRadius="25sp"
+                app:icon="@drawable/icone_copia"
+                app:iconSize="35sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_GerarCodigo"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:fontFamily="@font/segoe_ui"
+            android:text="@string/gerar_outro_código"
+            android:textAllCaps="false"
+            android:textColor="@color/Cor_principal"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40sp"
+            android:fontFamily="@font/segoe_ui"
+            android:gravity="center_horizontal"
+            android:text="Envie esse código para seu funcionário inserir no APP"
+            android:textAlignment="center"
+            android:textColor="@color/Cor_dos_icones"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:fontFamily="@font/segoe_ui"
+            android:gravity="center_horizontal"
+            android:text="Lembre-se que o código  só
+            pode ser usado uma vez."
+            android:textAlignment="center"
+            android:textColor="@color/Cor_dos_icones"
+            android:textSize="24dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="false"
+            android:layout_marginTop="150sp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_Sair"
+                android:layout_width="200sp"
+                android:layout_height="70sp"
+                android:fontFamily="@font/segoe_ui_bold"
+                android:text="@string/sair_maquina"
+                android:textSize="20sp"
+                app:backgroundTint="@color/Cor_principal"
+                app:cornerRadius="40sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

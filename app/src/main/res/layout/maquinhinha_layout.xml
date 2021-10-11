@@ -26,8 +26,8 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="310dp"
         android:fontFamily="@font/segoe_ui"
-        android:text="Adicionar máquininha de cartão"
         android:gravity="center"
+        android:text="Adicionar máquininha de cartão"
         android:textAllCaps="false"
         android:textColor="@color/Cor_principal"
         android:textSize="22dp" />

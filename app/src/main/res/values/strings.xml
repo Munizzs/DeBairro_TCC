@@ -135,15 +135,9 @@
     <string name="taxa_da_maquina_debito" translatable="false">Insira a taxa da maquininha</string>
     <string name="aluguel_da_maquina" translatable="false">Insira o aluguel da maquininha (se houver)</string>
     <string name="Finalizar_maquininha" translatable="false">Finalizar</string>
-    <string name="Insira_o_seu_nome">Insira o seu nome</string>
-    <string name="Insira_o_seu_CPF">Insira o seu CPF</string>
-    <string name="Insira_o_seu_telefone">Insira o seu telefone</string>
-    <string name="Insira_a_sua_senha">Insira a sua senha</string>
-    <string name="Insira_o_seu_email">Insira o seu email</string>
-    <string name="Insira_a_sua_data_de_nascimento">Insira a sua data de nascimento</string>
-    <string name="InformacoesdoUsuario">Informações do Usuário</string>
-    <string name="CancelarAlteracoes">Cancelar as alterações</string>
-    <string name="Salvar">Salvar</string>
+    <string name="gerar_outro_código">Gerar outro código</string>
+    <string name="adicionar_funcionario_dois">#C85DV6</string>
+    <string name="sair_maquina">Sair</string>
 
 
 </resources>
