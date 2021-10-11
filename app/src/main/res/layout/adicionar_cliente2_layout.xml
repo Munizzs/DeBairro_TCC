@@ -5,19 +5,56 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="20sp"
+    android:layout_weight="3"
     tools:context=".AdicionarCliente2Activity">
 
     <LinearLayout
+        android:weightSum="1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="56sp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:backgroundTint="@color/Cor_principal"
         android:layout_alignParentTop="true"
+
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="11sp"
+            android:background="@drawable/icone_clientes" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tb_"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:paddingStart="50sp"
+            android:paddingLeft="50sp"
+
+            />
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:weightSum="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
         android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="@string/CPF"
+            android:layout_marginTop="43sp"
             android:textSize="22sp"
             android:textColor="@color/Cor_principal"
             android:fontFamily="@font/segoe_ui"/>
@@ -121,6 +158,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:weightSum="1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
