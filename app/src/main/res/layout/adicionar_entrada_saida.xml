@@ -5,17 +5,41 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AdicionarEntradaSaida">
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
 
-        <com.google.android.material.appbar.AppBarLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaPrincipalActivity"
+    android:id="@+id/body_container"
+    >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:backgroundTint="@color/Cor_principal"
+        android:layout_alignParentTop="true"
+        >
 
         <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tb_EntradaSaida"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"/>
+            android:layout_height="?attr/actionBarSize"
+            android:paddingStart="50sp"
+            android:paddingLeft="50sp"
+            app:title="Entrada/Saida" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+        <ImageView
+            android:id="@+id/tb_IconBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="7sp"
+            android:background="@drawable/icone_back" />
+
 
         <LinearLayout
             android:layout_margin="20sp"
@@ -26,6 +50,7 @@
 
 
             <TextView
+                android:layout_marginTop="40dp"
                 android:layout_width="wrap_content"
                 android:layout_height="30sp"
                 android:fontFamily="@font/segoe_ui"
