@@ -131,6 +131,10 @@
     <string name="vendas">Vendas</string>
     <string name="nova_venda">Nova venda</string>
     <string name="historico">Histórico</string>
+    <string name="Adicioneemaildofuncionario">Adicione e-mail do funcionario</string>
+    <string name="Insiraumemail">Insira um email</string>
+    <string name="Ou">ou</string>
+    <string name="GerarCodFun">Gerar código para o funcionário</string>
 
 
 </resources>

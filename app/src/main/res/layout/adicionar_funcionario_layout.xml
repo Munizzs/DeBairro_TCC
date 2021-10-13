@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdicionarFuncionarioActivity"
+    android:layout_margin="20sp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Adicioneemaildofuncionario"
+            android:gravity="center"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:textSize="22sp"
+            android:layout_marginTop="50sp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edt_InserirEmail"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Insiraumemail"
+            android:layout_marginTop="5sp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_proximo"
+            android:layout_width="match_parent"
+            android:layout_height="65sp"
+            android:layout_marginTop="50sp"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:text="@string/adicionar"
+            android:textSize="20sp"
+            app:backgroundTint="@color/Cor_principal"
+            app:cornerRadius="40sp"
+            android:layout_marginLeft="42sp"
+            android:layout_marginRight="42sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="60sp"
+            android:weightSum="5">
+
+            <View
+                android:layout_weight="2"
+                android:layout_width="0sp"
+                android:layout_height="1sp"
+                android:layout_marginLeft="10sp"
+                android:layout_gravity="center"
+                android:background="@color/black"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_weight="1"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoe_ui_bold"
+                android:gravity="center"
+                android:text="@string/Ou"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                />
+            <View
+                android:layout_weight="2"
+                android:layout_width="0sp"
+                android:layout_height="1sp"
+                android:layout_marginRight="10sp"
+                android:layout_gravity="center"
+                android:background="@color/black"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_ProdutoAdicionarMaisInformacoes"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30sp"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:text="@string/GerarCodFun"
+            android:textColor="@color/Cor_principal"
+            android:textSize="13sp" />
+
+        </LinearLayout>
+
+</RelativeLayout>

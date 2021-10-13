@@ -104,7 +104,6 @@
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_weight="1.5"
-                android:id="@+id/tvOu"
                 android:layout_width="0sp"
                 android:layout_height="20sp"
                 android:fontFamily="@font/segoe_ui_bold"

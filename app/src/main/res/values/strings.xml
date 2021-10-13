@@ -135,40 +135,17 @@
     <string name="taxa_da_maquina_debito" translatable="false">Insira a taxa da maquininha</string>
     <string name="aluguel_da_maquina" translatable="false">Insira o aluguel da maquininha (se houver)</string>
     <string name="Finalizar_maquininha" translatable="false">Finalizar</string>
-    <string name="Insira_o_seu_nome" translatable="false">Insira o seu nome</string>
-    <string name="Insira_o_seu_CPF" translatable="false">Insira o seu CPF</string>
-    <string name="Insira_o_seu_telefone" translatable="false">Insira o seu telefone</string>
-    <string name="Insira_a_sua_senha" translatable="false">Insira a sua senha</string>
-    <string name="Insira_o_seu_email" translatable="false">Insira o seu email</string>
-    <string name="Insira_a_sua_data_de_nascimento" translatable="false">Insira a sua data de nascimento</string>
-    <string name="InformacoesdoUsuario" translatable="false">Informações do Usuário</string>
-    <string name="CancelarAlteracoes" translatable="false">Cancelar as alterações</string>
-    <string name="Salvar" translatable="false">Salvar</string>
-    <string name="Em_breve" translatable="false">Ocorreu um erro!</string>
-    <string name="Tente_novamente_mais_tarde" translatable="false">Tente novamente mais tarde</string>
-    <string name="gerar_outro_código" translatable="false">Gerar outro código</string>
-    <string name="adicionar_funcionario_dois" translatable="false">#C85DV6</string>
-    <string name="sair_maquina" translatable="false">Sair</string>
-    <string name="Nenhuma_máquina_de_cartão_cadastrada" translatable="false">Nenhuma máquina de cartão cadastrada</string>
-    <string name="Adicionar_máquininha_de_cartão" translatable="false">Adicionar máquininha de cartão</string>
-    <string name="Envie_esse_código_para_seu_funcionário_inserir_APP" translatable="false">Envie esse código para seu funcionário inserir no APP</string>
-    <string name="código_só_pode_ser_usado_uma_vez" translatable="false">Lembre-se que o código  só pode ser usado uma vez</string>
-    <string name="Configuracao" translatable="false">Configuração</string>
-    <string name="Maquininhas_de_cartao" translatable="false">Maquininhas de cartão</string>
-    <string name="Conta" translatable="false">Conta</string>
-    <string name="Funcionarios" translatable="false">Funcionarios</string>
-    <string name="Adicionar_Funcionarios" translatable="false">Adicionar Funcionários</string>
-    <string name="Idioma" translatable="false">Idioma</string>
-    <string name="Moeda" translatable="false">Moeda</string>
-    <string name="Avalie_nosso_aplicativo" translatable="false">Avalie nosso aplicativo</string>
-    <string name="Suporte" translatable="false">Suporte</string>
-    <string name="Creditos" translatable="false">Créditos</string>
-    <string name="Sobre_o_aplicativo" translatable="false">Sobre o aplicativo</string>
-    <string name="DeBairro" translatable="false">DeBairro®</string>
-    <string name="Empresa" translatable="false">Empresa</string>
-    <string name="Taxa_para_cartao_de_credito" translatable="false">Taxa para cartão de crédito</string>
-    <string name="Taxa_para_cartao_de_debito" translatable="false">Taxa para cartão de débito</string>
-    <string name="Aluguel" translatable="false">Aluguel</string>
+    <string name="Insira_o_seu_nome">Insira o seu nome</string>
+    <string name="Insira_o_seu_CPF">Insira o seu CPF</string>
+    <string name="Insira_o_seu_telefone">Insira o seu telefone</string>
+    <string name="Insira_a_sua_senha">Insira a sua senha</string>
+    <string name="Insira_o_seu_email">Insira o seu email</string>
+    <string name="Insira_a_sua_data_de_nascimento">Insira a sua data de nascimento</string>
+    <string name="InformacoesdoUsuario">Informações do Usuário</string>
+    <string name="CancelarAlteracoes">Cancelar as alterações</string>
+    <string name="Salvar">Salvar</string>
+    <string name="Em_breve">Em breve</string>
+    <string name="Tente_novamente_mais_tarde">Tente novamente mais tarde</string>
 
 
 </resources>
