@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Splash">
         <activity
+            android:name=".AlterarPermissoesActivity"
+            android:exported="true" />
+        <activity
             android:name=".AdicionarFuncionarioActivity"
             android:exported="true" />
         <activity

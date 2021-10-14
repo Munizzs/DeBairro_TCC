@@ -16,7 +16,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/Adicioneemaildofuncionario"
+            android:text="@string/Adicionaremaildofuncionario"
             android:gravity="center"
             android:fontFamily="@font/segoe_ui_bold"
             android:textSize="22sp"
@@ -27,7 +27,7 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/Insiraumemail"
+            android:hint="@string/Insirmemail"
             android:layout_marginTop="5sp">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -69,7 +69,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/segoe_ui_bold"
                 android:gravity="center"
-                android:text="@string/Ou"
+                android:text="@string/ou"
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 android:textStyle="bold"
@@ -93,7 +93,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="30sp"
             android:fontFamily="@font/segoe_ui_bold"
-            android:text="@string/GerarCodFun"
+            android:text="@string/GerarCodiFun"
             android:textColor="@color/Cor_principal"
             android:textSize="13sp" />
 

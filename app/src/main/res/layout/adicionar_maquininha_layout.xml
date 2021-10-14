@@ -32,17 +32,17 @@
         android:background="@drawable/icone_back" />
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20sp"
-        android:orientation="horizontal">
-
-    <LinearLayout
-        android:layout_marginTop="50sp"
+        android:layout_marginTop="55sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
@@ -133,10 +133,9 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <LinearLayout
-            android:layout_marginTop="120sp"
+            android:layout_marginTop="113sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
             android:layout_marginLeft="30sp"
             android:layout_marginRight="30sp"
             android:gravity="center"
