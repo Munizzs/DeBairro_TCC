@@ -181,5 +181,12 @@
     <string name="Taxa_para_cartao_de_credito" translatable="false">Taxa para cartão de crédito</string>
     <string name="Taxa_para_cartao_de_debito" translatable="false">Taxa para cartão de débito</string>
     <string name="Aluguel" translatable="false">Aluguel</string>
+    <string name="Escolha_uma_opção_de_moeda" translatable = "false">Escolha uma opção de moeda:</string>
+    <string name="BRL" translatable="false"> BRL </string>
+    <string name="USD" translatable="false"> USD </string>
+    <string name="EUR" translatable="false"> EUR </string>
+    <string name="salvar" translatable="false">Salvar</string>
+
+
 
 </resources>

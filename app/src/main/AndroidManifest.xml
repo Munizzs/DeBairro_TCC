@@ -16,6 +16,9 @@
             android:name=".AdicionarFuncionarioActivity"
             android:exported="true" />
         <activity
+            android:name=".MoedaLayout"
+            android:exported="true" />
+        <activity
             android:name=".InformacoesUsuarioActivity"
             android:exported="true" />
         <activity
