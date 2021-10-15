@@ -49,7 +49,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="100sp">
+            android:layout_marginTop="120sp">
 
             <RadioButton
                 android:id="@+id/radio_BRL"
@@ -74,8 +74,7 @@
                 android:onClick="checkButton"
                 android:text="@string/USD"
                 android:textColorHint="@color/moeda"
-                android:textSize="18sp"></RadioButton>
-
+                android:textSize="18sp"/>
 
 
             <RadioButton
@@ -110,14 +109,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="70sp"
-            android:layout_marginTop="105sp"
-            android:background="@drawable/icon_brazilian_real" />
+            android:layout_marginTop="125sp"
+            android:background="@drawable/icon_real" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="70sp"
-            android:layout_marginTop="155sp"
+            android:layout_marginTop="175sp"
             android:background="@drawable/icon_coin" />
 
 
@@ -125,7 +124,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="70sp"
-            android:layout_marginTop="200sp"
+            android:layout_marginTop="220sp"
             android:background="@drawable/icon_euro" />
 
         <Button

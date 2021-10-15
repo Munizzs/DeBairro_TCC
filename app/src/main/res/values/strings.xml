@@ -181,12 +181,12 @@
     <string name="Taxa_para_cartao_de_credito" translatable="false">Taxa para cartão de crédito</string>
     <string name="Taxa_para_cartao_de_debito" translatable="false">Taxa para cartão de débito</string>
     <string name="Aluguel" translatable="false">Aluguel</string>
-    <string name="Escolha_uma_opção_de_moeda" translatable = "false">Escolha uma opção de moeda:</string>
-    <string name="BRL" translatable="false"> BRL </string>
-    <string name="USD" translatable="false"> USD </string>
-    <string name="EUR" translatable="false"> EUR </string>
-    <string name="salvar" translatable="false">Salvar</string>
-
-
+    <string name="Escolha_uma_opção_de_moeda" translatable="false">Escolha uma opção de moeda</string>
+    <string name="EUR" translatable="false">EUR</string>
+    <string name="USD" translatable="false">USD</string>
+    <string name="BRL" translatable="false">BRL</string>
+    <string name="Historia_da_empresa" translatable="false">História da empresa</string>
+    <string name="texto1" translatable="false">"O “DeBairro” é um aplicativo que visa ajudar o empreendedor que tem um pequeno comércio e procura uma organização maior. O app usa a aplicação para o seu dispositivo movel, possibilitando o acesso para todos, sem a nessecidade de comprar um computador, podendo assim usar o seu próprio celular. "</string>
+    <string name="texto2" translatable="false">O “DeBairro” foi criado em 2021 como um projeto de TCC de um grupo de amigos ambisiosos para ajudar pequenos empreendedores</string>
 
 </resources>

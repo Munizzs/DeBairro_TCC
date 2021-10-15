@@ -20,7 +20,8 @@
             android:layout_height="?attr/actionBarSize"
             android:paddingStart="50sp"
             android:paddingLeft="50sp"
-            app:title="Máquinas de cartão"/>
+            app:title="Máquinas de cartão"
+            app:titleMarginStart="8sp"/>
 
     </com.google.android.material.appbar.AppBarLayout>
 
