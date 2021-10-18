@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class configuracao_inicial extends AppCompatActivity {
+public class MaquinaCadastradaActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.configuracao_inicial);
+        setContentView(R.layout.maquina_cadastrada_layout);
     }
 }

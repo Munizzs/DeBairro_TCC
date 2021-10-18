@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Splash">
         <activity
+            android:name=".MaquinaCadastradaActivity"
+            android:exported="true" />
+        <activity
             android:name=".SuporteConfiguracaoActivity"
             android:exported="true" />
         <activity
@@ -34,7 +37,7 @@
             android:name=".Maquinhinha_layout"
             android:exported="true" />
         <activity
-            android:name=".configuracao_inicial"
+            android:name=".ConfiguracaoInicialActivity"
             android:exported="true" />
         <activity
             android:name=".AdicionarEntradaSaida"

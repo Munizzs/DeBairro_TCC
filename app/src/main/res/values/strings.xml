@@ -188,10 +188,10 @@
     <string name="Historia_da_empresa" translatable="false">História da empresa</string>
     <string name="texto1" translatable="false">"O “DeBairro” é um aplicativo que visa ajudar o empreendedor que tem um pequeno comércio e procura uma organização maior. O app usa a aplicação para o seu dispositivo movel, possibilitando o acesso para todos, sem a nessecidade de comprar um computador, podendo assim usar o seu próprio celular. "</string>
     <string name="texto2" translatable="false">O “DeBairro” foi criado em 2021 como um projeto de TCC de um grupo de amigos ambisiosos para ajudar pequenos empreendedores</string>
-    <string name="text1">Algum problema ou dificuldade ao utilizar o aplicativo?</string>
-    <string name="text2">Não fique em duvida, entre em contato conosco !</string>
-    <string name="Noinstagram">No instagram</string>
-    <string name="debairroemail">DeBairro@outlook.com</string>
-    <string name="debairroinsta">\@DeBairro</string>
+    <string name="text1" translatable="false">Algum problema ou dificuldade ao utilizar o aplicativo?</string>
+    <string name="text2" translatable="false">Não fique em duvida, entre em contato conosco !</string>
+    <string name="Noinstagram" translatable="false">No instagram</string>
+    <string name="debairroemail" translatable="false">DeBairro@outlook.com</string>
+    <string name="debairroinsta" translatable="false">\@DeBairro</string>
 
 </resources>

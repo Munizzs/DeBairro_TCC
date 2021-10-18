@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".configuracao_inicial">
+    tools:context=".ConfiguracaoInicialActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -61,7 +61,7 @@
                 android:background="@color/black" />
 
             <Button
-                android:id="@+id/btn_Maquininha"
+                android:id="@+id/btn_Maquina"
                 style="@style/Widget.MaterialComponents.Button.TextButton"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -69,7 +69,7 @@
                 android:text="@string/Maquininhas_de_cartao"
                 android:textAllCaps="false"
                 android:textColor="@color/black"
-                android:textSize="19dp" />
+                android:textSize="19sp" />
 
 
             <ImageView
