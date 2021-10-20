@@ -22,4 +22,5 @@ public class ConfiguracaoInicialActivity extends AppCompatActivity {
         Intent in = new Intent(ConfiguracaoInicialActivity.this, MaquinaCadastradaActivity.class);
         startActivity(in);
     }
+    /* highish */
 }
