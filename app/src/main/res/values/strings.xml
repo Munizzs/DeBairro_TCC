@@ -134,7 +134,7 @@
     <string name="taxa_da_maquina_credito" translatable="false">Insira a taxa da máquina</string>
     <string name="taxa_da_maquina_debito" translatable="false">Insira a taxa da maquininha</string>
     <string name="aluguel_da_maquina" translatable="false">Insira o aluguel da maquininha (se houver)</string>
-    <string name="Finalizar_maquininha" translatable="false">Finalizar</string>
+    <string name="Finalizar_maquininha" translatable="false">Adicionar</string>
     <string name="Insira_o_seu_nome" translatable="false">Insira o seu nome</string>
     <string name="Insira_o_seu_CPF" translatable="false">Insira o seu CPF</string>
     <string name="Insira_o_seu_telefone" translatable="false">Insira o seu telefone</string>
@@ -193,5 +193,6 @@
     <string name="Noinstagram" translatable="false">No instagram</string>
     <string name="debairroemail" translatable="false">DeBairro@outlook.com</string>
     <string name="debairroinsta" translatable="false">\@DeBairro</string>
+    <string name="todo" translatable="false">TODO</string>
 
 </resources>

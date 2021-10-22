@@ -4,14 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AdicionarFuncionarioActivity"
-    android:layout_margin="20sp"
-    android:orientation="vertical">
+    tools:context=".AdicionarFuncionarioActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:backgroundTint="@color/Cor_principal"
+        android:layout_alignParentTop="true">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tb_AdicionarMaquina"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:paddingStart="50sp"
+            android:paddingLeft="50sp"
+            app:title="Adicionar Máquina"
+            app:titleMarginStart="8sp"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ImageView
+        android:id="@+id/tb_IconBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="7sp"
+        android:background="@drawable/icone_back" />
+
+    <LinearLayout
+        android:layout_marginTop="55sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="500sp"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20sp">
 
         <TextView
             android:layout_width="match_parent"
@@ -36,7 +68,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
-            android:id="@+id/btn_proximo"
+            android:id="@+id/btn_proximofun"
             android:layout_width="match_parent"
             android:layout_height="65sp"
             android:layout_marginTop="50sp"
@@ -86,7 +118,7 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/btn_ProdutoAdicionarMaisInformacoes"
+            android:id="@+id/btn_Gerarcodigofuncionario"
             style="@style/Widget.MaterialComponents.Button.TextButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -97,6 +129,8 @@
             android:textColor="@color/Cor_principal"
             android:textSize="13sp" />
 
-        </LinearLayout>
+    </LinearLayout>
+
+    </LinearLayout>
 
 </RelativeLayout>

@@ -110,7 +110,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btn_Sair"
+                android:id="@+id/btn_Sairfu"
                 android:layout_width="200sp"
                 android:layout_height="60sp"
                 android:fontFamily="@font/segoe_ui_bold"

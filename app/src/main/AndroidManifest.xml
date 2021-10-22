@@ -38,18 +38,19 @@
             android:exported="true" />
         <activity
             android:name=".ConfiguracaoInicialActivity"
-            android:exported="true" />
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".AdicionarEntradaSaida"
             android:exported="true" />
         <activity
             android:name=".TelaPrincipalActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".AdicionarProduto2Activity"
