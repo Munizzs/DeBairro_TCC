@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     tools:context=".InformacoesUsuarioActivity">
 
@@ -165,6 +165,11 @@
             android:textColor="@color/Cor_principal"
             android:textSize="12sp" />
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50sp">
+
         <Button
             android:id="@+id/btn_Salvar"
             android:layout_width="match_parent"
@@ -174,6 +179,8 @@
             android:textSize="20sp"
             app:backgroundTint="@color/Cor_principal"
             app:cornerRadius="40sp"  />
+
+        </LinearLayout>
 
     </LinearLayout>
 

@@ -145,7 +145,7 @@
     <string name="CancelarAlteracoes" translatable="false">Cancelar as alterações</string>
     <string name="Salvar" translatable="false">Salvar</string>
     <string name="Em_breve" translatable="false">Em breve</string>
-    <string name="Tente_novamente_mais_tarde" translatable="false">Tente novamente mais tarde</string>
+    <string name="Tente_novamente_mais_tarde" translatable="false">Tente novamente mais tarde!</string>
     <string name="Realizarvendas" translatable="false">Realizar Vendas</string>
     <string name="Visualizarvendas" translatable="false">Visualizar Vendas</string>
     <string name="Adicionaritensnoestoque" translatable="false">Adicionar itens no estoque</string>

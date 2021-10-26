@@ -11,31 +11,40 @@
         android:theme="@style/Theme.Splash">
         <activity
             android:name=".MaquinaCadastradaActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.DeBairro_TCC"/>
         <activity
             android:name=".SuporteConfiguracaoActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.DeBairro_TCC"/>
         <activity
             android:name=".ConfiguracaoSobreActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.DeBairro_TCC"/>
         <activity
             android:name=".AlterarPermissoesActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.DeBairro_TCC"/>
         <activity
             android:name=".AdicionarFuncionarioActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.DeBairro_TCC"/>
         <activity
             android:name=".MoedaLayout"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.DeBairro_TCC"/>
         <activity
             android:name=".InformacoesUsuarioActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.DeBairro_TCC"/>
         <activity
             android:name=".AdicionarMaquininhaActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.DeBairro_TCC"/>
         <activity
             android:name=".ConfiguracaoInicialActivity"
-            android:exported="true" >
+            android:exported="true"
+            android:theme="@style/Theme.DeBairro_TCC">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -44,35 +53,57 @@
         </activity>
         <activity
             android:name=".AdicionarEntradaSaida"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.DeBairro_TCC"/>
         <activity
             android:name=".TelaPrincipalActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.DeBairro_TCC">
         </activity>
         <activity
             android:name=".AdicionarProduto2Activity"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.DeBairro_TCC"/>
         <activity
             android:name=".AdicionarCliente2Activity"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.DeBairro_TCC"/>
+        <activity
+            android:name=".IdiomaActivity"
+            android:theme="@style/Theme.DeBairro_TCC"/>
         <activity
             android:name=".AdicionarClienteActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.DeBairro_TCC"/>
         <activity
             android:name=".AdicionarProdutoActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.DeBairro_TCC"/>
         <activity
             android:name=".NovaVendaLayoutActivity"
-            android:exported="true" />
-        <activity android:name=".Cadastro2Activity" />
+            android:exported="true"
+            android:theme="@style/Theme.DeBairro_TCC"/>
+        <activity
+            android:name=".Cadastro2Activity"
+            android:theme="@style/Theme.DeBairro_TCC"/>
         <activity
             android:name=".CadastroTipoContaActivity"
             android:exported="true" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".CadastroActivity" />
-        <activity android:name=".InicialActivity" />
-        <activity android:name=".CadastroAdministrador" />
-        <activity android:name=".CadastroFuncionarioActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/Theme.DeBairro_TCC"/>
+        <activity
+            android:name=".CadastroActivity"
+            android:theme="@style/Theme.DeBairro_TCC"/>
+        <activity
+            android:name=".InicialActivity"
+            android:theme="@style/Theme.DeBairro_TCC"/>
+        <activity
+            android:name=".CadastroAdministrador"
+            android:theme="@style/Theme.DeBairro_TCC"/>
+        <activity
+            android:name=".CadastroFuncionarioActivity"
+            android:theme="@style/Theme.DeBairro_TCC"/>
     </application>
 
 </manifest>

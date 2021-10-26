@@ -40,10 +40,17 @@
         android:orientation="vertical"
         android:layout_marginTop="55sp">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20sp"
+            android:orientation="vertical">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="80dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginBottom="40sp"
             android:fontFamily="@font/segoe_ui_bold"
             android:gravity="center_horizontal"
             android:text="@string/Nenhuma_máquina_de_cartão_cadastrada"
@@ -67,6 +74,8 @@
                 android:textAllCaps="false"
                 android:textColor="@color/Cor_principal"
                 android:textSize="22sp" />
+
+        </LinearLayout>
 
         </LinearLayout>
 

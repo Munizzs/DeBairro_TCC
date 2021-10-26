@@ -4,24 +4,58 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="20sp"
     android:orientation="vertical"
     tools:context=".IdiomaActivity">
 
-    <LinearLayout
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:backgroundTint="@color/Cor_principal"
+        android:layout_alignParentTop="true">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tb_AdicionarMaquina"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:paddingStart="50sp"
+            android:paddingLeft="50sp"
+            app:title="Adicionar Idioma"
+            app:titleMarginStart="8sp"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ImageView
+        android:id="@+id/tb_IconBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="7sp"
+        android:background="@drawable/icone_back" />
+
+    <LinearLayout
+        android:layout_marginTop="55sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:orientation="vertical">
 
-        <TextView
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="120sp"
-            android:fontFamily="@font/segoe_ui"
-            android:text="@string/Em_breve"
-            android:textColor="@color/black"
-            android:textSize="30sp" />
+            android:layout_margin="20sp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="80sp"
+                android:fontFamily="@font/segoe_ui"
+                android:text="@string/Em_breve"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
 
         <ImageView
             android:layout_width="wrap_content"
@@ -42,7 +76,7 @@
 
     </LinearLayout>
 
-
+    </LinearLayout>
 
 
 </RelativeLayout>
