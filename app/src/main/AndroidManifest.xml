@@ -34,9 +34,6 @@
             android:name=".AdicionarMaquininhaActivity"
             android:exported="true" />
         <activity
-            android:name=".Maquinhinha_layout"
-            android:exported="true" />
-        <activity
             android:name=".ConfiguracaoInicialActivity"
             android:exported="true" >
             <intent-filter>
