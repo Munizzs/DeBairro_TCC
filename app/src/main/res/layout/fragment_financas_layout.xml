@@ -6,6 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".FinancasFragment">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="55sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20sp">
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -26,12 +38,13 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:gravity="center"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_marginTop="70sp">
 
         <Button
             android:id="@+id/btn_adicionarFinancas"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
+            android:layout_width="250sp"
+            android:layout_height="80sp"
             android:layout_marginLeft="40sp"
             android:layout_marginRight="40sp"
             android:width="34sp"
@@ -41,41 +54,44 @@
             app:cornerRadius="25sp"
             app:icon="@drawable/icone_mais"
             app:iconPadding="0dp"
-            app:iconSize="35sp" />
+            app:iconSize="35sp"
+            android:backgroundTint="@color/Cor_principal"/>
 
 
         <Button
             android:id="@+id/btn_visualizarFinancas"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
+            android:layout_width="250sp"
+            android:layout_height="80sp"
             android:layout_marginLeft="40sp"
-            android:layout_marginTop="25sp"
+            android:layout_marginTop="20sp"
             android:layout_marginRight="40sp"
             android:text="@string/visualizar"
             android:textSize="25sp"
             app:cornerRadius="25sp"
             app:icon="@drawable/icone_visualizar"
             app:iconPadding="0sp"
-            app:iconSize="30sp" />
+            app:iconSize="30sp"
+            android:backgroundTint="@color/Cor_principal"/>
 
         <Button
             android:id="@+id/btn_despesasFinancas"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
+            android:layout_width="250sp"
+            android:layout_height="80sp"
             android:layout_marginLeft="40sp"
-            android:layout_marginTop="25sp"
+            android:layout_marginTop="20sp"
             android:layout_marginRight="40sp"
             android:text="@string/despesas"
             android:textSize="25sp"
             app:cornerRadius="25sp"
             app:icon="@drawable/icone_cifrao"
             app:iconPadding="0dp"
-            app:iconSize="35sp" />
-
+            app:iconSize="35sp"
+            android:backgroundTint="@color/Cor_principal"/>
 
     </LinearLayout>
 
+    </LinearLayout>
 
-
+    </LinearLayout>
 
 </RelativeLayout>

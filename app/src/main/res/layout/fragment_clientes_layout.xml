@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ClientesFragment"
-
-    >
+    tools:context=".ClientesFragment">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/app_bar_layout"
@@ -17,8 +15,6 @@
         android:theme="@style/ThemeOverlay.AppCompat.Dark"
         >
 
-
-
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbar_clientes"
             android:layout_width="match_parent"
@@ -26,34 +22,48 @@
             app:logo="@drawable/icone_logo_carrinho_de_compras"
             app:titleTextAppearance="@style/SegoeUiBold"
             />
+
     </com.google.android.material.appbar.AppBarLayout>
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/app_bar_layout"
-        android:layout_marginStart="15sp"
-        android:layout_marginLeft="15sp"
-        android:layout_marginTop="15sp"
-        android:layout_marginEnd="15sp"
-        android:layout_marginRight="15sp"
-        android:layout_marginBottom="15sp"
-        android:fontFamily="@font/segoe_ui_bold"
-        android:text="@string/clientes"
-        android:textColor="@color/black"
-        android:textSize="40sp" />
+        android:orientation="vertical"
+        android:layout_marginTop="55sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/app_bar_layout"
+            android:layout_marginStart="15sp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginTop="15sp"
+            android:layout_marginEnd="15sp"
+            android:layout_marginRight="15sp"
+            android:layout_marginBottom="15sp"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:text="@string/clientes"
+            android:textColor="@color/black"
+            android:textSize="40sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:gravity="center"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_marginTop="100sp">
 
         <Button
             android:id="@+id/btn_adicionarClientes"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
+            android:layout_width="250sp"
+            android:layout_height="80sp"
             android:layout_marginLeft="40sp"
             android:layout_marginRight="40sp"
             android:width="34sp"
@@ -62,22 +72,29 @@
             android:textSize="25sp"
             app:cornerRadius="25sp"
             app:icon="@drawable/icone_mais"
-            app:iconSize="35sp" />
+            app:iconSize="35sp"
+            android:backgroundTint="@color/Cor_principal"/>
 
 
         <Button
             android:id="@+id/btn_visualizarClientes"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
+            android:layout_width="250sp"
+            android:layout_height="80sp"
             android:layout_marginLeft="40sp"
-            android:layout_marginTop="40sp"
+            android:layout_marginTop="20sp"
             android:layout_marginRight="40sp"
             android:text="@string/visualizar"
             android:textSize="25sp"
             app:cornerRadius="25sp"
             app:icon="@drawable/icone_visualizar"
-            app:iconSize="30sp" />
+            app:iconSize="30sp"
+            android:backgroundTint="@color/Cor_principal"/>
 
+
+
+    </LinearLayout>
+
+    </LinearLayout>
 
     </LinearLayout>
 

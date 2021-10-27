@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MoedaLayout">
+
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -32,120 +33,117 @@
         android:layout_marginTop="7sp"
         android:background="@drawable/icone_back" />
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="55sp">
 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20sp">
 
-        android:layout_marginStart="20sp"
-        android:layout_marginLeft="20sp"
-        android:layout_marginTop="20sp"
-        android:layout_marginEnd="20sp"
-        android:layout_marginRight="20sp"
-        android:layout_marginBottom="20sp">
-
-        <RadioGroup
-            android:id="@+id/radioGroup_md"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="120sp">
-
-            <RadioButton
-                android:id="@+id/radio_BRL"
+            <RadioGroup
+                android:id="@+id/radioGroup_md"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:buttonTint="@color/moeda"
-                android:fontFamily="@font/segoe_ui"
-                android:onClick="checkButton"
-                android:text="@string/BRL"
-                android:textColorHint="@color/moeda"
-                android:textSize="18sp">
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="120sp">
 
-            </RadioButton>
+                <RadioButton
+                    android:id="@+id/radio_BRL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/moeda"
+                    android:fontFamily="@font/segoe_ui"
+                    android:onClick="checkButton"
+                    android:text="@string/BRL"
+                    android:textColorHint="@color/moeda"
+                    android:textSize="18sp">
+
+                </RadioButton>
 
 
-            <RadioButton
-                android:id="@+id/radio_USD"
+                <RadioButton
+                    android:id="@+id/radio_USD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/moeda"
+                    android:fontFamily="@font/segoe_ui"
+                    android:onClick="checkButton"
+                    android:text="@string/USD"
+                    android:textColorHint="@color/moeda"
+                    android:textSize="18sp" />
+
+
+                <RadioButton
+                    android:id="@+id/radio_EUR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/moeda"
+                    android:fontFamily="@font/segoe_ui"
+                    android:onClick="checkButton"
+                    android:text="@string/EUR"
+                    android:textColorHint="@color/moeda"
+                    android:textSize="18sp">
+
+                </RadioButton>
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tv_opcao"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:buttonTint="@color/moeda"
-                android:fontFamily="@font/segoe_ui"
-                android:onClick="checkButton"
-                android:text="@string/USD"
-                android:textColorHint="@color/moeda"
-                android:textSize="18sp"/>
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60sp"
+                android:fontFamily="@font/segoe_ui_bold"
+                android:text="@string/Escolha_uma_opção_de_moeda"
+                android:textSize="20sp"
+
+                />
 
 
-            <RadioButton
-                android:id="@+id/radio_EUR"
+            <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:buttonTint="@color/moeda"
-                android:fontFamily="@font/segoe_ui"
-                android:onClick="checkButton"
-                android:text="@string/EUR"
-                android:textColorHint="@color/moeda"
-                android:textSize="18sp">
+                android:layout_marginLeft="70sp"
+                android:layout_marginTop="125sp"
+                android:background="@drawable/icon_real" />
 
-            </RadioButton>
-
-        </RadioGroup>
-
-        <TextView
-            android:id="@+id/tv_opcao"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="60sp"
-            android:fontFamily="@font/segoe_ui_bold"
-            android:text="@string/Escolha_uma_opção_de_moeda"
-            android:textSize="20sp"
-
-            />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70sp"
+                android:layout_marginTop="175sp"
+                android:background="@drawable/icon_coin" />
 
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="70sp"
-            android:layout_marginTop="125sp"
-            android:background="@drawable/icon_real" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="70sp"
-            android:layout_marginTop="175sp"
-            android:background="@drawable/icon_coin" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70sp"
+                android:layout_marginTop="220sp"
+                android:background="@drawable/icon_euro" />
 
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="70sp"
-            android:layout_marginTop="220sp"
-            android:background="@drawable/icon_euro" />
+            <Button
+                android:id="@+id/btn_salvar_tipo_moeda"
+                android:layout_width="300sp"
+                android:layout_height="70sp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="500sp"
+                android:fontFamily="@font/segoe_ui_bold"
+                android:text="@string/Salvar"
+                android:textSize="20sp"
+                app:backgroundTint="@color/Cor_principal"
+                app:cornerRadius="40sp" />
 
 
-        <Button
-            android:id="@+id/btn_salvar_tipo_moeda"
-            android:layout_width="300sp"
-            android:layout_height="70sp"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="580sp"
-            android:fontFamily="@font/segoe_ui_bold"
-            android:text="@string/Salvar"
-            android:textSize="20sp"
-            app:backgroundTint="@color/Cor_principal"
-            app:cornerRadius="40sp"
-            />
+        </RelativeLayout>
 
-
-
-
-    </RelativeLayout>
-
+    </LinearLayout>
 
 </RelativeLayout>
 

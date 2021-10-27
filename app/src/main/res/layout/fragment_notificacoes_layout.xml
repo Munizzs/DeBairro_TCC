@@ -5,6 +5,18 @@
     android:layout_height="match_parent"
     tools:context=".NotificacoesFragment">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="55sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20sp">
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,7 +32,9 @@
         android:textColor="@color/black"
         android:textSize="40sp" />
 
+    </LinearLayout>
 
+    </LinearLayout>
 
 
 </RelativeLayout>
