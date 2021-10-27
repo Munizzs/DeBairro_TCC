@@ -104,7 +104,8 @@
             android:theme="@style/Theme.DeBairro_TCC"/>
         <activity
             android:name=".IdiomaActivity"
-            android:theme="@style/Theme.DeBairro_TCC"/>
+            android:theme="@style/Theme.DeBairro_TCC"
+            />
     </application>
 
 </manifest>
