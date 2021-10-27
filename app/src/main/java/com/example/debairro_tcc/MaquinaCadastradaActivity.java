@@ -14,7 +14,7 @@ public class MaquinaCadastradaActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.maquina_cadastrada_layout);
+        setContentView(R.layout.maquina_layout);
 
         addmaquina = findViewById(R.id.btn_Maquininha);
         addmaquina.setOnClickListener(new View.OnClickListener() {

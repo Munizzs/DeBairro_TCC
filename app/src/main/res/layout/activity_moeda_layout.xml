@@ -127,20 +127,25 @@
             android:layout_marginTop="220sp"
             android:background="@drawable/icon_euro" />
 
+
         <Button
             android:id="@+id/btn_salvar_tipo_moeda"
             android:layout_width="300sp"
             android:layout_height="70sp"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="625sp"
+            android:layout_marginTop="580sp"
             android:fontFamily="@font/segoe_ui_bold"
             android:text="@string/Salvar"
             android:textSize="20sp"
             app:backgroundTint="@color/Cor_principal"
-            app:cornerRadius="40sp" />
+            app:cornerRadius="40sp"
+            />
+
+
 
 
     </RelativeLayout>
+
 
 </RelativeLayout>
 
