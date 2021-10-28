@@ -138,7 +138,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btn_Finalizar"
+            android:id="@+id/btn_FinalizarP"
             android:layout_width="match_parent"
             android:layout_height="70sp"
             android:fontFamily="@font/segoe_ui_bold"

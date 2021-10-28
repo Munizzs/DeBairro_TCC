@@ -25,8 +25,8 @@ public class TelaPrincipalActivity extends AppCompatActivity {
         getSupportFragmentManager().beginTransaction().replace(R.id.body_container, new VendasFragment()).commit();
         bnTelaPrincipal.setSelectedItemId(R.id.nav_vendas);
 
-        tbTelaPrincipal = findViewById(R.id.tb_telaPrincipal);
-        setSupportActionBar(tbTelaPrincipal);
+
+
 
 
 
