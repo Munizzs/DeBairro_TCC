@@ -194,5 +194,11 @@
     <string name="debairroemail" translatable="false">DeBairro@outlook.com</string>
     <string name="debairroinsta" translatable="false">\@DeBairro</string>
     <string name="todo" translatable="false">TODO</string>
+    <string name="configuracao">Configuração</string>
+    <string name="DeBairroo">DeBairro</string>
+    <string name="moedaa">Moeda</string>
+    <string name="adicionar_cliente">Adicionar cliente</string>
+    <string name="entrada_saida">Entrada/Saída</string>
+    <string name="adicionar_funcionario">Adicionar funcionario</string>
 
 </resources>

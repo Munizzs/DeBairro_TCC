@@ -5,111 +5,167 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="20sp"
     tools:context=".AdicionarClienteActivity">
+
+  <com.google.android.material.appbar.AppBarLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:backgroundTint="@color/Cor_principal"
+      android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55sp"
+        android:orientation="horizontal">
+
+      <Button
+          android:id="@+id/btn_Voltarclientefragment"
+          android:layout_width="36sp"
+          android:layout_height="36sp"
+          android:layout_marginLeft="10sp"
+          android:layout_marginTop="10sp"
+          android:background="@drawable/icone_back"
+          />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/adicionar_cliente"
+          android:fontFamily="@font/segoe_ui_bold"
+          android:layout_marginTop="10sp"
+          android:textSize="21sp"
+          android:layout_marginLeft="20sp"
+          android:textColor="@color/white"
+          />
+
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10sp"
+          android:layout_marginLeft="130sp"
+          android:background="@drawable/icone_clientes" />
+
+    </LinearLayout>
+
+  </com.google.android.material.appbar.AppBarLayout>
+
 
   <LinearLayout
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:layout_alignParentTop="true"
-      android:orientation="vertical">
+      android:orientation="vertical"
+      android:layout_marginTop="55sp">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:text="@string/Nome"
-        android:textSize="22sp"
-        android:textColor="@color/Cor_principal"
-        android:fontFamily="@font/segoe_ui"/>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/edt_InsiraNomeCliente"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/Insira_o_nome_do_cliente">
+        android:layout_marginStart="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="20sp"
+        android:orientation="vertical">
 
-      <com.google.android.material.textfield.TextInputEditText
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:fontFamily="@font/segoe_ui"
+          android:text="@string/Nome"
+          android:textColor="@color/Cor_principal"
+          android:textSize="22sp" />
+
+      <com.google.android.material.textfield.TextInputLayout
+          android:id="@+id/edt_InsiraNomeCliente"
+          style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
           android:layout_width="match_parent"
-          android:layout_height="wrap_content" />
-    </com.google.android.material.textfield.TextInputLayout>
+          android:layout_height="wrap_content"
+          android:hint="@string/Insira_o_nome_do_cliente">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:text="@string/Limite"
-        android:textSize="22sp"
-        android:textColor="@color/Cor_principal"
-        android:fontFamily="@font/segoe_ui"
-        android:layout_marginTop="15sp"/>
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+      </com.google.android.material.textfield.TextInputLayout>
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/edt_InsiraLimiteComprasDebito"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/Insira_o_limite_de_compras_em_débito">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_marginTop="15sp"
+          android:fontFamily="@font/segoe_ui"
+          android:text="@string/Limite"
+          android:textColor="@color/Cor_principal"
+          android:textSize="22sp" />
 
-      <com.google.android.material.textfield.TextInputEditText
+      <com.google.android.material.textfield.TextInputLayout
+          android:id="@+id/edt_InsiraLimiteComprasDebito"
+          style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
           android:layout_width="match_parent"
-          android:layout_height="wrap_content" />
-    </com.google.android.material.textfield.TextInputLayout>
+          android:layout_height="wrap_content"
+          android:hint="@string/Insira_o_limite_de_compras_em_débito">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:text="@string/Telefone"
-        android:textSize="22sp"
-        android:textColor="@color/Cor_principal"
-        android:fontFamily="@font/segoe_ui"
-        android:layout_marginTop="15sp"/>
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+      </com.google.android.material.textfield.TextInputLayout>
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/edt_InsiraTelefoneCliente"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/Insira_o_telefone_do_cliente">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_marginTop="15sp"
+          android:fontFamily="@font/segoe_ui"
+          android:text="@string/Telefone"
+          android:textColor="@color/Cor_principal"
+          android:textSize="22sp" />
 
-      <com.google.android.material.textfield.TextInputEditText
+      <com.google.android.material.textfield.TextInputLayout
+          android:id="@+id/edt_InsiraTelefoneCliente"
+          style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
           android:layout_width="match_parent"
-          android:layout_height="wrap_content" />
-    </com.google.android.material.textfield.TextInputLayout>
+          android:layout_height="wrap_content"
+          android:hint="@string/Insira_o_telefone_do_cliente">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:text="@string/Email"
-        android:textSize="22sp"
-        android:textColor="@color/Cor_principal"
-        android:fontFamily="@font/segoe_ui"
-        android:layout_marginTop="15sp"/>
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+      </com.google.android.material.textfield.TextInputLayout>
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/edt_InsiraEmailCliente"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/Insira_o_email_do_cliente">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_marginTop="15sp"
+          android:fontFamily="@font/segoe_ui"
+          android:text="@string/Email"
+          android:textColor="@color/Cor_principal"
+          android:textSize="22sp" />
 
-      <com.google.android.material.textfield.TextInputEditText
+      <com.google.android.material.textfield.TextInputLayout
+          android:id="@+id/edt_InsiraEmailCliente"
+          style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
           android:layout_width="match_parent"
-          android:layout_height="wrap_content" />
-    </com.google.android.material.textfield.TextInputLayout>
+          android:layout_height="wrap_content"
+          android:hint="@string/Insira_o_email_do_cliente">
 
-    <Button
-        android:id="@+id/btn_ClienteAdicionarMaisInformacoes"
-        style="@style/Widget.MaterialComponents.Button.TextButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="10sp"
-        android:fontFamily="@font/segoe_ui_bold"
-        android:text="@string/AdicionarMaisInformacoes"
-        android:textColor="@color/Cor_principal"
-        android:textSize="14sp" />
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+      </com.google.android.material.textfield.TextInputLayout>
 
-  </LinearLayout>
+      <Button
+          android:id="@+id/btn_ClienteAdicionarMaisInformacoes"
+          style="@style/Widget.MaterialComponents.Button.TextButton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="10sp"
+          android:fontFamily="@font/segoe_ui_bold"
+          android:text="@string/AdicionarMaisInformacoes"
+          android:textColor="@color/Cor_principal"
+          android:textSize="14sp" />
+
+    </LinearLayout>
 
   <LinearLayout
       android:layout_width="match_parent"
@@ -131,4 +187,7 @@
         app:cornerRadius="40sp"  />
 
   </LinearLayout>
+
+  </LinearLayout>
+
   </RelativeLayout>

@@ -10,28 +10,38 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        android:backgroundTint="@color/Cor_principal"
         android:layout_alignParentTop="true"
-        >
+        android:backgroundTint="@color/Cor_principal"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/tb_Moeda"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:paddingStart="50sp"
-            android:paddingLeft="50sp"
-            app:title="@string/Moeda" />
+            android:layout_height="55sp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_VoltarMoeda"
+                android:layout_width="36sp"
+                android:layout_height="36sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="10sp"
+                android:background="@drawable/icone_back"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/moedaa"
+                android:fontFamily="@font/segoe_ui_bold"
+                android:layout_marginTop="10sp"
+                android:textSize="21sp"
+                android:layout_marginLeft="20sp"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
 
     </com.google.android.material.appbar.AppBarLayout>
-
-    <ImageView
-        android:id="@+id/tb_IconBack"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10sp"
-        android:layout_marginTop="7sp"
-        android:background="@drawable/icone_back" />
 
     <LinearLayout
         android:layout_width="match_parent"
