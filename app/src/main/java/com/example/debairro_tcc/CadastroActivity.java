@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class CadastroActivity extends AppCompatActivity {
-    ViewHolder mViewHolder = new ViewHolder();
+    ViewHolder ViewHolder = new ViewHolder();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,8 +16,9 @@ public class CadastroActivity extends AppCompatActivity {
         setTheme(R.style.Theme_DeBairro_TCC);
         setContentView(R.layout.cadastro_layout);
         getSupportActionBar().hide();
-        mViewHolder.btnProximo = findViewById(R.id.btn_proximo);
-        mViewHolder.btnProximo.setOnClickListener(new View.OnClickListener() {
+
+        ViewHolder.btnProximo = findViewById(R.id.btn_proximo);
+        ViewHolder.btnProximo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(CadastroActivity.this, Cadastro2Activity.class);

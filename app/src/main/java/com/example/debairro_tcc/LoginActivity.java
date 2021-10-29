@@ -14,11 +14,9 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTheme(R.style.Theme_DeBairro_TCC);
         setContentView(R.layout.login_layout);
         getSupportActionBar().hide();
         mViewHolder.btnEsqueceuSenha = findViewById(R.id.btn_EsqueceuSenha);
-
 
 
     }

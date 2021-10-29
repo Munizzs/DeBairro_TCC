@@ -7,22 +7,24 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class InicialActivity extends AppCompatActivity {
-    ViewHolder mViewHolder = new ViewHolder();
+import java.util.Objects;
 
+public class InicialActivity extends AppCompatActivity {
+
+    private Button btnCadastro1, btnFacebook, btnLogin, btnGoogle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTheme(R.style.Theme_DeBairro_TCC);
         setContentView(R.layout.inicial_layout);
-        getSupportActionBar().hide();
-        mViewHolder.btnCadastro1 = findViewById(R.id.btn_cadastro1);
-        mViewHolder.btnFacebook = findViewById(R.id.btn_facebook);
-        mViewHolder.btnLogin = findViewById(R.id.btn_login1);
-        mViewHolder.btnGoogle = findViewById(R.id.btn_google);
 
-        mViewHolder.btnLogin.setOnClickListener(new View.OnClickListener() {
+
+        btnCadastro1 = findViewById(R.id.btn_cadastro1);
+        btnFacebook = findViewById(R.id.btn_facebook);
+        btnLogin = findViewById(R.id.btn_login1);
+        btnGoogle = findViewById(R.id.btn_google);
+
+        btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(InicialActivity.this, LoginActivity.class);
@@ -30,7 +32,7 @@ public class InicialActivity extends AppCompatActivity {
             }
         });
 
-        mViewHolder.btnCadastro1.setOnClickListener(new View.OnClickListener() {
+        btnCadastro1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(InicialActivity.this, CadastroActivity.class);
@@ -38,27 +40,22 @@ public class InicialActivity extends AppCompatActivity {
             }
         });
 
-        mViewHolder.btnFacebook.setOnClickListener(new View.OnClickListener() {
+        btnFacebook.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
             }
         });
 
-        mViewHolder.btnGoogle.setOnClickListener(new View.OnClickListener() {
+        btnGoogle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
             }
         });
 
-
-
     }
 
-    public static class ViewHolder{
-        Button btnCadastro1, btnLogin, btnFacebook, btnGoogle;
-    }
 
 
 }

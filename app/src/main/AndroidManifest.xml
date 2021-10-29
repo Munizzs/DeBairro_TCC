@@ -60,13 +60,6 @@
             android:name=".AdicionarProduto2Activity"
             android:exported="true"
             android:theme="@style/Theme.DeBairro_TCC">
-
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
         </activity>
         <activity
             android:name=".AdicionarCliente2Activity"
@@ -100,7 +93,16 @@
             android:theme="@style/Theme.DeBairro_TCC"/>
         <activity
             android:name=".InicialActivity"
-            android:theme="@style/Theme.DeBairro_TCC"/>
+            android:theme="@style/Theme.DeBairro_TCC"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
         <activity
             android:name=".CadastroAdministrador"
             android:theme="@style/Theme.DeBairro_TCC"/>

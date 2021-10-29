@@ -206,5 +206,6 @@
     <string name="mudar_idioma" translatable="false">Mudar Idioma</string>
     <string name="maquinas_de_cart_o" translatable="false">Maquinas de cartão</string>
     <string name="suportee" translatable="false">Suporte</string>
+    <string name="contaa" translatable="false">Conta</string>
 
 </resources>
