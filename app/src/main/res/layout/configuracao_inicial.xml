@@ -19,7 +19,8 @@
             android:layout_height="55sp"
             android:orientation="horizontal">
 
-            <ImageView
+            <Button
+                android:id="@+id/btn_voltartelaprincipal"
                 android:layout_width="36sp"
                 android:layout_height="36sp"
                 android:layout_marginLeft="10sp"
@@ -38,14 +39,14 @@
                 android:textColor="@color/white"
                 />
 
-            <Button
+            <!--<Button
                 android:id="@+id/btn_configuração"
                 android:layout_width="36sp"
                 android:layout_height="36sp"
                 android:background="@drawable/icone_configuraacao"
                 android:layout_marginLeft="210sp"
                 android:layout_marginTop="10sp"
-                android:backgroundTint="@color/white"/>
+                android:backgroundTint="@color/white"/>-->
 
         </LinearLayout>
 

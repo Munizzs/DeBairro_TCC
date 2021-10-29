@@ -34,7 +34,7 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginBottom="20sp"
+            android:layout_marginBottom="15sp"
             android:hint="@string/Email"
             app:boxStrokeColor="@color/Cor_principal"
             app:hintTextColor="#51247C">
@@ -50,7 +50,7 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginBottom="20sp"
+            android:layout_marginBottom="15sp"
             android:hint="@string/Senha"
             app:boxStrokeColor="@color/Cor_principal"
             app:hintTextColor="#51247C"
@@ -66,7 +66,7 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginBottom="15sp"
+
             android:hint="@string/ConfirmeSuaSenha"
             app:boxStrokeColor="@color/Cor_principal"
             app:hintTextColor="#51247C"
@@ -92,7 +92,7 @@
 
         <Button
             android:id="@+id/btn_proximo"
-            android:layout_width="match_parent"
+            android:layout_width="270sp"
             android:layout_height="70sp"
             android:fontFamily="@font/segoe_ui_bold"
             android:text="@string/Proximo"

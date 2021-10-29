@@ -20,8 +20,8 @@
     <string name="EsqueceuSuaSenha">Esqueceu sua senha?</string>
     <string name="ConfirmeSuaSenha">Confirmar senha</string>
     <string name="qual_vai_ser_o_tipo_da_sua_conta">Qual vai ser o tipo da sua conta?</string>
-    <string name="j_estamos_quase_terminando">Já estamos quase terminando...</string>
-    <string name="Ja_estamos_quase_finalizando">Já estamos quase finalizando...</string>
+    <string name="j_estamos_quase_terminando">Já estamos quase terminando…</string>
+    <string name="Ja_estamos_quase_finalizando">Já estamos quase finalizando…</string>
     <string name="Código">Insira o código enviado pelo administrador</string>
     <string name="Insira_o_código">Insira o código</string>
     <string name="Nao_possui_codigo">Não possui o código</string>
@@ -194,11 +194,17 @@
     <string name="debairroemail" translatable="false">DeBairro@outlook.com</string>
     <string name="debairroinsta" translatable="false">\@DeBairro</string>
     <string name="todo" translatable="false">TODO</string>
-    <string name="configuracao">Configuração</string>
-    <string name="DeBairroo">DeBairro</string>
-    <string name="moedaa">Moeda</string>
-    <string name="adicionar_cliente">Adicionar cliente</string>
-    <string name="entrada_saida">Entrada/Saída</string>
-    <string name="adicionar_funcionario">Adicionar funcionario</string>
+    <string name="configuracao" translatable="false">Configuração</string>
+    <string name="DeBairroo" translatable="false">DeBairro</string>
+    <string name="moedaa" translatable="false">Moeda</string>
+    <string name="adicionar_cliente" translatable="false">Adicionar cliente</string>
+    <string name="entrada_saida" translatable="false">Entrada/Saída</string>
+    <string name="adicionar_funcionario" translatable="false">Adicionar funcionario</string>
+    <string name="adicionar_maquina" translatable="false">Adicionar máquina</string>
+    <string name="adicionar_produto" translatable="false">Adicionar produto</string>
+    <string name="quem_somos_nos" translatable="false">Quem somos nós</string>
+    <string name="mudar_idioma" translatable="false">Mudar Idioma</string>
+    <string name="maquinas_de_cart_o" translatable="false">Maquinas de cartão</string>
+    <string name="suportee" translatable="false">Suporte</string>
 
 </resources>

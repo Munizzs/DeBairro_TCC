@@ -38,7 +38,7 @@
             android:fontFamily="@font/segoe_ui"
             android:text="@string/Código"
             android:textColor="@color/Cor_principal"
-            android:textSize="18dp" />
+            android:textSize="18sp" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/edt_InsiraOCódigoEnviadoPeloAdministrador"
@@ -72,7 +72,7 @@
 
         <Button
             android:id="@+id/btn_cadastroFuncionario"
-            android:layout_width="match_parent"
+            android:layout_width="270sp"
             android:layout_height="70sp"
             android:fontFamily="@font/segoe_ui_bold"
             android:text="@string/Cadastro"

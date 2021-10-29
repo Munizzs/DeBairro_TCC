@@ -5,30 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_margin="20sp"
     tools:context=".AdicionarProdutoActivity">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55sp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="20sp"
-            android:layout_marginLeft="20sp"
-            android:layout_marginTop="20sp"
-            android:layout_marginEnd="20sp"
-            android:layout_marginRight="20sp"
-            android:layout_marginBottom="20sp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_margin="20sp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="220sp"
+                android:layout_marginTop="0sp"
                 android:fontFamily="@font/segoe_ui_bold"
                 android:text="@string/Inserir_imagem"
                 android:textColor="@color/Cor_principal"
@@ -160,7 +155,7 @@
                 android:id="@+id/btn_proximo"
                 android:layout_width="match_parent"
                 android:layout_height="70sp"
-                android:layout_marginTop="30sp"
+                android:layout_marginTop="200sp"
                 android:fontFamily="@font/segoe_ui_bold"
                 android:text="@string/Cadastro"
                 android:textSize="20sp"
@@ -169,7 +164,7 @@
 
         </LinearLayout>
 
-    </RelativeLayout>
+    </LinearLayout>
 
 </ScrollView>
 

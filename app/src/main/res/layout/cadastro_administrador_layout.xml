@@ -39,7 +39,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20sp"
-            android:layout_marginBottom="20sp"
+            android:layout_marginBottom="15sp"
             app:boxStrokeColor="@color/Cor_principal"
             app:hintTextColor="#51247C"
             android:hint="@string/TipoEstabelecimento"
@@ -60,7 +60,7 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginBottom="20sp"
+            android:layout_marginBottom="15sp"
             android:fontFamily="@font/segoe_ui"
             android:hint="@string/NomeEstabelecimento"
             app:boxStrokeColor="@color/Cor_principal"
@@ -85,9 +85,7 @@
             app:boxBackgroundColor="@color/white"
             app:boxStrokeColor="@color/Cor_principal"
             app:helperText="@string/Opcional"
-            app:hintTextColor="#51247C"
-
-            >
+            app:hintTextColor="#51247C">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -109,7 +107,7 @@
 
         <Button
             android:id="@+id/btn_proximo"
-            android:layout_width="match_parent"
+            android:layout_width="270sp"
             android:layout_height="70sp"
             android:fontFamily="@font/segoe_ui_bold"
             android:text="@string/Cadastro"

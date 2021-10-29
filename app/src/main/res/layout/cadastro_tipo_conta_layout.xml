@@ -74,7 +74,7 @@
 
         <Button
             android:id="@+id/btn_CadastroTipoProximo"
-            android:layout_width="match_parent"
+            android:layout_width="280sp"
             android:layout_height="70sp"
             android:fontFamily="@font/segoe_ui_bold"
             android:text="@string/Proximo"

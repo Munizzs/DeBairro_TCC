@@ -5,20 +5,21 @@
       <map>
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/drawable/ic_copia.xml" value="0.2203125" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout-v21/maquinhinha_layout.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/activity_moeda_layout.xml" value="0.5" />
+        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/activity_moeda_layout.xml" value="0.25" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/adicionar_cliente2_layout.xml" value="0.25" />
-        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/adicionar_entrada_saida.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/adicionar_cliente_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/adicionar_entrada_saida.xml" value="0.25" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/adicionar_funcionario2_layout.xml" value="0.25" />
-        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/adicionar_funcionario_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/adicionar_funcionario_layout.xml" value="0.25" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/adicionar_maquininha_layout.xml" value="0.25" />
-        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/adicionar_produto2_layout.xml" value="0.25" />
+        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/adicionar_produto2_layout.xml" value="0.22" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/adicionar_produto_layout.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/alterar_permissoes_layout.xml" value="0.22" />
-        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro2_layout.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro_administrador_layout.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro_funcionario_layout.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro_layout.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro_tipo_conta_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro2_layout.xml" value="0.25" />
+        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro_administrador_layout.xml" value="0.25" />
+        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro_funcionario_layout.xml" value="0.25" />
+        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro_layout.xml" value="0.25" />
+        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro_tipo_conta_layout.xml" value="0.25" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/configuracao_inicial.xml" value="0.22" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/configuracao_sobre_layout.xml" value="0.25" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/dropdown_item.xml" value="0.20416666666666666" />
@@ -28,7 +29,7 @@
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/fragment_notificacoes_layout.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/fragment_vendas_layout.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/idioma_layout.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/informacoes_do_usuario_layout.xml" value="0.25" />
+        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/informacoes_do_usuario_layout.xml" value="0.2" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/inicial_layout.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/login_layout.xml" value="0.25" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/maquina_cadastrada_layout.xml" value="0.2" />
@@ -69,8 +70,7 @@
         <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/activity_tela_de_loading1.xml" value="0.20104166666666667" />
         <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/activity_tela_de_venda3.xml" value="0.20104166666666667" />
         <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/adicionar_cliente2_layout.xml" value="0.15078125" />
-        <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/adicionar_cliente_layout.xml" value="0.1326388888888889" />
-        <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/adicionar_produto2_layout.xml" value="0.19" />
+        <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/adicionar_produto2_layout.xml" value="0.24536082474226803" />
         <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/adicionar_produto_layout.xml" value="0.18" />
         <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro2_layout.xml" value="0.20104166666666667" />
         <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro_administrador_layout.xml" value="0.2" />
@@ -78,7 +78,6 @@
         <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro_layout.xml" value="0.20104166666666667" />
         <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro_tipo_conta_layout.xml" value="0.22" />
         <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/dropdown_item.xml" value="0.13402777777777777" />
-        <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/fragment_estoque_layout.xml" value="0.13958333333333334" />
         <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/inicial_layout.xml" value="0.20104166666666667" />
         <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/login_layout.xml" value="0.20104166666666667" />
         <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/nova_venda_layout.xml" value="0.18" />

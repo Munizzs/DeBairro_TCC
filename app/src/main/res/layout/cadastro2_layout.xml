@@ -4,15 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Cadastro2Activity"
-    android:layout_margin="21sp">
+    tools:context=".Cadastro2Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
+        android:layout_margin="20sp"
         android:orientation="vertical">
-
 
         <ImageView
             android:id="@+id/ivCarinhoRoxo"
@@ -72,36 +71,30 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
-
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginLeft="30sp"
-        android:layout_marginRight="30sp"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/btn_Login2"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:fontFamily="@font/segoe_ui_bold"
-            android:text="@string/Proximo"
-            android:textSize="20sp"
-            app:backgroundTint="@color/Cor_principal"
-            app:cornerRadius="40sp" />
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_Login2"
+                android:layout_width="270sp"
+                android:layout_height="70sp"
+                android:layout_marginBottom="10sp"
+                android:fontFamily="@font/segoe_ui_bold"
+                android:text="@string/Proximo"
+                android:textSize="20sp"
+                app:backgroundTint="@color/Cor_principal"
+                app:cornerRadius="40sp" />
 
 
-
-    </LinearLayout>
-
-
-
-
-
+        </LinearLayout>
 
 
 </RelativeLayout>
