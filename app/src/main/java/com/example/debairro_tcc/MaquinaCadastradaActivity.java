@@ -30,7 +30,7 @@ public class MaquinaCadastradaActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(MaquinaCadastradaActivity.this, ConfiguracaoInicialActivity.class);
+                Intent intent = new Intent(MaquinaCadastradaActivity.this, TelaPrincipalActivity.class);
                 startActivity(intent);
             }
         });

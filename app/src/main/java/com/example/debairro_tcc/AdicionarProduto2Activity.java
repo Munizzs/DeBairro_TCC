@@ -10,6 +10,7 @@ import android.widget.Button;
 public class AdicionarProduto2Activity extends AppCompatActivity {
 
     private Button finalizar;
+    private Button voltarNV;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +22,15 @@ public class AdicionarProduto2Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(AdicionarProduto2Activity.this,TelaPrincipalActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        voltarNV = findViewById(R.id.btn_Voltaraddproduto);
+        voltarNV.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(AdicionarProduto2Activity.this, TelaPrincipalActivity.class);
                 startActivity(intent);
             }
         });
