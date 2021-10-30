@@ -47,12 +47,12 @@
             />
 
         <Button
-            android:layout_marginTop="30sp"
+            android:layout_marginTop="70sp"
             android:layout_marginRight="30sp"
             android:layout_marginLeft="30sp"
-            android:layout_marginBottom="20sp"
+            android:layout_marginBottom="10sp"
             android:id="@+id/btn_cadastro1"
-            android:layout_width="match_parent"
+            android:layout_width="280sp"
             android:layout_height="75sp"
             android:fontFamily="@font/segoe_ui_bold"
             android:text="@string/Cadastro"
@@ -68,7 +68,7 @@
             android:layout_marginRight="30sp"
             android:layout_marginLeft="30sp"
             android:id="@+id/btn_login1"
-            android:layout_width="match_parent"
+            android:layout_width="280sp"
             android:layout_height="75sp"
             android:fontFamily="@font/segoe_ui_bold"
             android:text="@string/Login"

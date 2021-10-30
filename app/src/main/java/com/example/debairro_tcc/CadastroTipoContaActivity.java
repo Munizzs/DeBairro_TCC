@@ -15,52 +15,37 @@ import com.google.android.material.textfield.TextInputLayout;
 import java.util.ArrayList;
 
 public class CadastroTipoContaActivity extends AppCompatActivity {
-    ViewHolder mViewHolder = new ViewHolder();
     ArrayAdapter<String> arrayAdapter;
     String tipo[];
+
+    public TextInputLayout tilTipo;
+    public AutoCompleteTextView actTipo;
+    private Button btnProximo;
 
     @Override
     protected void onResume() {
         super.onResume();
         tipo = getResources().getStringArray(R.array.Tipo);
         arrayAdapter = new ArrayAdapter<>(getApplicationContext(), R.layout.dropdown_item, tipo);
-        mViewHolder.actTipo.setAdapter(arrayAdapter);
+        actTipo.setAdapter(arrayAdapter);
     }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTheme(R.style.Theme_DeBairro_TCC);
         setContentView(R.layout.cadastro_tipo_conta_layout);
-        getSupportActionBar().hide();
 
-        mViewHolder.tilTipo = (TextInputLayout) findViewById(R.id.til_tipo);
-        mViewHolder.actTipo = (AutoCompleteTextView) findViewById(R.id.act_tipo);
-        mViewHolder.btnProximo = findViewById(R.id.btn_CadastroTipoProximo);
+        tilTipo = (TextInputLayout) findViewById(R.id.til_tipo);
+        actTipo = (AutoCompleteTextView) findViewById(R.id.act_tipo);
 
-        mViewHolder.btnProximo.setOnClickListener(new View.OnClickListener() {
+        btnProximo = findViewById(R.id.btn_CadastroTipoProximo);
+        btnProximo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(CadastroTipoContaActivity.this, CadastroAdministrador.class);
                 startActivity(i);
             }
         });
-
-
-
-
-
-
-
-
-
-    }
-
-    public static class ViewHolder{
-        TextInputLayout tilTipo;
-        AutoCompleteTextView actTipo;
-        Button btnProximo;
-
 
     }
 }

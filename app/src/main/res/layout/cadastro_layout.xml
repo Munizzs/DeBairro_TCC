@@ -91,7 +91,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btn_proximo"
+            android:id="@+id/btn_proximocadastro"
             android:layout_width="270sp"
             android:layout_height="70sp"
             android:fontFamily="@font/segoe_ui_bold"

@@ -19,7 +19,6 @@ public class NovaVendaLayoutActivity extends AppCompatActivity {
 
     ArrayList<String> FormaDePagamento;
     ArrayAdapter<String> FormaPagamento;
-    CadastroAdministrador.ViewHolder mViewHolder = new CadastroAdministrador.ViewHolder();
     String formaPagamento[];
     ArrayAdapter<String> arrayAdapter;
 
@@ -46,7 +45,6 @@ public class NovaVendaLayoutActivity extends AppCompatActivity {
         });
 
         super.onCreate(savedInstanceState);
-        setTheme(R.style.Theme_DeBairro_TCC);
         setContentView(R.layout.nova_venda_layout);
 
 

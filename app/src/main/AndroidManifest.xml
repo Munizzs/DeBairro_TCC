@@ -87,10 +87,12 @@
             android:theme="@style/Theme.DeBairro_TCC"/>
         <activity
             android:name=".LoginActivity"
-            android:theme="@style/Theme.DeBairro_TCC"/>
+            android:theme="@style/Theme.DeBairro_TCC"
+            android:exported="true"/>
         <activity
             android:name=".CadastroActivity"
-            android:theme="@style/Theme.DeBairro_TCC"/>
+            android:theme="@style/Theme.DeBairro_TCC"
+            android:exported="true"/>
         <activity
             android:name=".InicialActivity"
             android:theme="@style/Theme.DeBairro_TCC"
@@ -105,15 +107,16 @@
         </activity>
         <activity
             android:name=".CadastroAdministrador"
-            android:theme="@style/Theme.DeBairro_TCC"/>
+            android:theme="@style/Theme.DeBairro_TCC"
+            android:exported="true"/>
         <activity
             android:name=".CadastroFuncionarioActivity"
-            android:theme="@style/Theme.DeBairro_TCC"/>
+            android:theme="@style/Theme.DeBairro_TCC"
+            android:exported="true"/>
         <activity
             android:name=".IdiomaActivity"
             android:theme="@style/Theme.DeBairro_TCC"
-            />
-
+            android:exported="true"/>
 
     </application>
 

@@ -40,7 +40,7 @@
                 />
 
             <Button
-                android:id="@+id/btn_configuração"
+                android:id="@+id/btn_configuracao"
                 android:layout_width="34sp"
                 android:layout_height="34sp"
                 android:background="@drawable/icone_configuraacao"

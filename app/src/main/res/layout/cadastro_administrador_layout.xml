@@ -40,10 +40,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20sp"
             android:layout_marginBottom="15sp"
-            app:boxStrokeColor="@color/Cor_principal"
-            app:hintTextColor="#51247C"
             android:hint="@string/TipoEstabelecimento"
-            >
+            app:boxStrokeColor="@color/Cor_principal"
+            app:hintTextColor="#51247C">
 
             <AutoCompleteTextView
                 android:id="@+id/act_TipoDeEstabelecimento"
@@ -106,7 +105,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btn_proximo"
+            android:id="@+id/btn_proximotipofun"
             android:layout_width="270sp"
             android:layout_height="70sp"
             android:fontFamily="@font/segoe_ui_bold"

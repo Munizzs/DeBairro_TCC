@@ -11,32 +11,22 @@ import android.widget.Spinner;
 
 public class Cadastro2Activity extends AppCompatActivity {
 
-    ViewHolder mViewHolder = new ViewHolder();
-
+    private Button btnLogin2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTheme(R.style.Theme_DeBairro_TCC);
         setContentView(R.layout.cadastro2_layout);
-        getSupportActionBar().hide();
 
 
-        mViewHolder.btnLogin2 = findViewById(R.id.btn_Login2);
-
-
-        mViewHolder.btnLogin2.setOnClickListener(new View.OnClickListener() {
+        btnLogin2 = findViewById(R.id.btn_Login2);
+        btnLogin2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Cadastro2Activity.this, CadastroTipoContaActivity.class);
                 startActivity(i);
             }
         });
-
-    }
-
-    public static class ViewHolder {
-        Button btnLogin2;
 
     }
 }
