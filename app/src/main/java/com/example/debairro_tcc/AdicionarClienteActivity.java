@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class AdicionarClienteActivity extends AppCompatActivity {
 
-    private Button FinalizarC1, AMI;
+    private Button FinalizarC1, AMI, voltarcli;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +20,7 @@ public class AdicionarClienteActivity extends AppCompatActivity {
         FinalizarC1.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent(AdicionarClienteActivity.this,ClientesFragment.class);
+                    Intent intent = new Intent(AdicionarClienteActivity.this,TelaPrincipalActivity.class);
                     startActivity(intent);
                 }
             });
@@ -34,5 +34,14 @@ public class AdicionarClienteActivity extends AppCompatActivity {
                     startActivity(it);
                 }
             });
+
+        voltarcli = findViewById(R.id.btn_Voltarclientefragment);
+        voltarcli.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(AdicionarClienteActivity.this,AdicionarCliente2Activity.class);
+                startActivity(it);
+            }
+        });
     }
 }

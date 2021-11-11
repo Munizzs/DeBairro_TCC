@@ -5,34 +5,252 @@
     android:layout_height="match_parent"
     tools:context=".NotificacoesFragment">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="55sp">
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_margin="20sp">
-
-    <TextView
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="15sp"
-        android:layout_marginLeft="15sp"
-        android:layout_marginTop="15sp"
-        android:layout_marginEnd="15sp"
-        android:layout_marginRight="15sp"
-        android:layout_marginBottom="15sp"
-        android:fontFamily="@font/segoe_ui_bold"
-        android:text="@string/notifica_es"
-        android:textColor="@color/black"
-        android:textSize="40sp" />
+        android:backgroundTint="@color/Cor_principal"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
-    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55sp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_voltartelaprincipal"
+                android:layout_width="36sp"
+                android:layout_height="36sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="10sp"
+                android:background="@drawable/icone_logo_carrinho_de_compras"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/DeBairroo"
+                android:fontFamily="@font/segoe_ui_bold"
+                android:layout_marginTop="13sp"
+                android:textSize="23sp"
+                android:layout_marginLeft="10sp"
+                android:textColor="@color/white"
+                />
+
+            <!--<Button
+                android:id="@+id/btn_configuração"
+                android:layout_width="36sp"
+                android:layout_height="36sp"
+                android:background="@drawable/icone_configuraacao"
+                android:layout_marginLeft="210sp"
+                android:layout_marginTop="10sp"
+                android:backgroundTint="@color/white"/>-->
+
+        </LinearLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55sp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="20sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoe_ui_bold"
+                android:text="@string/Configuracao"
+                android:textColor="@color/black"
+                android:textSize="38sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="22dp"
+                android:background="@color/black" />
+
+            <Button
+                android:id="@+id/btn_Maquina"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/segoe_ui"
+                android:text="@string/Maquininhas_de_cartao"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black" />
+
+            <Button
+                android:id="@+id/btn_Conta"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/segoe_ui"
+                android:text="@string/Conta"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black" />
+
+            <Button
+                android:id="@+id/btn_Funcionarios"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/segoe_ui"
+                android:text="@string/Funcionarios"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black" />
+
+            <Button
+                android:id="@+id/btn_Addfuncionarios"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/segoe_ui"
+                android:text="@string/Adicionar_Funcionarios"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black" />
+
+            <Button
+                android:id="@+id/btn_Idioma"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/segoe_ui"
+                android:text="@string/Idioma"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black" />
+
+
+            <Button
+                android:id="@+id/btn_Moeda"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/segoe_ui"
+                android:text="@string/Moeda"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black" />
+
+            <Button
+                android:id="@+id/btn_AvalieNA"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/segoe_ui"
+                android:text="@string/Avalie_nosso_aplicativo"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black" />
+
+            <Button
+                android:id="@+id/btn_Suporte"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/segoe_ui"
+                android:text="@string/Suporte"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black" />
+
+            <Button
+                android:id="@+id/btn_Creditos"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/segoe_ui"
+                android:text="@string/Creditos"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"
+                android:contentDescription="@string/todo" />
+
+            <Button
+                android:id="@+id/btn_Sobre"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/segoe_ui"
+                android:text="@string/Sobre_o_aplicativo"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+            <!--            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150sp"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/segoe_ui"
+                android:text="@string/DeBairro"
+                android:textColor="@color/black"
+                android:textSize="19sp" />                    -->
+
+        </LinearLayout>
 
     </LinearLayout>
 

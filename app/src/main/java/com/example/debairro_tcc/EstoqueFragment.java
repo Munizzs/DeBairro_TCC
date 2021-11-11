@@ -10,12 +10,20 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.example.debairro_tcc.databinding.AdicionarFuncionario2LayoutBinding;
+
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link EstoqueFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
+
+
+
 public class EstoqueFragment extends Fragment {
+
+    private Button addproduto;
+
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -25,7 +33,7 @@ public class EstoqueFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
-    private Button AdProdutoE;
+    private Button AdProdutoE, Visualizarvendas;
 
     public EstoqueFragment() {
         // Required empty public constructor
@@ -53,18 +61,11 @@ public class EstoqueFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        AdProdutoE.findViewById(R.id.btn_adicionarEstoque);
-
-
-
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
 
-
         }
-
-
 
     }
 
@@ -72,8 +73,24 @@ public class EstoqueFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_estoque_layout, container, false);
+        View view = inflater.inflate(R.layout.fragment_estoque_layout, container, false);
+        AdProdutoE = view.findViewById(R.id.btn_adicionarEstoque);
+        AdProdutoE.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),AdicionarProdutoActivity.class));
+            }
+        });
+        Visualizarvendas = view.findViewById(R.id.btn_visualizarVendas);
+        Visualizarvendas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),ConfiguracaoSobreActivity.class));
+            }
+        });
+        return view;
     }
-
-
 }
+
+
+

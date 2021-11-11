@@ -1,5 +1,6 @@
 package com.example.debairro_tcc;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,6 +8,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.Toolbar;
 
 /**
@@ -16,7 +18,6 @@ import android.widget.Toolbar;
  */
 public class ClientesFragment extends Fragment {
 
-
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -25,6 +26,7 @@ public class ClientesFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+    private Button adicionacli, visualizarcli;
 
     public ClientesFragment() {
         // Required empty public constructor
@@ -58,11 +60,25 @@ public class ClientesFragment extends Fragment {
 
     }
 
-    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_clientes_layout, container, false);
-    }
+        View view = inflater.inflate(R.layout.fragment_clientes_layout, container, false);
 
+        adicionacli = view.findViewById(R.id.btn_adicionarClientes);
+        adicionacli.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(), AdicionarClienteActivity.class));
+            }
+        });
+        visualizarcli = view.findViewById(R.id.btn_visualizarClientes);
+        visualizarcli.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(), ConfiguracaoSobreActivity.class));
+            }
+        });
+        return view;
+    }
 }

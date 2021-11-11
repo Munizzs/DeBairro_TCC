@@ -79,7 +79,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="80sp"
                 android:fontFamily="@font/segoe_ui"
-                android:text="@string/Em_breve"
+                android:text="@string/ocorreu_um_erro"
                 android:textColor="@color/black"
                 android:textSize="30sp" />
 

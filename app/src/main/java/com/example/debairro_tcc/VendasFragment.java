@@ -1,5 +1,6 @@
 package com.example.debairro_tcc;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,6 +8,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -23,6 +25,7 @@ public class VendasFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+    private Button NVenda, historicovendas;
 
     public VendasFragment() {
         // Required empty public constructor
@@ -54,11 +57,27 @@ public class VendasFragment extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
     }
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_vendas_layout, container, false);
+        View view = inflater.inflate(R.layout.fragment_vendas_layout, container, false);
+
+        NVenda = view.findViewById(R.id.btn_novaVenda);
+        NVenda.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),NovaVendaLayoutActivity.class));
+            }
+        });
+        historicovendas = view.findViewById(R.id.btn_historicoVendas);
+        historicovendas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),ConfiguracaoSobreActivity.class));
+            }
+        });
+        return view;
+
     }
 }

@@ -23,8 +23,8 @@ public class TelaPrincipalActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTheme(R.style.Theme_DeBairro_TCC);
         setContentView(R.layout.tela_principal_layout);
+
         bnTelaPrincipal = findViewById(R.id.bn_telaPrincipal);
         getSupportFragmentManager().beginTransaction().replace(R.id.body_container, new VendasFragment()).commit();
         bnTelaPrincipal.setSelectedItemId(R.id.nav_vendas);
@@ -35,7 +35,7 @@ public class TelaPrincipalActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 Fragment fragment = null;
 
-                switch (item.getItemId()){
+                switch (item.getItemId()) {
 
                     case R.id.nav_vendas:
                         fragment = new VendasFragment();
@@ -78,5 +78,5 @@ public class TelaPrincipalActivity extends AppCompatActivity {
         super.onCreateOptionsMenu(menu);
         getMenuInflater().inflate(R.menu.menu_top, menu);
         return true;
-    }
+}
 }

@@ -20,7 +20,6 @@ public class LoginActivity extends AppCompatActivity {
 
         btnEsqueceuSenha = findViewById(R.id.btn_EsqueceuSenha);
 
-
         login = findViewById(R.id.btn_Login2);
         login.setOnClickListener(new View.OnClickListener() {
             @Override

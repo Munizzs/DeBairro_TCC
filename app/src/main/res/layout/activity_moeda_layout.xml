@@ -146,9 +146,9 @@
 
 
             <Button
-                android:id="@+id/btn_salvar_tipo_moeda"
-                android:layout_width="300sp"
-                android:layout_height="70sp"
+                android:id="@+id/btn_salvartipomoeda"
+                android:layout_width="230sp"
+                android:layout_height="60sp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="500sp"
                 android:fontFamily="@font/segoe_ui_bold"

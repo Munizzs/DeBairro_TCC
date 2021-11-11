@@ -33,6 +33,7 @@
             app:hintTextColor="#51247C"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_marginBottom="15sp"
+            android:layout_marginTop="110sp"
             >
 
             <com.google.android.material.textfield.TextInputEditText
@@ -49,7 +50,7 @@
             android:hint="@string/Senha"
             app:boxStrokeColor="@color/Cor_principal"
             app:hintTextColor="#51247C"
-            android:layout_marginBottom="15sp"
+            android:layout_marginBottom="10sp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             app:passwordToggleEnabled="true"
             >
@@ -66,7 +67,6 @@
             android:layout_height="wrap_content"
             android:gravity="right"
             android:orientation="horizontal">
-
 
             <Button
                 android:id="@+id/btn_EsqueceuSenha"
@@ -90,14 +90,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginLeft="30sp"
-        android:layout_marginRight="30sp"
         android:gravity="center"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/btn_Login2"
-            android:layout_width="match_parent"
+            android:layout_width="260sp"
             android:layout_height="70sp"
             android:fontFamily="@font/segoe_ui_bold"
             android:text="@string/Login"

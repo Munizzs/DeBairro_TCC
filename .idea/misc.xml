@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/drawable/ic_copia.xml" value="0.2203125" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/drawable/icone_clientes.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/drawable/icone_configuracaovazio.xml" value="0.2203125" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/drawable/item_selector.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout-v21/maquinhinha_layout.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/activity_moeda_layout.xml" value="0.25" />
@@ -15,14 +16,14 @@
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/adicionar_funcionario_layout.xml" value="0.22" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/adicionar_maquininha_layout.xml" value="0.25" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/adicionar_produto2_layout.xml" value="0.22" />
-        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/adicionar_produto_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/adicionar_produto_layout.xml" value="0.22" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/alterar_permissoes_layout.xml" value="0.22" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro2_layout.xml" value="0.25" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro_administrador_layout.xml" value="0.23770491803278687" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro_funcionario_layout.xml" value="0.25" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro_layout.xml" value="0.25" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro_tipo_conta_layout.xml" value="0.25" />
-        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/configuracao_inicial.xml" value="0.22" />
+        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/configuracao_inicial.xml" value="0.2" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/configuracao_sobre_layout.xml" value="0.25" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/dropdown_item.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/fragment_clientes_layout.xml" value="0.20416666666666666" />
@@ -91,7 +92,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

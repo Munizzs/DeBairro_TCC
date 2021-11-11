@@ -207,5 +207,6 @@
     <string name="maquinas_de_cart_o" translatable="false">Maquinas de cartão</string>
     <string name="suportee" translatable="false">Suporte</string>
     <string name="contaa" translatable="false">Conta</string>
+    <string name="ocorreu_um_erro">Ocorreu um erro</string>
 
 </resources>

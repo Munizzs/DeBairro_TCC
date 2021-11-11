@@ -2,6 +2,7 @@ package com.example.debairro_tcc;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -12,7 +13,7 @@ import android.widget.Toast;
 
 public class MoedaLayout extends AppCompatActivity {
 
-
+    private Button salvar, voltarconf;
     RadioGroup radioGroup;
     RadioButton radioButton;
     TextView textView;
@@ -23,12 +24,32 @@ public class MoedaLayout extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_moeda_layout);
 
+        salvar = findViewById(R.id.btn_salvartipomoeda);
+        salvar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(MoedaLayout.this, ConfiguracaoInicialActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        voltarconf = findViewById(R.id.btn_VoltarMoeda);
+        voltarconf.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(MoedaLayout.this, ConfiguracaoInicialActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
         radioGroup = findViewById(R.id.radioGroup_md);
         textView = findViewById(R.id.tv_opcao);
 
 
-        Button buttonApply = findViewById(R.id.btn_salvar_tipo_moeda);
+        Button buttonApply = findViewById(R.id.btn_salvartipomoeda);
         buttonApply.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){

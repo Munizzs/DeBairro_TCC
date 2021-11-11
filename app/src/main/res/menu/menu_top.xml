@@ -9,4 +9,5 @@
         app:showAsAction="always"
         android:icon="@drawable/carrinho_supermarket"
         />
+
 </menu>

@@ -22,7 +22,6 @@ public class NovaVendaLayoutActivity extends AppCompatActivity {
     String formaPagamento[];
     ArrayAdapter<String> arrayAdapter;
 
-
     @Override
     protected void onResume() {
         super.onResume();
@@ -31,9 +30,11 @@ public class NovaVendaLayoutActivity extends AppCompatActivity {
 
     }
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.nova_venda_layout);
+
 
         voltarNV = findViewById(R.id.btn_Voltarfravendas);
         voltarNV.setOnClickListener(new View.OnClickListener() {
@@ -43,9 +44,6 @@ public class NovaVendaLayoutActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.nova_venda_layout);
 
 
     }

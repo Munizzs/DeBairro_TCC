@@ -18,8 +18,9 @@
         android:icon="@drawable/icone_financas"
         />
     <item android:id="@+id/nav_notificacoes"
-        android:title="Notificações"
-        android:icon="@drawable/icone_notificacao"
+        android:title="Configuração"
+        android:icon="@drawable/icone_configuracaovazio"
+        android:iconTint="@color/Cor_dos_icones"
         />
 
 
