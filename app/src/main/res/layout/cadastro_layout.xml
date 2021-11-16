@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".CadastroActivity"
     android:layout_margin="20sp"
+    android:id="@+id/cadastroLayout"
    >
 
     <LinearLayout
@@ -23,11 +24,6 @@
             android:layout_margin="60sp"
             android:layout_marginBottom="20sp"
             android:background="@drawable/carrinho_supermarket_roxo" />
-
-
-
-
-
 
 
         <com.google.android.material.textfield.TextInputLayout
