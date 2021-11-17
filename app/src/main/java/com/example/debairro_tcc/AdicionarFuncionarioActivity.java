@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class AdicionarFuncionarioActivity extends AppCompatActivity {
 
-    private Button adicionar, gerarcodigo;
+    private Button adicionar, gerarcodigo, voltarcon;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +32,16 @@ public class AdicionarFuncionarioActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent intent = new Intent(AdicionarFuncionarioActivity.this, AdicionarFuncionario2Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        voltarcon = findViewById(R.id.btn_Voltarfunconfiguracao);
+        voltarcon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(AdicionarFuncionarioActivity.this, ConfiguracaoInicialActivity.class);
                 startActivity(intent);
             }
         });

@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class InformacoesUsuarioActivity extends AppCompatActivity {
 
-    private Button salvar, cancelar;
+    private Button salvar, cancelar, voltarconf;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +28,16 @@ public class InformacoesUsuarioActivity extends AppCompatActivity {
 
         cancelar = findViewById(R.id.btn_CancelarAlteracoes);
         cancelar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(InformacoesUsuarioActivity.this, ConfiguracaoInicialActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        voltarconf = findViewById(R.id.btn_Voltarconinf);
+        voltarconf.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 

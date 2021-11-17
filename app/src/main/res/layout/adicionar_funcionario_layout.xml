@@ -78,11 +78,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/Insirmemail"
-            android:layout_marginTop="5sp">
+            android:layout_marginTop="5sp"
+            app:boxStrokeColor="@color/Cor_principal"
+            app:hintTextColor="#51247C">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button

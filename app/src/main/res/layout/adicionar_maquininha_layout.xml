@@ -79,11 +79,14 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/Insira_a_empresa_da_maquina">
+            android:hint="@string/Insira_a_empresa_da_maquina"
+            app:boxStrokeColor="@color/Cor_principal"
+            app:hintTextColor="#51247C">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:inputType="none"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
@@ -101,11 +104,14 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/taxa_da_maquina_credito">
+            android:hint="@string/taxa_da_maquina_credito"
+            app:boxStrokeColor="@color/Cor_principal"
+            app:hintTextColor="#51247C">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:inputType="none"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
@@ -123,11 +129,14 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/taxa_da_maquina_debito">
+            android:hint="@string/taxa_da_maquina_debito"
+            app:boxStrokeColor="@color/Cor_principal"
+            app:hintTextColor="#51247C">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:inputType="none"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
@@ -145,25 +154,26 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/aluguel_da_maquina">
+            android:hint="@string/aluguel_da_maquina"
+            app:boxStrokeColor="@color/Cor_principal"
+            app:hintTextColor="#51247C">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:inputType="none"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <LinearLayout
             android:layout_marginTop="113sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30sp"
-            android:layout_marginRight="30sp"
             android:gravity="center"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/btn_Adicionar"
-                android:layout_width="match_parent"
+                android:layout_width="275sp"
                 android:layout_height="70sp"
                 android:fontFamily="@font/segoe_ui_bold"
                 android:text="@string/Finalizar_maquininha"

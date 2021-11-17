@@ -24,7 +24,7 @@ public class MoedaLayout extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_moeda_layout);
 
-        salvar = findViewById(R.id.btn_salvartipomoeda);
+        salvar = findViewById(R.id.btn_salvar_tipo_moeda);
         salvar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -49,7 +49,7 @@ public class MoedaLayout extends AppCompatActivity {
         textView = findViewById(R.id.tv_opcao);
 
 
-        Button buttonApply = findViewById(R.id.btn_salvartipomoeda);
+        Button buttonApply = findViewById(R.id.btn_salvar_tipo_moeda);
         buttonApply.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){

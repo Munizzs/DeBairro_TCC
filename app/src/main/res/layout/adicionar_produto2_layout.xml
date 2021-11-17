@@ -77,15 +77,18 @@
             android:id="@+id/edt_InsiraPesoProduto"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/Insira_o_peso_do_produto">
+            android:layout_height="match_parent"
+            android:hint="@string/Insira_o_peso_do_produto"
+            app:boxStrokeColor="@color/Cor_principal"
+            app:hintTextColor="#51247C">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:inputType="phone"/>
         </com.google.android.material.textfield.TextInputLayout>
 
-        <TextView
+            <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="@string/CódigoDeBarras"
@@ -99,11 +102,14 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/Insira_o_código_de_barras_do_produto">
+            android:hint="@string/Insira_o_código_de_barras_do_produto"
+            app:boxStrokeColor="@color/Cor_principal"
+            app:hintTextColor="#51247C">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:inputType="phone"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
@@ -170,11 +176,14 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/Insira_o_lote_do_produto">
+            android:hint="@string/Insira_o_lote_do_produto"
+            app:boxStrokeColor="@color/Cor_principal"
+            app:hintTextColor="#51247C">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:inputType="phone"/>
         </com.google.android.material.textfield.TextInputLayout>
 
     </LinearLayout>
@@ -191,7 +200,7 @@
 
         <Button
             android:id="@+id/btn_FinalizarP"
-            android:layout_width="match_parent"
+            android:layout_width="275sp"
             android:layout_height="70sp"
             android:fontFamily="@font/segoe_ui_bold"
             android:text="@string/Finalizar"

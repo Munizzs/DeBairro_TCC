@@ -78,11 +78,14 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/Insira_o_CPF_do_cliente">
+            android:hint="@string/Insira_o_CPF_do_cliente"
+            app:boxStrokeColor="@color/Cor_principal"
+            app:hintTextColor="#51247C">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:inputType="none"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
@@ -99,11 +102,14 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/Insira_o_CEP_do_cliente">
+            android:hint="@string/Insira_o_CEP_do_cliente"
+            app:boxStrokeColor="@color/Cor_principal"
+            app:hintTextColor="#51247C">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:inputType="none"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
@@ -120,11 +126,14 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/Insira_a_rua_do_cliente">
+            android:hint="@string/Insira_a_rua_do_cliente"
+            app:boxStrokeColor="@color/Cor_principal"
+            app:hintTextColor="#51247C">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:inputType="none"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
@@ -141,11 +150,14 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/Insira_um_complemento">
+            android:hint="@string/Insira_um_complemento"
+            app:boxStrokeColor="@color/Cor_principal"
+            app:hintTextColor="#51247C">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:inputType="none"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
@@ -162,11 +174,14 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/ex_25_01_2009">
+            android:hint="@string/ex_25_01_2009"
+            app:boxStrokeColor="@color/Cor_principal"
+            app:hintTextColor="#51247C">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:inputType="phone"/>
         </com.google.android.material.textfield.TextInputLayout>
 
     </LinearLayout>
@@ -183,7 +198,7 @@
 
         <Button
             android:id="@+id/btn_FinalizarC2"
-            android:layout_width="match_parent"
+            android:layout_width="275sp"
             android:layout_height="70sp"
             android:fontFamily="@font/segoe_ui_bold"
             android:text="@string/Finalizar"

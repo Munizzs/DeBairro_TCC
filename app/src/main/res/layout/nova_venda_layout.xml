@@ -74,13 +74,16 @@
 
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/edt_NomeOuCodigoVenda"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/NomeOuCodigoVenda">
+            android:layout_height="match_parent"
+            android:id="@+id/edt_NomeOuCodigoVenda"
+            android:hint="@string/NomeOuCodigoVenda"
+            app:boxStrokeColor="@color/Cor_principal"
+            app:hintTextColor="#51247C">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:inputType="none"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -95,20 +98,23 @@
         android:layout_marginTop="15sp"/>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/edt_inserirCliente"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:id="@+id/edt_inserirCliente"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:hint="@string/Insira_O_Cliente"
             app:helperTextEnabled="true"
-            app:helperText="@string/Opcional">
+            app:helperText="@string/Opcional"
+            app:boxStrokeColor="@color/Cor_principal"
+            app:hintTextColor="#51247C">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:inputType="none"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
         </com.google.android.material.textfield.TextInputLayout>
 
-        <TextView
+            <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/Forma_de_pagamento"

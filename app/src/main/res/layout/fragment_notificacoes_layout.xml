@@ -103,7 +103,9 @@
                 android:text="@string/Conta"
                 android:textAllCaps="false"
                 android:textColor="@color/black"
-                android:textSize="19sp" />
+                android:textSize="19sp"
+                android:textAlignment="textStart"
+                android:gravity="start" />
 
 
             <ImageView
@@ -170,7 +172,8 @@
                 android:text="@string/Moeda"
                 android:textAllCaps="false"
                 android:textColor="@color/black"
-                android:textSize="19sp" />
+                android:textSize="19sp"
+                android:gravity="start"/>
 
 
             <ImageView

@@ -23,13 +23,16 @@ public class NotificacoesFragment extends Fragment {
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
 
+    private Button maquina, funcionario, conta, addfuncionario, idioma, moeda, suporte, sobre;
+
+
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
 
     public NotificacoesFragment() {
         // Required empty public constructor
-}
+    }
 
 
     /**
@@ -63,8 +66,72 @@ public class NotificacoesFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_notificacoes_layout, container, false);
+        View view = inflater.inflate(R.layout.fragment_notificacoes_layout, container, false);
+
+        maquina = view.findViewById(R.id.btn_Maquina);
+        maquina.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(), MaquinaCadastradaActivity.class));
+            }
+        });
+
+        conta = view.findViewById(R.id.btn_Conta);
+        conta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(), InformacoesUsuarioActivity.class));
+            }
+        });
+
+        funcionario = view.findViewById(R.id.btn_Funcionarios);
+        funcionario.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(), AlterarPermissoesActivity.class));
+            }
+        });
+
+        addfuncionario = view.findViewById(R.id.btn_Addfuncionarios);
+        addfuncionario.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(), AdicionarFuncionarioActivity.class));
+            }
+        });
+
+        idioma = view.findViewById(R.id.btn_Idioma);
+        idioma.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(), IdiomaActivity.class));
+            }
+        });
+
+        moeda = view.findViewById(R.id.btn_Moeda);
+        moeda.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(), MoedaLayout.class));
+            }
+        });
+
+        suporte = view.findViewById(R.id.btn_Suporte);
+        suporte.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(), SuporteConfiguracaoActivity.class));
+            }
+        });
+
+        sobre = view.findViewById(R.id.btn_Sobre);
+        sobre.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(), ConfiguracaoSobreActivity.class));
+            }
+        });
+
+        return view;
     }
-
-
 }

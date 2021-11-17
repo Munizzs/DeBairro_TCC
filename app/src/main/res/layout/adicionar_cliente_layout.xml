@@ -85,11 +85,14 @@
           style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
-          android:hint="@string/Insira_o_nome_do_cliente">
+          android:hint="@string/Insira_o_nome_do_cliente"
+          app:boxStrokeColor="@color/Cor_principal"
+          app:hintTextColor="#51247C">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="text"/>
       </com.google.android.material.textfield.TextInputLayout>
 
       <TextView
@@ -106,7 +109,9 @@
           style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
-          android:hint="@string/Insira_o_limite_de_compras_em_débito">
+          android:hint="@string/Insira_o_limite_de_compras_em_débito"
+          app:boxStrokeColor="@color/Cor_principal"
+          app:hintTextColor="#51247C">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -127,11 +132,14 @@
           style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
-          android:hint="@string/Insira_o_telefone_do_cliente">
+          android:hint="@string/Insira_o_telefone_do_cliente"
+          app:boxStrokeColor="@color/Cor_principal"
+          app:hintTextColor="#51247C">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="phone"/>
       </com.google.android.material.textfield.TextInputLayout>
 
       <TextView
@@ -148,11 +156,14 @@
           style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
-          android:hint="@string/Insira_o_email_do_cliente">
+          android:hint="@string/Insira_o_email_do_cliente"
+          app:boxStrokeColor="@color/Cor_principal"
+          app:hintTextColor="#51247C">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"/>
       </com.google.android.material.textfield.TextInputLayout>
 
       <Button
@@ -181,7 +192,7 @@
 
     <Button
         android:id="@+id/btn_FinalizarC1"
-        android:layout_width="match_parent"
+        android:layout_width="275sp"
         android:layout_height="70sp"
         android:fontFamily="@font/segoe_ui_bold"
         android:text="@string/Finalizar"

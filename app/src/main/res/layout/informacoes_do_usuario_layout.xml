@@ -53,196 +53,207 @@
 
 
     <ScrollView
-            android:id="@+id/scrollviewteste"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fillViewport="true">
-
-    <LinearLayout
+        android:id="@+id/scrollviewteste"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="55sp">
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20sp"
-        android:orientation="vertical"
-        tools:ignore="UselessParent">
-
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/InformacoesdoUsuario"
-            android:textSize="25sp"
-            android:textColor="@color/black"
-            android:fontFamily="@font/segoe_ui_bold"
-            android:layout_marginBottom="10sp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/Nome"
-            android:textSize="22sp"
-            android:layout_marginTop="20sp"
-            android:textColor="@color/Cor_principal"
-            android:fontFamily="@font/segoe_ui"/>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/edt_InsiraNomeCliente"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/Insira_o_seu_nome">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/CPF"
-            android:textSize="22sp"
-            android:textColor="@color/Cor_principal"
-            android:fontFamily="@font/segoe_ui"
-            android:layout_marginTop="15sp"/>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/edt_InsiraLimiteComprasDebito"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/Insira_o_seu_CPF">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="@string/Telefone"
-            android:textSize="22sp"
-            android:textColor="@color/Cor_principal"
-            android:fontFamily="@font/segoe_ui"
-            android:layout_marginTop="15sp"/>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/edt_InsiraTelefoneCliente"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/Insira_o_seu_telefone">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="@string/Email"
-            android:textSize="22sp"
-            android:textColor="@color/Cor_principal"
-            android:fontFamily="@font/segoe_ui"
-            android:layout_marginTop="15sp"/>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/edt_InsiraEmailCliente"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/Insira_o_seu_email">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="@string/Senha"
-            android:textSize="22sp"
-            android:textColor="@color/Cor_principal"
-            android:fontFamily="@font/segoe_ui"
-            android:layout_marginTop="15sp"/>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/edt_InsiraSenhaCLiente"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/Insira_a_sua_senha">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="@string/DataDeNascimento"
-            android:textSize="22sp"
-            android:textColor="@color/Cor_principal"
-            android:fontFamily="@font/segoe_ui"
-            android:layout_marginTop="15sp"/>
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/edt_InsiraDataNascimento"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/Insira_a_sua_data_de_nascimento">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-
-        <Button
-            android:id="@+id/btn_CancelarAlteracoes"
-            style="@style/Widget.MaterialComponents.Button.TextButton"
-            android:layout_width="wrap_content"
-            android:layout_height="35sp"
-            android:layout_gravity="center"
-            android:layout_marginTop="45sp"
-            android:fontFamily="@font/segoe_ui_bold"
-            android:text="@string/CancelarAlteracoes"
-            android:textColor="@color/Cor_principal"
-            android:textSize="12sp" />
+        android:fillViewport="true">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="50sp">
+            android:layout_marginTop="55sp"
+            android:orientation="vertical">
 
-        <Button
-            android:id="@+id/btn_Salvar"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:fontFamily="@font/segoe_ui_bold"
-            android:text="@string/Salvar"
-            android:textSize="20sp"
-            app:backgroundTint="@color/Cor_principal"
-            app:cornerRadius="40sp"  />
-
-        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
 
 
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10sp"
+                    android:fontFamily="@font/segoe_ui_bold"
+                    android:text="@string/InformacoesdoUsuario"
+                    android:textColor="@color/Cor_dos_icones"
+                    android:textSize="23sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+                    android:fontFamily="@font/segoe_ui"
+                    android:text="@string/Nome"
+                    android:textColor="@color/Cor_principal"
+                    android:textSize="22sp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/edt_InsiraNomeCliente"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/Insira_o_seu_nome"
+                    app:boxStrokeColor="@color/Cor_principal"
+                    app:hintTextColor="#51247C">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="none"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:fontFamily="@font/segoe_ui"
+                    android:text="@string/CPF"
+                    android:textColor="@color/Cor_principal"
+                    android:textSize="22sp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/edt_InsiraLimiteComprasDebito"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/Insira_o_seu_CPF"
+                    app:boxStrokeColor="@color/Cor_principal"
+                    app:hintTextColor="#51247C">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10sp"
+                    android:fontFamily="@font/segoe_ui"
+                    android:text="@string/Telefone"
+                    android:textColor="@color/Cor_principal"
+                    android:textSize="22sp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/edt_InsiraTelefoneCliente"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/Insira_o_seu_telefone"
+                    app:boxStrokeColor="@color/Cor_principal"
+                    app:hintTextColor="#51247C">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="phone"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10sp"
+                    android:fontFamily="@font/segoe_ui"
+                    android:text="@string/Email"
+                    android:textColor="@color/Cor_principal"
+                    android:textSize="22sp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/edt_InsiraEmailCliente"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/Insira_o_seu_email"
+                    app:boxStrokeColor="@color/Cor_principal"
+                    app:hintTextColor="#51247C">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10sp"
+                    android:fontFamily="@font/segoe_ui"
+                    android:text="@string/Senha"
+                    android:textColor="@color/Cor_principal"
+                    android:textSize="22sp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/edt_InsiraSenhaCLiente"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/Insira_a_sua_senha"
+                    app:boxStrokeColor="@color/Cor_principal"
+                    app:hintTextColor="#51247C">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10sp"
+                    android:fontFamily="@font/segoe_ui"
+                    android:text="@string/DataDeNascimento"
+                    android:textColor="@color/Cor_principal"
+                    android:textSize="22sp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/edt_InsiraDataNascimento"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/Insira_a_sua_data_de_nascimento"
+                    app:boxStrokeColor="@color/Cor_principal"
+                    app:hintTextColor="#51247C">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="date"/>
+                </com.google.android.material.textfield.TextInputLayout>
 
 
-    </LinearLayout>
+                <Button
+                    android:id="@+id/btn_CancelarAlteracoes"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35sp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15sp"
+                    android:fontFamily="@font/segoe_ui_bold"
+                    android:text="@string/CancelarAlteracoes"
+                    android:textColor="@color/Cor_principal"
+                    android:textSize="12sp" />
 
-    </LinearLayout>
+                    <Button
+                        android:layout_marginTop="10sp"
+                        android:layout_marginBottom="40sp"
+                        android:id="@+id/btn_Salvar"
+                        android:layout_width="275sp"
+                        android:layout_height="70sp"
+                        android:fontFamily="@font/segoe_ui_bold"
+                        android:text="@string/Salvar"
+                        android:textSize="20sp"
+                        app:backgroundTint="@color/Cor_principal"
+                        app:cornerRadius="40sp"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
 
     </ScrollView>
 

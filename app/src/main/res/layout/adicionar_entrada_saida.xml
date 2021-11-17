@@ -83,7 +83,9 @@
                         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="@string/tipo_fatura">
+                        android:hint="@string/tipo_fatura"
+                        app:boxStrokeColor="@color/Cor_principal"
+                        app:hintTextColor="#51247C">
 
                         <AutoCompleteTextView
                             android:id="@+id/act_TipoDeFatura"
@@ -108,11 +110,14 @@
                         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="@string/Inserir_descricão">
+                        android:hint="@string/Inserir_descricão"
+                        app:boxStrokeColor="@color/Cor_principal"
+                        app:hintTextColor="#51247C">
 
                         <com.google.android.material.textfield.TextInputEditText
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"
+                            android:inputType="none"/>
                     </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -131,7 +136,9 @@
                         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="@string/Hoje">
+                        android:hint="@string/Hoje"
+                        app:boxStrokeColor="@color/Cor_principal"
+                        app:hintTextColor="#51247C">
 
                         <AutoCompleteTextView
                             android:id="@+id/act_DataDaCobrança"
@@ -156,7 +163,9 @@
                         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="@string/Hoje">
+                        android:hint="@string/Hoje"
+                        app:boxStrokeColor="@color/Cor_principal"
+                        app:hintTextColor="#51247C">
 
                         <AutoCompleteTextView
                             android:id="@+id/act_DataDoVencimento"
@@ -181,7 +190,9 @@
                         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="@string/Forma_de_pagamento">
+                        android:hint="@string/Forma_de_pagamento"
+                        app:boxStrokeColor="@color/Cor_principal"
+                        app:hintTextColor="#51247C">
 
                         <AutoCompleteTextView
                             android:id="@+id/act_"
@@ -206,7 +217,9 @@
                         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="@string/numero_parcelas">
+                        android:hint="@string/numero_parcelas"
+                        app:boxStrokeColor="@color/Cor_principal"
+                        app:hintTextColor="#51247C">
 
                         <AutoCompleteTextView
                             android:id="@+id/act_FormaPagamento"
@@ -217,7 +230,7 @@
 
                     <Button
                         android:id="@+id/btn_EntradaSaida1"
-                        android:layout_width="match_parent"
+                        android:layout_width="275sp"
                         android:layout_height="70sp"
                         android:layout_marginTop="40sp"
                         android:layout_marginBottom="40sp"
@@ -225,7 +238,8 @@
                         android:text="@string/Proximo"
                         android:textSize="20sp"
                         app:backgroundTint="@color/Cor_principal"
-                        app:cornerRadius="40sp" />
+                        app:cornerRadius="40sp"
+                        android:layout_gravity="center"/>
 
                 </LinearLayout>
 

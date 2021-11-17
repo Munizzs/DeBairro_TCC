@@ -92,12 +92,15 @@
                     android:id="@+id/edt_InsiraNomeProduto"
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/Inserir_nome_do_produto">
+                    android:layout_height="match_parent"
+                    android:hint="@string/Inserir_nome_do_produto"
+                    app:boxStrokeColor="@color/Cor_principal"
+                    app:hintTextColor="#51247C">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:inputType="none"/>
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <TextView
@@ -113,12 +116,15 @@
                     android:id="@+id/edt_InsiraMarcaDoProduto"
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/Inserir_marca_do_produto">
+                    android:layout_height="match_parent"
+                    android:hint="@string/Inserir_marca_do_produto"
+                    app:boxStrokeColor="@color/Cor_principal"
+                    app:hintTextColor="#51247C">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:inputType="none"/>
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <TextView
@@ -159,12 +165,15 @@
                     android:id="@+id/edt_PrecoDoProduto"
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/Insira_Preco_Produto">
+                    android:layout_height="match_parent"
+                    android:hint="@string/Insira_Preco_Produto"
+                    app:boxStrokeColor="@color/Cor_principal"
+                    app:hintTextColor="#51247C">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:inputType="phone"/>
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <TextView
@@ -180,12 +189,15 @@
                     android:id="@+id/edt_InsiraPrecoDaVenda"
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/Insira_preco_venda">
+                    android:layout_height="match_parent"
+                    android:hint="@string/Insira_preco_venda"
+                    app:boxStrokeColor="@color/Cor_principal"
+                    app:hintTextColor="#51247C">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:inputType="phone"/>
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <Button
@@ -203,7 +215,7 @@
 
                 <Button
                     android:id="@+id/btn_proximo"
-                    android:layout_width="match_parent"
+                    android:layout_width="275sp"
                     android:layout_height="70sp"
                     android:layout_marginTop="20sp"
                     android:layout_marginBottom="50sp"
@@ -211,7 +223,8 @@
                     android:text="@string/Cadastro"
                     android:textSize="20sp"
                     app:backgroundTint="@color/Cor_principal"
-                    app:cornerRadius="40sp" />
+                    app:cornerRadius="40sp"
+                    android:layout_gravity="center"/>
 
             </LinearLayout>
 
