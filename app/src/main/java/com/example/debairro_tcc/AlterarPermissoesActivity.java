@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class AlterarPermissoesActivity extends AppCompatActivity {
 
-    private Button concluir;
+    private Button concluir, voltar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +21,17 @@ public class AlterarPermissoesActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(AlterarPermissoesActivity.this, ConfiguracaoInicialActivity.class);
+                Intent intent = new Intent(AlterarPermissoesActivity.this, TelaPrincipalActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        voltar = findViewById(R.id.btn_Voltarperm);
+        voltar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(AlterarPermissoesActivity.this, TelaPrincipalActivity.class);
                 startActivity(intent);
             }
         });

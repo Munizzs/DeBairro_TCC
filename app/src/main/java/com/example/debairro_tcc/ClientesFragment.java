@@ -76,7 +76,7 @@ public class ClientesFragment extends Fragment {
         visualizarcli.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getActivity(), ConfiguracaoSobreActivity.class));
+                startActivity(new Intent(getActivity(), VisualizarClientesActivity.class));
             }
         });
         return view;

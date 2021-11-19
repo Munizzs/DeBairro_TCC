@@ -9,35 +9,29 @@ import android.widget.Button;
 
 public class AdicionarCliente2Activity extends AppCompatActivity {
 
-    private Button FinalizarC2;
-    private Button voltar;
+    private Button finalizar, voltar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.adicionar_cliente2_layout);
 
-
-        voltar = findViewById(R.id.btn_Voltarfravendas);
-        voltar.setOnClickListener(new View.OnClickListener() {
+        finalizar = findViewById(R.id.btn_Voltarcliente);
+        finalizar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(AdicionarCliente2Activity.this, AdicionarClienteActivity.class);
+                Intent it = new Intent(AdicionarCliente2Activity.this,TelaPrincipalActivity.class);
                 startActivity(it);
             }
         });
 
-        FinalizarC2 = findViewById(R.id.btn_FinalizarC2);
-        FinalizarC2.setOnClickListener(new View.OnClickListener() {
+        voltar = findViewById(R.id.btn_Finalizarclie);
+        voltar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(AdicionarCliente2Activity.this,ClientesFragment.class);
-                startActivity(intent);
+                Intent it = new Intent(AdicionarCliente2Activity.this,TelaPrincipalActivity.class);
+                startActivity(it);
             }
         });
-
-
-
-
     }
 }

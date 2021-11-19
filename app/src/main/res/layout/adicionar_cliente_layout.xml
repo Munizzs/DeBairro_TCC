@@ -20,7 +20,7 @@
         android:orientation="horizontal">
 
       <Button
-          android:id="@+id/btn_Voltarclientefragment"
+          android:id="@+id/btn_Voltarclienteeefragment"
           android:layout_width="36sp"
           android:layout_height="36sp"
           android:layout_marginLeft="10sp"
@@ -180,13 +180,12 @@
 
     </LinearLayout>
 
+  </LinearLayout>
+
   <LinearLayout
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:layout_alignParentBottom="true"
-      android:layout_marginLeft="30sp"
-      android:layout_marginRight="30sp"
-      android:layout_marginTop="20sp"
       android:gravity="center"
       android:orientation="horizontal">
 
@@ -198,10 +197,9 @@
         android:text="@string/Finalizar"
         android:textSize="20sp"
         app:backgroundTint="@color/Cor_principal"
-        app:cornerRadius="40sp"  />
+        app:cornerRadius="40sp"
+        android:layout_marginBottom="5sp"/>
 
   </LinearLayout>
 
-  </LinearLayout>
-
-  </RelativeLayout>
+</RelativeLayout>

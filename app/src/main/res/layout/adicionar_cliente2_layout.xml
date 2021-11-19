@@ -186,27 +186,25 @@
 
     </LinearLayout>
 
+    </LinearLayout>
+
     <LinearLayout
-        android:weightSum="1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginLeft="30sp"
-        android:layout_marginRight="30sp"
         android:gravity="center"
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btn_FinalizarC2"
-            android:layout_width="275sp"
+            android:id="@+id/btn_Finalizarclie"
+            android:layout_width="270sp"
             android:layout_height="70sp"
             android:fontFamily="@font/segoe_ui_bold"
             android:text="@string/Finalizar"
             android:textSize="20sp"
             app:backgroundTint="@color/Cor_principal"
-            app:cornerRadius="40sp" />
-
-    </LinearLayout>
+            app:cornerRadius="40sp"
+            android:layout_marginBottom="5sp"/>
 
     </LinearLayout>
 

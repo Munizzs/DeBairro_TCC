@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class AdicionarMaquininhaActivity extends AppCompatActivity {
 
-    private Button finalizar;
+    private Button finalizar, voltar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +22,16 @@ public class AdicionarMaquininhaActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent intent = new Intent(AdicionarMaquininhaActivity.this, MaquinaCadastradaActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        voltar = findViewById(R.id.btn_Voltaraddmaquina);
+        voltar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(AdicionarMaquininhaActivity.this, TelaPrincipalActivity.class);
                 startActivity(intent);
             }
         });

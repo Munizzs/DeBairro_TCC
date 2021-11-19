@@ -19,7 +19,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btn_Voltarapermconfiguracao"
+                android:id="@+id/btn_Voltarperm"
                 android:layout_width="36sp"
                 android:layout_height="36sp"
                 android:layout_marginLeft="10sp"
@@ -121,12 +121,16 @@
             android:textColor="@color/black"
             android:textSize="20sp" />
 
-        <LinearLayout
-            android:layout_marginTop="168sp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal">
+        </LinearLayout>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:orientation="horizontal">
 
             <Button
                 android:id="@+id/btn_Concluir"
@@ -136,11 +140,8 @@
                 android:text="@string/Concluir"
                 android:textSize="20sp"
                 app:backgroundTint="@color/Cor_principal"
-                app:cornerRadius="40sp" />
-
-        </LinearLayout>
-
-    </LinearLayout>
+                app:cornerRadius="40sp"
+                android:layout_marginBottom="5sp"/>
 
     </LinearLayout>
 

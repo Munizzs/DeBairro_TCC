@@ -58,7 +58,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_margin="20sp">
 
             <RadioGroup
@@ -145,18 +145,24 @@
                 android:background="@drawable/icon_euro" />
 
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:orientation="horizontal">
+
             <Button
                 android:id="@+id/btn_salvar_tipo_moeda"
-                android:layout_width="300sp"
+                android:layout_width="260sp"
                 android:layout_height="70sp"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="500sp"
                 android:fontFamily="@font/segoe_ui_bold"
                 android:text="@string/Salvar"
                 android:textSize="20sp"
                 app:backgroundTint="@color/Cor_principal"
                 app:cornerRadius="40sp" />
 
+            </LinearLayout>
 
         </RelativeLayout>
 

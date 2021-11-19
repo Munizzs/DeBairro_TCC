@@ -244,7 +244,7 @@
                 android:textColor="@color/black"
                 android:textSize="19sp" />
 
-            <!--            <TextView
+                      <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="150sp"
@@ -252,7 +252,7 @@
                 android:fontFamily="@font/segoe_ui"
                 android:text="@string/DeBairro"
                 android:textColor="@color/black"
-                android:textSize="19sp" />                    -->
+                android:textSize="19sp" />
 
         </LinearLayout>
 

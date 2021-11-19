@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 
 public class InformacoesUsuarioActivity extends AppCompatActivity {
@@ -21,7 +23,7 @@ public class InformacoesUsuarioActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(InformacoesUsuarioActivity.this, ConfiguracaoInicialActivity.class);
+                Intent intent = new Intent(InformacoesUsuarioActivity.this, TelaPrincipalActivity.class);
                 startActivity(intent);
             }
         });
@@ -31,7 +33,7 @@ public class InformacoesUsuarioActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(InformacoesUsuarioActivity.this, ConfiguracaoInicialActivity.class);
+                Intent intent = new Intent(InformacoesUsuarioActivity.this, TelaPrincipalActivity.class);
                 startActivity(intent);
             }
         });
@@ -41,9 +43,10 @@ public class InformacoesUsuarioActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(InformacoesUsuarioActivity.this, ConfiguracaoInicialActivity.class);
+                Intent intent = new Intent(InformacoesUsuarioActivity.this, TelaPrincipalActivity.class);
                 startActivity(intent);
             }
         });
-    }
+     }
+
 }

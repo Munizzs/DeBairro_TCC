@@ -220,7 +220,7 @@
                     android:layout_marginTop="20sp"
                     android:layout_marginBottom="50sp"
                     android:fontFamily="@font/segoe_ui_bold"
-                    android:text="@string/Cadastro"
+                    android:text="@string/Finalizarprod"
                     android:textSize="20sp"
                     app:backgroundTint="@color/Cor_principal"
                     app:cornerRadius="40sp"

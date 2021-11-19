@@ -56,107 +56,121 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="55sp">
 
-    <LinearLayout
-        android:layout_margin="20sp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:orientation="vertical">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/segoe_ui"
-            android:textSize="20sp"
-            android:textColor="@color/black"
-            android:text="@string/text1"
-            android:layout_marginTop="10sp"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/segoe_ui"
-            android:textSize="20sp"
-            android:textColor="@color/black"
-            android:text="@string/text2"
-            android:layout_marginTop="30sp"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/segoe_ui"
-            android:textSize="20sp"
-            android:textColor="@color/black"
-            android:text="@string/Noinstagram"
-            android:layout_marginTop="40sp"/>
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="5sp">
-
-        <ImageView
-            android:layout_width="46sp"
-            android:layout_height="46sp"
-            android:background="@drawable/icone_instagram"
-            android:maxHeight="20sp" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/debairroinsta"
-            android:textSize="20sp"
-            android:textColor="@color/black"
-            android:fontFamily="@font/segoe_ui"
-            android:layout_marginTop="10sp"/>
-
-        </LinearLayout>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/segoe_ui"
-            android:layout_marginTop="10sp"
-            android:text="Ou no email"
-            android:textColor="@color/black"
-            android:textSize="20sp"/>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="5sp">
-
-            <ImageView
-                android:layout_width="42sp"
-                android:layout_height="42sp"
-                android:background="@drawable/icone_gmail"
-                android:maxHeight="20sp" />
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginEnd="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="20sp"
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/debairroemail"
-                android:textSize="20sp"
-                android:textColor="@color/black"
-                android:fontFamily="@font/segoe_ui"
                 android:layout_marginTop="10sp"
-                android:layout_marginLeft="5sp"/>
+                android:fontFamily="@font/segoe_ui"
+                android:text="@string/text1"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/segoe_ui"
+                android:text="@string/text2"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40sp"
+                android:fontFamily="@font/segoe_ui"
+                android:text="@string/Noinstagram"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="46sp"
+                    android:layout_height="46sp"
+                    android:background="@drawable/icone_instagram"
+                    android:maxHeight="20sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:fontFamily="@font/segoe_ui"
+                    android:text="@string/debairroinsta"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/segoe_ui"
+                android:text="Ou no email"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="42sp"
+                    android:layout_height="42sp"
+                    android:background="@drawable/icone_gmail"
+                    android:maxHeight="20sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="10sp"
+                    android:fontFamily="@font/segoe_ui"
+                    android:text="@string/debairroemail"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
 
         </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="150sp"
-            android:layout_marginTop="200sp"
+            android:layout_gravity="center"
             android:fontFamily="@font/segoe_ui"
             android:text="@string/DeBairro"
             android:textColor="@color/black"
-            android:textSize="20sp" />
-
-    </LinearLayout>
+            android:textSize="20sp"
+            android:layout_marginBottom="5sp"/>
 
     </LinearLayout>
 

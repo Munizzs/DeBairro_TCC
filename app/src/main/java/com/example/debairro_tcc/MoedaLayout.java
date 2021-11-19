@@ -2,6 +2,7 @@ package com.example.debairro_tcc;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -24,22 +25,22 @@ public class MoedaLayout extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_moeda_layout);
 
-        salvar = findViewById(R.id.btn_salvar_tipo_moeda);
+        /*salvar = findViewById(R.id.btn_salvar_tipo_moeda);
         salvar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(MoedaLayout.this, ConfiguracaoInicialActivity.class);
+                Intent intent = new Intent(MoedaLayout.this, TelaPrincipalActivity.class);
                 startActivity(intent);
             }
-        });
+        });*/
 
         voltarconf = findViewById(R.id.btn_VoltarMoeda);
         voltarconf.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(MoedaLayout.this, ConfiguracaoInicialActivity.class);
+                Intent intent = new Intent(MoedaLayout.this, TelaPrincipalActivity.class);
                 startActivity(intent);
             }
         });
@@ -51,6 +52,7 @@ public class MoedaLayout extends AppCompatActivity {
 
         Button buttonApply = findViewById(R.id.btn_salvar_tipo_moeda);
         buttonApply.setOnClickListener(new View.OnClickListener(){
+            @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View v){
                 int radioID= radioGroup.getCheckedRadioButtonId();

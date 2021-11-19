@@ -7,21 +7,21 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class SuporteConfiguracaoActivity extends AppCompatActivity {
+public class VisualizarVendasAcitivity extends AppCompatActivity {
 
-private Button voltarso;
+    private Button voltar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.suporte_configuracao_layout);
+        setContentView(R.layout.visualizar_vendas_layout);
 
-        voltarso = findViewById(R.id.btn_Voltarconfsuporte);
-        voltarso.setOnClickListener(new View.OnClickListener() {
+        voltar = findViewById(R.id.btn_Voltarfragvendas);
+        voltar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(SuporteConfiguracaoActivity.this, TelaPrincipalActivity.class);
+                Intent intent = new Intent(VisualizarVendasAcitivity.this, TelaPrincipalActivity.class);
                 startActivity(intent);
             }
         });

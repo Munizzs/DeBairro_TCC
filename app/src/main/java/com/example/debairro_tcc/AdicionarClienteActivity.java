@@ -26,8 +26,8 @@ public class AdicionarClienteActivity extends AppCompatActivity {
             });
 
 
-            AMI = findViewById(R.id.btn_ClienteAdicionarMaisInformacoes);
-            AMI.setOnClickListener(new View.OnClickListener() {
+        AMI = findViewById(R.id.btn_ClienteAdicionarMaisInformacoes);
+        AMI.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     Intent it = new Intent(AdicionarClienteActivity.this,AdicionarCliente2Activity.class);
@@ -35,11 +35,11 @@ public class AdicionarClienteActivity extends AppCompatActivity {
                 }
             });
 
-        voltarcli = findViewById(R.id.btn_Voltarclientefragment);
+        voltarcli = findViewById(R.id.btn_Voltarclienteeefragment);
         voltarcli.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent it = new Intent(AdicionarClienteActivity.this,AdicionarCliente2Activity.class);
+                Intent it = new Intent(AdicionarClienteActivity.this,TelaPrincipalActivity.class);
                 startActivity(it);
             }
         });

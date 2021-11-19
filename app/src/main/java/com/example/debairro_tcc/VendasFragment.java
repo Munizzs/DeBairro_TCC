@@ -74,7 +74,7 @@ public class VendasFragment extends Fragment {
         historicovendas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getActivity(),ConfiguracaoSobreActivity.class));
+                startActivity(new Intent(getActivity(),VisualizarVendasAcitivity.class));
             }
         });
         return view;

@@ -109,6 +109,7 @@
         <item>4</item>
         <item>5</item>
     </string-array>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
     <string name="Inserir_imagem">Inserir imagem</string>
@@ -207,6 +208,14 @@
     <string name="maquinas_de_cart_o" translatable="false">Maquinas de cartão</string>
     <string name="suportee" translatable="false">Suporte</string>
     <string name="contaa" translatable="false">Conta</string>
-    <string name="ocorreu_um_erro">Ocorreu um erro</string>
+    <string name="ocorreu_um_erro" translatable="false">Ocorreu um erro</string>
+    <string name="Finalizarprod" translatable="false">Finalizar</string>
+    <string name="em_breve" translatable="false">EM BREVE</string>
+
+
+    <string name="vendass" translatable="false">Vendas</string>
+    <string name="estoquee">Estoque</string>
+    <string name="clientess">Clientes</string>
+    <string name="adicionar_v">adicionar</string>
 
 </resources>

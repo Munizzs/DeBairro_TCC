@@ -9,19 +9,17 @@ import android.widget.Button;
 
 public class AdicionarFuncionario2Activity extends AppCompatActivity {
 
-    private Button sairfu;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.adicionar_funcionario2_layout);
 
-        sairfu = findViewById(R.id.btn_Sairfu);
+        Button sairfu = findViewById(R.id.btn_Sairfu);
         sairfu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(AdicionarFuncionario2Activity.this, ConfiguracaoInicialActivity.class);
+                Intent intent = new Intent(AdicionarFuncionario2Activity.this, TelaPrincipalActivity.class);
                 startActivity(intent);
             }
         });

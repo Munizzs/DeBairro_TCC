@@ -26,22 +26,22 @@ public class AdicionarFuncionarioActivity extends AppCompatActivity {
             }
         });
 
+        voltarcon = findViewById(R.id.btn_Voltarfunconfiguracao);
+        voltarcon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(AdicionarFuncionarioActivity.this, TelaPrincipalActivity.class);
+                startActivity(intent);
+            }
+        });
+
         gerarcodigo = findViewById(R.id.btn_Gerarcodigofuncionario);
         gerarcodigo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
                 Intent intent = new Intent(AdicionarFuncionarioActivity.this, AdicionarFuncionario2Activity.class);
-                startActivity(intent);
-            }
-        });
-
-        voltarcon = findViewById(R.id.btn_Voltarfunconfiguracao);
-        voltarcon.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Intent intent = new Intent(AdicionarFuncionarioActivity.this, ConfiguracaoInicialActivity.class);
                 startActivity(intent);
             }
         });

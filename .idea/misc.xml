@@ -6,11 +6,13 @@
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/drawable/ic_copia.xml" value="0.2203125" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/drawable/icone_clientes.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/drawable/icone_configuracaovazio.xml" value="0.2203125" />
+        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/drawable/icone_estoque.xml" value="0.2203125" />
+        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/drawable/icone_pessoa.xml" value="0.2203125" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/drawable/item_selector.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout-v21/maquinhinha_layout.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/activity_moeda_layout.xml" value="0.25" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/adicionar_cliente2_layout.xml" value="0.25" />
-        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/adicionar_cliente_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/adicionar_cliente_layout.xml" value="0.25" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/adicionar_entrada_saida.xml" value="0.22" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/adicionar_funcionario2_layout.xml" value="0.25" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/adicionar_funcionario_layout.xml" value="0.22" />
@@ -23,7 +25,7 @@
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro_funcionario_layout.xml" value="0.25" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro_layout.xml" value="0.25" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/cadastro_tipo_conta_layout.xml" value="0.25" />
-        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/configuracao_inicial.xml" value="0.2" />
+        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/configuracao_inicial.xml" value="0.25" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/configuracao_sobre_layout.xml" value="0.25" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/dropdown_item.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/fragment_clientes_layout.xml" value="0.20416666666666666" />
@@ -32,16 +34,19 @@
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/fragment_notificacoes_layout.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/fragment_vendas_layout.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/idioma_layout.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/informacoes_do_usuario_layout.xml" value="0.18" />
+        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/informacoes_do_usuario_layout.xml" value="0.25" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/inicial_layout.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/login_layout.xml" value="0.25" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/maquina_cadastrada_layout.xml" value="0.2" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/maquina_layout.xml" value="0.2" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/maquinas_cadastradas_layout.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/maquinhinha_layout.xml" value="0.25" />
-        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/nova_venda_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/nova_venda_layout.xml" value="0.25" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/suporte_configuracao_layout.xml" value="0.25" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/tela_principal_layout.xml" value="0.2" />
+        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/visualizar_clientes_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/visualizar_estoque_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/layout/visualizar_vendas_layout.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/menu/main_menu.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/bruno/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/menu/menu_top.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/mathe/AndroidStudioProjects/DeBairro_TCC/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.11041666666666666" />

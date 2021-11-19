@@ -22,9 +22,6 @@ import com.example.debairro_tcc.databinding.AdicionarFuncionario2LayoutBinding;
 
 public class EstoqueFragment extends Fragment {
 
-    private Button addproduto;
-
-
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -85,7 +82,7 @@ public class EstoqueFragment extends Fragment {
         Visualizarvendas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getActivity(),ConfiguracaoSobreActivity.class));
+                startActivity(new Intent(getActivity(),VisualizarEstoqueActivity.class));
             }
         });
         return view;
