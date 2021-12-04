@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class AdicionarClienteActivity extends AppCompatActivity {
 
@@ -20,11 +21,11 @@ public class AdicionarClienteActivity extends AppCompatActivity {
         FinalizarC1.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
+                    Toast.makeText(getBaseContext(), "Cliente adicionado!", Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(AdicionarClienteActivity.this,TelaPrincipalActivity.class);
                     startActivity(intent);
                 }
             });
-
 
         AMI = findViewById(R.id.btn_ClienteAdicionarMaisInformacoes);
         AMI.setOnClickListener(new View.OnClickListener() {

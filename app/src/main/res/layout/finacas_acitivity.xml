@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".VisualizarClientesActivity">
+    tools:context=".FinacasAcitivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -19,7 +19,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btn_Voltarfragclientes"
+                android:id="@+id/btn_Voltarfffinanças"
                 android:layout_width="36sp"
                 android:layout_height="36sp"
                 android:layout_marginLeft="10sp"
@@ -30,7 +30,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/clientess"
+                android:text="Finanças"
                 android:fontFamily="@font/segoe_ui_bold"
                 android:layout_marginTop="10sp"
                 android:textSize="21sp"
@@ -39,11 +39,11 @@
                 />
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="36sp"
+                android:layout_height="36sp"
                 android:layout_marginTop="12sp"
-                android:layout_marginLeft="224sp"
-                android:background="@drawable/icone_refresh"
+                android:layout_marginLeft="210sp"
+                android:background="@drawable/icone_financas"
                 android:backgroundTint="@color/white"/>
 
         </LinearLayout>
@@ -52,19 +52,49 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
         android:layout_marginTop="55sp"
-        android:background="@drawable/bg"
         android:orientation="vertical">
 
-        <LinearLayout
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="20sp"
+        android:orientation="vertical">
+
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20sp"
-            android:orientation="vertical">
+            android:text="@string/poxa_que_pena_voc_est_adiantado"
+            android:textSize="21sp"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginBottom="110sp"
+            android:layout_marginTop="40sp"/>
 
-        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/em_breve_essa_funcionalidade_poder_ser_utilizada"
+            android:textSize="21sp"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginBottom="110sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/volte_mais_tarde"
+            android:textSize="21sp"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginTop="40sp"/>
+
+    </LinearLayout>
 
     </LinearLayout>
 

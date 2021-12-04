@@ -67,7 +67,7 @@ public class FinancasFragment extends Fragment {
         adicionarfinancas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getActivity(),IdiomaActivity.class));
+                startActivity(new Intent(getActivity(),FinacasAcitivity.class));
             }
         });
 
@@ -75,7 +75,7 @@ public class FinancasFragment extends Fragment {
         visualizarfinancas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getActivity(),IdiomaActivity.class));
+                startActivity(new Intent(getActivity(),FinacasAcitivity.class));
             }
         });
 
@@ -83,7 +83,7 @@ public class FinancasFragment extends Fragment {
         despesasfinancas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getActivity(),IdiomaActivity.class));
+                startActivity(new Intent(getActivity(),FinacasAcitivity.class));
             }
         });
 

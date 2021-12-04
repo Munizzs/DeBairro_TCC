@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.google.android.material.textfield.TextInputLayout;
 
@@ -17,7 +18,9 @@ public class AdicionarProdutoActivity extends AppCompatActivity {
 
     public TextInputLayout til_QuantidadeProduto;
     public AutoCompleteTextView act_QuantidadeProduto;
-    private Button proximo, mais, voltar;
+    private Button finalizar, mais, voltar;
+
+    com.google.android.material.textfield.TextInputLayout InsiraNomeProduto, InsiraMarcaDoProduto, PrecoDoProduto, InsiraPrecoDaVenda;
 
     @Override
     protected void onResume(){
@@ -32,14 +35,19 @@ public class AdicionarProdutoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.adicionar_produto_layout);
 
+        InsiraNomeProduto = findViewById(R.id.edt_InsiraNomeProduto);
+        InsiraMarcaDoProduto = findViewById(R.id.edt_InsiraMarcaDoProduto);
+        PrecoDoProduto = findViewById(R.id.edt_PrecoDoProduto);
+        InsiraPrecoDaVenda = findViewById(R.id.edt_InsiraPrecoDaVenda);
+
         til_QuantidadeProduto = (TextInputLayout) findViewById(R.id.til_QuantidadeProduto);
         act_QuantidadeProduto = (AutoCompleteTextView) findViewById(R.id.act_QuantidadeProduto);
 
-        proximo=findViewById(R.id.btn_proximo);
-        proximo.setOnClickListener(new View.OnClickListener() {
+        finalizar=findViewById(R.id.btn_proximo);
+        finalizar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Toast.makeText(getBaseContext(), "Produto cadastrado!", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(AdicionarProdutoActivity.this,TelaPrincipalActivity.class);
                 startActivity(intent);
             }
@@ -64,7 +72,10 @@ public class AdicionarProdutoActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
     }
+
 
 
 }

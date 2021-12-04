@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Splash">
         <activity
+            android:name=".FinacasAcitivity"
+            android:exported="true"
+            android:theme="@style/Theme.DeBairro_TCC"/>
+        <activity
             android:name=".VisualizarEstoqueActivity"
             android:exported="true"
             android:theme="@style/Theme.DeBairro_TCC" />
@@ -20,7 +24,7 @@
         <activity
             android:name=".VisualizarVendasAcitivity"
             android:exported="true"
-            android:theme="@style/Theme.DeBairro_TCC"/>
+            android:theme="@style/Theme.DeBairro_TCC" />
         <activity
             android:name=".MaquinaCadastradaActivity"
             android:exported="true"
@@ -64,7 +68,14 @@
         <activity
             android:name=".TelaPrincipalActivity"
             android:exported="true"
-            android:theme="@style/Theme.DeBairro_TCC" />
+            android:theme="@style/Theme.DeBairro_TCC"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".AdicionarProduto2Activity"
             android:exported="true"
@@ -73,11 +84,6 @@
             android:name=".AdicionarCliente2Activity"
             android:exported="true"
             android:theme="@style/Theme.DeBairro_TCC">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
         </activity>
         <activity
             android:name=".AdicionarClienteActivity"
@@ -93,8 +99,8 @@
             android:theme="@style/Theme.DeBairro_TCC" />
         <activity
             android:name=".Cadastro2Activity"
-            android:theme="@style/Theme.DeBairro_TCC"
-            android:exported="true"/>
+            android:exported="true"
+            android:theme="@style/Theme.DeBairro_TCC" />
         <activity
             android:name=".CadastroTipoContaActivity"
             android:exported="true"
@@ -110,9 +116,7 @@
         <activity
             android:name=".InicialActivity"
             android:exported="true"
-            android:theme="@style/Theme.DeBairro_TCC">
-
-        </activity>
+            android:theme="@style/Theme.DeBairro_TCC"/>
         <activity
             android:name=".CadastroAdministrador"
             android:exported="true"

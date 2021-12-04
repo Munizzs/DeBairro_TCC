@@ -182,7 +182,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btn_salvar_tipo_moeda"
+            android:id="@+id/btn_salvarvenda"
             android:layout_width="260sp"
             android:layout_height="70sp"
             android:fontFamily="@font/segoe_ui_bold"

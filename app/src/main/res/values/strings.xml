@@ -214,8 +214,11 @@
 
 
     <string name="vendass" translatable="false">Vendas</string>
-    <string name="estoquee">Estoque</string>
-    <string name="clientess">Clientes</string>
-    <string name="adicionar_v">adicionar</string>
+    <string name="estoquee" translatable="false">Estoque</string>
+    <string name="clientess" translatable="false">Clientes</string>
+    <string name="adicionar_v" translatable="false">adicionar</string>
+    <string name="poxa_que_pena_voc_est_adiantado" translatable="false">Poxa Que pena, você está adiantado!</string>
+    <string name="em_breve_essa_funcionalidade_poder_ser_utilizada" translatable="false">Em breve essa funcionalidade poderá ser utilizada!</string>
+    <string name="volte_mais_tarde" translatable="false">Volte mais tarde!</string>
 
 </resources>

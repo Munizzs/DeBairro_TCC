@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.google.android.material.textfield.TextInputLayout;
 
@@ -17,7 +18,7 @@ public class NovaVendaLayoutActivity extends AppCompatActivity {
     ArrayAdapter<String> arrayAdapter;
     String formaPagamento[];
 
-    private Button voltarNV;
+    private Button voltarNV, salvar;
     public TextInputLayout tilFormaDePagamento;
     public AutoCompleteTextView actFormaDePagamento;
 
@@ -46,6 +47,15 @@ public class NovaVendaLayoutActivity extends AppCompatActivity {
             }
         });
 
+        salvar = findViewById(R.id.btn_salvarvenda);
+        salvar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getBaseContext(), "Venda adicionada!", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(NovaVendaLayoutActivity.this, TelaPrincipalActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }
