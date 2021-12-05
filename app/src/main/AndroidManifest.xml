@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.debairro_tcc">
+
 <uses-permission android:name="android.permission.INTERNET"/>
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_logo"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_logo_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Splash">
-        <activity
+        android:theme="@style/Theme.Splash"
+        android:usesCleartextTraffic="true">
+
+    <activity
             android:name=".FinacasAcitivity"
             android:exported="true"
             android:theme="@style/Theme.DeBairro_TCC"/>

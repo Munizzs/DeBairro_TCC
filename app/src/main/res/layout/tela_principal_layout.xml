@@ -39,14 +39,14 @@
                 android:textColor="@color/white"
                 />
 
-            <Button
+            <!--<Button
                 android:id="@+id/btn_configuracao"
                 android:layout_width="34sp"
                 android:layout_height="34sp"
                 android:background="@drawable/icone_configuraacao"
                 android:layout_marginLeft="210sp"
                 android:layout_marginTop="10sp"
-                android:backgroundTint="@color/white"/>
+                android:backgroundTint="@color/white"/>-->
 
         </LinearLayout>
 
