@@ -2,8 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.debairro_tcc">
 
-<uses-permission android:name="android.permission.INTERNET"/>
-
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -13,11 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Splash"
         android:usesCleartextTraffic="true">
-
-    <activity
+        <activity
+            android:name=".VisualizarEstoque2Activity"
+            android:exported="true"
+            android:theme="@style/Theme.DeBairro_TCC" />
+        <activity
             android:name=".FinacasAcitivity"
             android:exported="true"
-            android:theme="@style/Theme.DeBairro_TCC"/>
+            android:theme="@style/Theme.DeBairro_TCC" />
         <activity
             android:name=".VisualizarEstoqueActivity"
             android:exported="true"
@@ -73,8 +75,7 @@
         <activity
             android:name=".TelaPrincipalActivity"
             android:exported="true"
-            android:theme="@style/Theme.DeBairro_TCC"
-            >
+            android:theme="@style/Theme.DeBairro_TCC">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -88,8 +89,7 @@
         <activity
             android:name=".AdicionarCliente2Activity"
             android:exported="true"
-            android:theme="@style/Theme.DeBairro_TCC">
-        </activity>
+            android:theme="@style/Theme.DeBairro_TCC"></activity>
         <activity
             android:name=".AdicionarClienteActivity"
             android:exported="true"
@@ -121,7 +121,7 @@
         <activity
             android:name=".InicialActivity"
             android:exported="true"
-            android:theme="@style/Theme.DeBairro_TCC"/>
+            android:theme="@style/Theme.DeBairro_TCC" />
         <activity
             android:name=".CadastroAdministrador"
             android:exported="true"

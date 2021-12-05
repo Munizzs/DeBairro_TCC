@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".VisualizarEstoqueActivity">
+    tools:context=".VisualizarEstoque2Activity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -19,7 +19,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btn_Voltarfragestoque"
+                android:id="@+id/btn_Voltarfraggestoque"
                 android:layout_width="36sp"
                 android:layout_height="36sp"
                 android:layout_marginLeft="10sp"
@@ -63,52 +63,6 @@
             android:layout_margin="20sp"
             android:orientation="vertical">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10sp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="8"
-                    android:fontFamily="@font/segoe_ui_bold"
-                    android:text="Arroz Solito"
-                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="10sp"
-                    android:fontFamily="@font/segoe_ui_bold"
-                    android:text="5Kg"
-                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                    android:textColor="@color/black" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/segoe_ui_bold"
-                    android:padding="5dp"
-                    android:text="R$20,00"
-                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                    android:textColor="@color/black" />
-
-                <Button
-                    android:id="@+id/btn_apagar"
-                    android:layout_width="54sp"
-                    android:layout_height="30sp"
-                    android:layout_alignParentRight="true"
-                    android:padding="0dp"
-                    style="@style/Widget.MaterialComponents.Button.TextButton"
-                    android:text="Apagar"
-                    android:textAllCaps="false"
-                    android:textColor="#C20A10"
-                    android:textStyle="bold"/>
-
-            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -121,7 +75,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="8"
                     android:fontFamily="@font/segoe_ui_bold"
-                    android:text="Cartolina"
+                    android:text="Cartolina branca"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                     android:textColor="@color/black" />
 
@@ -254,7 +208,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="8"
                     android:fontFamily="@font/segoe_ui_bold"
-                    android:text="Cheetos"
+                    android:text="Cheetos Requeijão"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                     android:textColor="@color/black" />
 
@@ -273,7 +227,7 @@
                     android:fontFamily="@font/segoe_ui_bold"
                     android:padding="5dp"
 
-                    android:text="R$6,00 "
+                    android:text="R$6,00"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                     android:textColor="@color/black" />
 
@@ -288,42 +242,9 @@
 
             </LinearLayout>
 
-            <TextView
-                android:id="@+id/textViewName"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_weight="8"
-                android:text="Capitão América"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                android:visibility="gone"/>
-
-            <TextView
-                android:id="@+id/textViewUpdate"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignBottom="@+id/textViewDelete"
-                android:layout_toStartOf="@+id/textViewDelete"
-                android:layout_toLeftOf="@+id/textViewDelete"
-                android:padding="5dp"
-                android:text="Alterar"
-                android:textColor="#498C1A"
-                android:textStyle="bold"
-                android:visibility="gone"/>
-
-            <TextView
-                android:id="@+id/textViewDelete"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:padding="5dp"
-                android:text="Apagar"
-                android:textColor="#C20A10"
-                android:textStyle="bold"
-                android:visibility="gone"/>
-
         </LinearLayout>
 
     </LinearLayout>
 
 </RelativeLayout>
+

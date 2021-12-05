@@ -1,11 +1,12 @@
 package com.example.debairro_tcc;
 
 public class Estoque {
-    private int idEstabelecimento;
+    private int IDProduto, idEstabelecimento;
     private String nome, marca;
     private int quantidade, precodecompra, precodevenda, peso, lote, datafabricacao, datavalidade;
 
-    public Estoque( int idEstabelecimento, String nome, String marca, int quantidade, int precodecompra, int precodevenda, int peso, int lote, int datafabricacao, int datavalidade, String teamaffiliation) {
+    /*public Estoque( int IDProduto, int idEstabelecimento, String nome, String marca, int quantidade, int precodecompra, int precodevenda, int peso, int lote, int datafabricacao, int datavalidade) {
+        this.IDProduto = IDProduto;
         this.idEstabelecimento = idEstabelecimento;
         this.nome = nome;
         this.marca = marca;
@@ -17,9 +18,23 @@ public class Estoque {
         this.datafabricacao = datafabricacao;
         this.datavalidade = datavalidade;
 
+    }*/
+
+    public Estoque(int IDProduto, String nome, String marca, int quantidade, int precodevenda) {
+        this.IDProduto = IDProduto;
+        this.nome = nome;
+        this.marca = marca;
+        this.quantidade = quantidade;
+        this.precodevenda = precodevenda;
     }
 
-    public Estoque(int idEstabelecimento, String nome, String marca, String quantidade, String precodevenda) {
+
+    public int getIDProduto() {
+        return IDProduto;
+    }
+
+    public void setIDProduto(int IDProduto){
+        this.IDProduto = IDProduto;
     }
 
     public int getIdEstabelecimento() {

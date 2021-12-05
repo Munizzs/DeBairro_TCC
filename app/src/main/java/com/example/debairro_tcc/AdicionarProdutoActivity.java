@@ -41,7 +41,7 @@ public class AdicionarProdutoActivity extends AppCompatActivity {
     Button buttonAddUpdate;
     ProgressBar progressBar;
     ListView listView;
-
+    private Button finalizar, mais, voltar;
     List<Estoque> produtoList;
 
     boolean isUpdating = false;
@@ -49,6 +49,8 @@ public class AdicionarProdutoActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+
         setContentView(R.layout.adicionar_produto_layout);
         editTextProdutoId = findViewById(R.id.editTextProdutoId);
     editTextProduto = findViewById(R.id.editTextProduto);
@@ -61,7 +63,27 @@ public class AdicionarProdutoActivity extends AppCompatActivity {
     buttonAddUpdate = findViewById(R.id.buttonAddUpdate);
 
         produtoList = new ArrayList<>();
-        
+
+        mais = findViewById(R.id.btn_ProdutoAdicionarMaisInformacoes);
+        mais.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(AdicionarProdutoActivity.this, AdicionarProduto2Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        voltar = findViewById(R.id.btn_Voltarfraestoque);
+        voltar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(AdicionarProdutoActivity.this, TelaPrincipalActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
         buttonAddUpdate.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -72,7 +94,9 @@ public class AdicionarProdutoActivity extends AppCompatActivity {
                 } else {
                     createProduto();
                 }
-
+                Toast.makeText(getBaseContext(), "Produto cadastrado!", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(AdicionarProdutoActivity.this, VisualizarEstoqueActivity.class);
+                startActivity(intent);
             }
 
         });
@@ -117,7 +141,7 @@ public class AdicionarProdutoActivity extends AppCompatActivity {
         params.put("nome",nome);
         params.put("marca",marca);
         params.put("Quantidade",Quantidade);
-        params.put("preco", preco);
+        params.put("precodevenda", preco);
 
         PerformNetworkRequest request = new PerformNetworkRequest(Api.URL_CREATE_PRODUTO, params, CODE_POST_REQUEST);
         request.execute();
@@ -163,7 +187,7 @@ public class AdicionarProdutoActivity extends AppCompatActivity {
         params.put("nome",nome);
         params.put("marca",marca);
         params.put("quantidade",quantidade);
-        params.put("preco", preco);
+        params.put("precodevenda", preco);
 
 
         PerformNetworkRequest request = new PerformNetworkRequest(Api.URL_UPDATE_PRODUTO, params, CODE_POST_REQUEST);
@@ -182,18 +206,18 @@ public class AdicionarProdutoActivity extends AppCompatActivity {
         PerformNetworkRequest request = new PerformNetworkRequest(Api.URL_DELETE_PRODUTO + id, null, CODE_GET_REQUEST);
         request.execute();
     }
-    private void refreshHeroList(JSONArray heroes) throws JSONException {
+    private void refreshHeroList(JSONArray produto) throws JSONException {
         produtoList.clear();
 
-        for (int i = 0; i < heroes.length(); i++) {
-            JSONObject obj = heroes.getJSONObject(i);
+        for (int i = 0; i < produto.length(); i++) {
+            JSONObject obj = produto.getJSONObject(i);
 
             produtoList.add(new Estoque(
-                    obj.getInt("idEstabelecimeto"),
+                    obj.getInt("IDProduto"),
                     obj.getString("nome"),
-                    obj.getString("Marca"),
-                    obj.getString("Quantidade"),
-                    obj.getString("Preco")
+                    obj.getString("marca"),
+                    obj.getInt("quantidade"),
+                    obj.getInt("precodevenda")
             ));
         }
 
@@ -225,7 +249,7 @@ public class AdicionarProdutoActivity extends AppCompatActivity {
                 JSONObject object = new JSONObject(s);
                 if (!object.getBoolean("error")) {
                     Toast.makeText(getApplicationContext(), object.getString("message"), Toast.LENGTH_SHORT).show();
-                    refreshHeroList(object.getJSONArray("heroes"));
+                    refreshHeroList(object.getJSONArray("produto"));
                 }
             } catch (JSONException e) {
                 e.printStackTrace();
