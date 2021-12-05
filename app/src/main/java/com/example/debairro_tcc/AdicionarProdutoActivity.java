@@ -61,6 +61,7 @@ public class AdicionarProdutoActivity extends AppCompatActivity {
     buttonAddUpdate = findViewById(R.id.buttonAddUpdate);
 
         produtoList = new ArrayList<>();
+        
 
         buttonAddUpdate.setOnClickListener(new View.OnClickListener() {
             @Override
