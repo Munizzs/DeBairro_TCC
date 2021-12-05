@@ -16,14 +16,5 @@ public class VisualizarEstoqueActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.visualizar_estoque_layout);
 
-        voltar = findViewById(R.id.btn_Voltarfragestoque);
-        voltar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Intent intent = new Intent(VisualizarEstoqueActivity.this, TelaPrincipalActivity.class);
-                startActivity(intent);
-            }
-        });
     }
 }

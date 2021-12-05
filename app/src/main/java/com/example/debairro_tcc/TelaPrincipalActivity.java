@@ -61,14 +61,14 @@ public class TelaPrincipalActivity extends AppCompatActivity {
             }
         });
 
-        configuracao = findViewById(R.id.btn_configuracao);
+        /*configuracao = findViewById(R.id.btn_configuracao);
         configuracao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(TelaPrincipalActivity.this, ConfiguracaoInicialActivity.class);
                 startActivity(intent);
             }
-        });
+        });*/
     }
 
     //setando Toolbar
